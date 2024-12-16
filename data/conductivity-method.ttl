@@ -1,0 +1,63 @@
+@prefix ihfc: <https://heatflow.world/vocabularies/conductivity-method#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://heatflow.world/vocabularies/conductivity-method> a skos:ConceptScheme ;
+    skos:definition "Methods used to calculate thermal conductivity in rock specimens or sections for the purpose of heat flow measurements."@en ;
+    skos:prefLabel "Conductivity methods"@en .
+
+ihfc:chlorineContent a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Estimation - from chlorine content"@en .
+
+ihfc:laboratoryOther a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Lab - other"@en .
+
+ihfc:lineSourceFull a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Lab - line source / full space"@en .
+
+ihfc:lineSourceHalf a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Lab - line source / half space"@en .
+
+ihfc:lithology a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Estimation - from lithology and literature"@en .
+
+ihfc:mineralComposition a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Estimation - from mineral composition"@en .
+
+ihfc:planeSourceFull a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Lab - plane source / full space"@en .
+
+ihfc:planeSourceHalf a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Lab - plane source / half space"@en .
+
+ihfc:pointSource a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Lab - point source"@en .
+
+ihfc:probePulse a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Probe - pulse technique"@en .
+
+ihfc:unspecified a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Unspecified"@en .
+
+ihfc:waterContent a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Estimation - from water content/porosity"@en .
+
+ihfc:wellLogDeterministic a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Well-log - deterministic approach"@en .
+
+ihfc:wellLogEmpirical a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Well-log - empirical equation"@en .
+

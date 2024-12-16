@@ -1,0 +1,35 @@
+@prefix ihfc: <https://heatflow.world/vocabularies/exploration-method#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://heatflow.world/vocabularies/exploration-method> a skos:ConceptScheme ;
+    skos:definition "General means by which the rock was accessed by temperature sensors."@en ;
+    skos:prefLabel "Exploration methods"@en .
+
+ihfc:drilling a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Drilling"@en .
+
+ihfc:mining a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Mining"@en .
+
+ihfc:other a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Other (specify in comments)"@en .
+
+ihfc:probing_offshore a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Probing (offshore/ocean)"@en .
+
+ihfc:probing_onshore a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Probing (onshore/lake, river, etc.)"@en .
+
+ihfc:tunneling a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Tunneling"@en .
+
+ihfc:unspecified a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Unspecified"@en .
+

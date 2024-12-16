@@ -1,0 +1,91 @@
+@prefix ihfc: <https://heatflow.world/vocabularies/temperature-method#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://heatflow.world/vocabularies/temperature-method> a skos:ConceptScheme ;
+    skos:definition "Methods used to determine temperature for the purpose of deriving heat flow."@en ;
+    skos:prefLabel "Temperature determination method"@en .
+
+ihfc:BHT a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "BHT: uncorrected"@en .
+
+ihfc:BSR a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "BSR: bottom-simulating seismic reflector"@en .
+
+ihfc:CPD a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "CPD: Curie Point/Depth estimates"@en .
+
+ihfc:DST a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "DST: uncorrected"@en .
+
+ihfc:DTSeq a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "DTSeq: in equilibrium"@en .
+
+ihfc:DTSpert a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "DTSpert: perturbed"@en .
+
+ihfc:GTM a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "GTM: Geothermometry"@en .
+
+ihfc:LOGeq a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "LOGeq: borehole in equilibrium"@en .
+
+ihfc:LOGpert a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "LOGpert: borehole perturbed"@en .
+
+ihfc:ODTT_PC a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "ODTT-PC: piston corer"@en .
+
+ihfc:ODTT_TP a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "ODTT-TP: thermistor probe"@en .
+
+ihfc:OTH a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Other (method must be specified in comments)"@en .
+
+ihfc:RTDeq a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "RTDeq: in equilibrium"@en .
+
+ihfc:RTDpert a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "RTDpert: perturbed"@en .
+
+ihfc:SUR a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "SUR: surface temperature/bottom water temperature"@en .
+
+ihfc:XEN a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "XEN: Xenolith"@en .
+
+ihfc:cBHT a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "cBHT: corrected"@en .
+
+ihfc:cDST a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "cDST: corrected"@en .
+
+ihfc:cDTS a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "cDTS: perturbed but corrected"@en .
+
+ihfc:cLOG a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "cLOG: perturbed but corrected"@en .
+
+ihfc:cRTD a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "cRTD: perturbed but corrected"@en .
+

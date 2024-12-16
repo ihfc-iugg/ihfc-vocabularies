@@ -1,0 +1,59 @@
+@prefix ihfc: <https://heatflow.world/vocabularies/correction-flags#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://heatflow.world/vocabularies/correction-flags> a skos:ConceptScheme ;
+    skos:definition "Strategy by which thermal conductivity for a particular heat flow interval was calculated."@en ;
+    skos:prefLabel "Generic flag choices"@en .
+
+ihfc:consideredP a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Considered - pressure"@en .
+
+ihfc:consideredPT a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Considered - pT"@en .
+
+ihfc:consideredT a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Considered - temperature"@en .
+
+ihfc:corrected a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Corrected (specify)"@en .
+
+ihfc:driftCorrected a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Drift corrected"@en .
+
+ihfc:notConsidered a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Not considered"@en .
+
+ihfc:notCorrected a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Not corrected"@en .
+
+ihfc:not_recognized a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "not recognized"@en .
+
+ihfc:present_corrected a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Present and corrected"@en .
+
+ihfc:present_not_corrected a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Present and not corrected"@en .
+
+ihfc:present_not_significant a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Present not significant"@en .
+
+ihfc:tiltCorrected a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Tilt corrected"@en .
+
+ihfc:unspecified a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Unspecified"@en .
+

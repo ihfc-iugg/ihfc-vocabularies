@@ -1,0 +1,31 @@
+@prefix ihfc: <https://heatflow.world/vocabularies/probe-type#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://heatflow.world/vocabularies/probe-type> a skos:ConceptScheme ;
+    skos:definition "Types of heat-flow probes used for collecting heat flow data, typically in marine settings."@en ;
+    skos:prefLabel "Heat flow probe types"@en .
+
+ihfc:bullard a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Bullard probe"@en .
+
+ihfc:corer a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Corer-outrigger"@en .
+
+ihfc:ewing a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Ewing probe"@en .
+
+ihfc:other a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Other probe"@en .
+
+ihfc:unspecified a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Unspecified"@en .
+
+ihfc:violin_bow a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Lister Violin-Bow probe"@en .
+

@@ -1,0 +1,47 @@
+@prefix ihfc: <https://heatflow.world/vocabularies/conductivity-source#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://heatflow.world/vocabularies/conductivity-source> a skos:ConceptScheme ;
+    skos:definition "Methods used to correct temperature data for the purpose of heat flow measurements."@en ;
+    skos:prefLabel "Conductivity sources"@en .
+
+ihfc:assumed_from_literature a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Assumed from literature"@en .
+
+ihfc:core_log a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Core-log integration"@en .
+
+ihfc:core_samples a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Core samples"@en .
+
+ihfc:cutting_samples a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Cutting samples"@en .
+
+ihfc:insitu_probe a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "In-situ probe"@en .
+
+ihfc:mineral_computation a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Mineral computation"@en .
+
+ihfc:other a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Other (specify)"@en .
+
+ihfc:outcrop_samples a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Outcrop samples"@en .
+
+ihfc:unspecified a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Unspecified"@en .
+
+ihfc:well_log a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Well-log interpretation"@en .
+

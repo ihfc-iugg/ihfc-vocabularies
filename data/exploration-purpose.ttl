@@ -1,0 +1,47 @@
+@prefix ihfc: <https://heatflow.world/vocabularies/exploration-purpose#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://heatflow.world/vocabularies/exploration-purpose> a skos:ConceptScheme ;
+    skos:definition "Main purpose of the original excavation providing access for the temperature sensors."@en ;
+    skos:prefLabel "Exploration purposes"@en .
+
+ihfc:geothermal a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Geothermal"@en .
+
+ihfc:groundwater a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Groundwater"@en .
+
+ihfc:hydrocarbon a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Hydrocarbon"@en .
+
+ihfc:mapping a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Mapping"@en .
+
+ihfc:mining a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Mining"@en .
+
+ihfc:other a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Other (specify in comments)"@en .
+
+ihfc:research a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Research"@en .
+
+ihfc:tunneling a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Tunneling"@en .
+
+ihfc:underground_storage a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Underground storage"@en .
+
+ihfc:unspecified a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Unspecified"@en .
+

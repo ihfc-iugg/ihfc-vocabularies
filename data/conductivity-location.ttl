@@ -1,0 +1,19 @@
+@prefix ihfc: <https://heatflow.world/vocabularies/conductivity-location#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://heatflow.world/vocabularies/conductivity-location> a skos:ConceptScheme ;
+    skos:definition "Methods used to calculate thermal conductivity in rock specimens or sections for the purpose of heat flow measurements."@en ;
+    skos:prefLabel "Conductivity location"@en .
+
+ihfc:actual a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Actual heat-flow location"@en .
+
+ihfc:literature a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Literature/unspecified"@en .
+
+ihfc:other a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Other location"@en .
+

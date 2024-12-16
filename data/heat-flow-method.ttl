@@ -1,0 +1,31 @@
+@prefix ihfc: <https://heatflow.world/vocabularies/heat-flow-method#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://heatflow.world/vocabularies/heat-flow-method> a skos:ConceptScheme ;
+    skos:definition "Methods used to determine heat flow."@en ;
+    skos:prefLabel "Heat flow methods"@en .
+
+ihfc:bootstrap a skos:Concept ;
+    skos:definition "Iterative procedure aimed at minimize the difference between the measured and modelled temperatures by solving the 1-D steady-state conductive geotherm (radiogenic heat production of rocks is accounted for)"@en ;
+    skos:prefLabel "Boot-strapping method"@en .
+
+ihfc:bullard a skos:Concept ;
+    skos:definition "Heat-flow value given as the angular coefficient of the linear regression of the thermal resistance vs. temperature data (used when there is a significant variation of thermal conductivity within the depth range over which the temperatures have been measured)"@en ;
+    skos:prefLabel "Bullard method"@en .
+
+ihfc:fourier a skos:Concept ;
+    skos:definition "Product of the mean thermal gradient to the mean thermal conductivity with reference to a specified depth interval"@en ;
+    skos:prefLabel "Fourier's Law"@en .
+
+ihfc:interval a skos:Concept ;
+    skos:definition "Product of the mean thermal gradient to the mean thermal conductivity with reference to a specified depth interval"@en ;
+    skos:prefLabel "Interval method"@en .
+
+ihfc:other a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Other"@en .
+
+ihfc:product a skos:Concept ;
+    skos:definition "Product of the mean thermal gradient to the mean thermal conductivity with reference to a specified depth interval"@en ;
+    skos:prefLabel "Product method"@en .
+

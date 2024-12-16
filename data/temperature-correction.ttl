@@ -1,0 +1,35 @@
+@prefix ihfc: <https://heatflow.world/vocabularies/temperature-correction#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://heatflow.world/vocabularies/temperature-correction> a skos:ConceptScheme ;
+    skos:definition "Methods used to correct temperature data for the purpose of heat flow measurements."@en ;
+    skos:prefLabel "Temperature correction methods"@en .
+
+ihfc:cylinderSource a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Cylinder source method"@en .
+
+ihfc:hornerPlot a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Horner plot"@en .
+
+ihfc:inverseNM a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Inverse numerical modelling"@en .
+
+ihfc:lineSourceExplosion a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Line source explosion method"@en .
+
+ihfc:not_corrected a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "not corrected"@en .
+
+ihfc:other a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Other published correction"@en .
+
+ihfc:unspecified a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Unspecified"@en .
+

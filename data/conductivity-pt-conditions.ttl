@@ -1,0 +1,47 @@
+@prefix ihfc: <https://heatflow.world/vocabularies/conductivity-pt-conditions#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://heatflow.world/vocabularies/conductivity-pt-conditions> a skos:ConceptScheme ;
+    skos:definition "Conditions under which the thermal conductivity was measured."@en ;
+    skos:prefLabel "Conductivity measurement conditions"@en .
+
+ihfc:actualInSitu a skos:Concept ;
+    skos:definition "Other saturation state (must be specified in comments)"@en ;
+    skos:prefLabel "Actual in-situ (pT) conditions"@en .
+
+ihfc:correctedP a skos:Concept ;
+    skos:definition "Other saturation state (must be specified in comments)"@en ;
+    skos:prefLabel "Corrected in-situ (p)"@en .
+
+ihfc:correctedPT a skos:Concept ;
+    skos:definition "Other saturation state (must be specified in comments)"@en ;
+    skos:prefLabel "Corrected in-situ (pT)"@en .
+
+ihfc:correctedT a skos:Concept ;
+    skos:definition "Other saturation state (must be specified in comments)"@en ;
+    skos:prefLabel "Corrected in-situ (T)"@en .
+
+ihfc:recordedAmbient a skos:Concept ;
+    skos:definition "Other saturation state (must be specified in comments)"@en ;
+    skos:prefLabel "Recorded ambient pT conditions"@en .
+
+ihfc:replicatedP a skos:Concept ;
+    skos:definition "Other saturation state (must be specified in comments)"@en ;
+    skos:prefLabel "Replicated in-situ (p)"@en .
+
+ihfc:replicatedPT a skos:Concept ;
+    skos:definition "Other saturation state (must be specified in comments)"@en ;
+    skos:prefLabel "Replicated in-situ (pT)"@en .
+
+ihfc:replicatedT a skos:Concept ;
+    skos:definition "Other saturation state (must be specified in comments)"@en ;
+    skos:prefLabel "Replicated in-situ (T)"@en .
+
+ihfc:unrecordedAmbient a skos:Concept ;
+    skos:definition "Other saturation state (must be specified in comments)"@en ;
+    skos:prefLabel "Unrecorded ambient pT conditions"@en .
+
+ihfc:unspecified a skos:Concept ;
+    skos:definition "Other saturation state (must be specified in comments)"@en ;
+    skos:prefLabel "Unspecified"@en .
+

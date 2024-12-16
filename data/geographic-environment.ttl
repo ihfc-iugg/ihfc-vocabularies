@@ -1,0 +1,27 @@
+@prefix ihfc: <https://heatflow.world/vocabularies/geographic-environment#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://heatflow.world/vocabularies/geographic-environment> a skos:ConceptScheme ;
+    skos:definition "Basic geographic environments where heat-flow measurements are performed."@en ;
+    skos:prefLabel "Geographic environments"@en .
+
+ihfc:offshore_continental a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Offshore (continental)"@en .
+
+ihfc:offshore_marine a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Offshore (marine)"@en .
+
+ihfc:onshore_continental a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Onshore (continental)"@en .
+
+ihfc:onshore_lake a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Onshore (lake, river, etc.)"@en .
+
+ihfc:unspecified a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Unspecified"@en .
+

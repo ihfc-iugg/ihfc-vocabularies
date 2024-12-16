@@ -1,0 +1,27 @@
+@prefix ihfc: <https://heatflow.world/vocabularies/transfer-mechanism#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://heatflow.world/vocabularies/transfer-mechanism> a skos:ConceptScheme ;
+    skos:definition "Mechanisms of heat transfer though the Earth's crust."@en ;
+    skos:prefLabel "Heat-flow specific transfer mechanisms"@en .
+
+ihfc:conductive a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Conductive"@en .
+
+ihfc:convective a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Convective unspecified"@en .
+
+ihfc:downflow a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Convective downflow"@en .
+
+ihfc:unspecified a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Unspecified"@en .
+
+ihfc:upflow a skos:Concept ;
+    skos:definition "Specify the method in comments"@en ;
+    skos:prefLabel "Convective upflow"@en .
+

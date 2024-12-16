@@ -1,0 +1,35 @@
+@prefix ihfc: <https://heatflow.world/vocabularies/conductivity-saturation#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://heatflow.world/vocabularies/conductivity-saturation> a skos:ConceptScheme ;
+    skos:definition "Methods used to calculate thermal conductivity in rock specimens or sections for the purpose of heat flow measurements."@en ;
+    skos:prefLabel "Conductivity saturation state"@en .
+
+ihfc:dryMeasured a skos:Concept ;
+    skos:definition "Rocks have been technically dried before measurement"@en ;
+    skos:prefLabel "Dry measured"@en .
+
+ihfc:other a skos:Concept ;
+    skos:definition "Other saturation state (must be specified in comments)"@en ;
+    skos:prefLabel "Other"@en .
+
+ihfc:recovered a skos:Concept ;
+    skos:definition "As recovered (rocks have been preserved and measured in close to their natural saturation state)."@en ;
+    skos:prefLabel "Recovered"@en .
+
+ihfc:saturatedCalculated a skos:Concept ;
+    skos:definition "Thermal conductivity has been calculated from dry measured rocks, porosity and pore-filling fluid"@en ;
+    skos:prefLabel "Saturated calculated"@en .
+
+ihfc:saturatedInSitu a skos:Concept ;
+    skos:definition "Insitu saturated measured (measurements with probe sensing / marine measurements)"@en ;
+    skos:prefLabel "Saturated measured in-situ"@en .
+
+ihfc:saturatedMeasured a skos:Concept ;
+    skos:definition "Saturated measured (rocks have been technically saturated completely before measurement)."@en ;
+    skos:prefLabel "Saturated measured"@en .
+
+ihfc:unspecified a skos:Concept ;
+    skos:definition "Other saturation state (must be specified in comments)"@en ;
+    skos:prefLabel "Unspecified"@en .
+

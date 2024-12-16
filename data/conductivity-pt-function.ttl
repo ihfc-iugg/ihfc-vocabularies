@@ -1,0 +1,151 @@
+@prefix ihfc: <https://heatflow.world/vocabularies/conductivity-pt-function#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://heatflow.world/vocabularies/conductivity-pt-function> a skos:ConceptScheme ;
+    skos:definition "Strategy by which thermal conductivity for a particular heat flow interval was calculated."@en ;
+    skos:prefLabel "Conductivity PT function"@en .
+
+ihfc:Abdulagatov2006 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Abdulagatov et al. (2006)"@en .
+
+ihfc:Abdulagatova2009 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Abdulagatova et al. (2009)"@en .
+
+ihfc:Anand1973 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Anand et al. (1973)"@en .
+
+ihfc:Blesch1983 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Blesch et al. (1983)"@en .
+
+ihfc:Bridgman1924 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Bridgman (1924)"@en .
+
+ihfc:Buntebarth1991 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Buntebarth (1991)"@en .
+
+ihfc:Chapman1984 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Chapman et al. (1984)"@en .
+
+ihfc:ChapmanFurlong1992 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Chapman & Furlong (1992)"@en .
+
+ihfc:Demirci2004 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Demirci et al. (2004)"@en .
+
+ihfc:Duruturk2002 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Durutürk et al. (2002)"@en .
+
+ihfc:Emirov1997 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Emirov et al. (1997)"@en .
+
+ihfc:Emirov2017 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Emirov et al. (2017)"@en .
+
+ihfc:EmirovRamazanova2007 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Emirov & Ramazanova (2007)"@en .
+
+ihfc:FuchsFoerster2014 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Fuchs & Förster (2014)"@en .
+
+ihfc:Funnell1996 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Funnell et al. (1996)"@en .
+
+ihfc:Gorgulu2008 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Görgülü et al. (2008)"@en .
+
+ihfc:HaenelZoth1973 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Haenel & Zoth (1973)"@en .
+
+ihfc:Kukkonen1999 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Kukkonen et al. (1999)"@en .
+
+ihfc:KutasGordienko1971 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Kutas & Gordienko (1971)"@en .
+
+ihfc:Miranda2018 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Miranda et al. (2018)"@en .
+
+ihfc:Radcliff1960 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Radcliff (1960)"@en .
+
+ihfc:RamazanovaEmirov2010 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Ramazanova & Emirov (2010)"@en .
+
+ihfc:RamazanovaEmirov2012 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Ramazanova & Emirov (2012)"@en .
+
+ihfc:Ratcliff1960 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Ratcliff (1960)"@en .
+
+ihfc:Sass1992 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Sass et al. (1992)"@en .
+
+ihfc:Seipold2001 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Seipold (2001)"@en .
+
+ihfc:Sekiguchi1984 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Sekiguchi (1984)"@en .
+
+ihfc:Sibbitt1975 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Sibbitt (1975)"@en .
+
+ihfc:Somerton1992 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Somerton (1992)"@en .
+
+ihfc:Sun2017 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Sun et al. (2017)"@en .
+
+ihfc:Tikhomirov1968 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "T - Tikhomirov (1968)"@en .
+
+ihfc:VosteenSchellschmidt2003 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Vosteen & Schellschmidt (2003)"@en .
+
+ihfc:ZothHaenal1988 a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Zoth & Haenel (1988)"@en .
+
+ihfc:other a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Other"@en .
+
+ihfc:site_specific a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Site-specific experimental relationships"@en .
+
+ihfc:unspecified a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Unspecified"@en .
+

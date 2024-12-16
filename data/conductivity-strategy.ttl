@@ -1,0 +1,31 @@
+@prefix ihfc: <https://heatflow.world/vocabularies/conductivity-strategy#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://heatflow.world/vocabularies/conductivity-strategy> a skos:ConceptScheme ;
+    skos:definition "Strategy by which thermal conductivity for a particular heat flow interval was calculated."@en ;
+    skos:prefLabel "Thermal conductivity strategy"@en .
+
+ihfc:characterize a skos:Concept ;
+    skos:definition "Characterize formation conductivities"@en ;
+    skos:prefLabel "Characterize formation conductivities"@en .
+
+ihfc:computation a skos:Concept ;
+    skos:definition "Computation from probe sensing"@en ;
+    skos:prefLabel "Computation from probe sensing"@en .
+
+ihfc:other a skos:Concept ;
+    skos:definition "Other"@en ;
+    skos:prefLabel "Other"@en .
+
+ihfc:random a skos:Concept ;
+    skos:definition "Random or periodic depth sampling (number)"@en ;
+    skos:prefLabel "Random or periodic depth sampling (number)"@en .
+
+ihfc:unspecified a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:prefLabel "Unspecified"@en .
+
+ihfc:well_log a skos:Concept ;
+    skos:definition "Well log interpretation"@en ;
+    skos:prefLabel "Well log interpretation"@en .
+
