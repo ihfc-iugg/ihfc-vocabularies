@@ -2,7 +2,7 @@
 
 This repository contains SKOS (Simple Knowledge Organization System) vocabularies relevant to scientific study of Earth's heat flow. Initial development of the vocabularies was supported by the international heat flow community as part of the restructuring of the Global Heat Flow Database and are used for the determination of heat flow data and metadata quality.
 
-## Attribution
+## Credit
 
 This repository, along with any code or data, is maintained by the [German Research Centre for Geosciences](https://www.gfz-potsdam.de/en/) (GFZ) via the [World Heat Flow Database Project](heatflow.world) (Deutsche Forschungsgemeinschaft (DFG) - Project number 491795283). 
 
