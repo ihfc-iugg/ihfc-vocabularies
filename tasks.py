@@ -9,8 +9,8 @@ def check(c):
     """
     Check the consistency of the project using various tools
     """
-    # print("🚀 Checking Poetry lock file consistency with 'pyproject.toml': Running poetry lock --check")
-    # c.run("poetry lock --check")
+    print("🚀 Checking Poetry lock file consistency with 'pyproject.toml': Running poetry lock --check")
+    c.run("poetry lock --check")
 
     print("🚀 Linting code: Running pre-commit")
     c.run("poetry run pre-commit run -a")
@@ -97,6 +97,13 @@ def release(c):
 
 @task
 def new_translation(c, lang):
+    """Creates a new translation file for the specified language.
+
+        lang (str): The language code for the new translation.
+
+    Raises:
+        OSError: If the locale directory cannot be created.
+    """
     if not os.path.exists("locale"):
         os.makedirs("locale")
     locale_dir = "locale"
@@ -104,21 +111,32 @@ def new_translation(c, lang):
     c.run(f"pybabel extract -o {locale_dir}/messages.pot .")
     c.run(f"pybabel init -i {locale_dir}/messages.pot -d {locale_dir} -l {lang}")
 
-
 @task
 def update_translations(c):
+    """Updates all existing translation files with new extracted messages.
+
+    """
     locale_dir = "locale"
     c.run(f"pybabel update -i {locale_dir}/messages.pot -d {locale_dir}")
 
-
 @task
 def compile_translations(c):
+    """Compiles all translation files into binary format for use.
+
+    """
     locale_dir = "locale"
     c.run(f"pybabel compile -d {locale_dir}")
 
-
 @task
-def export_vocabs(c, format="turtle"):
+def build(c, format="turtle"):
+    """Builds vocabularies in the specified format.
+
+    Args:
+        format (str, optional): The format in which to export vocabularies. Defaults to "turtle".
+
+    Raises:
+        ImportError: If `skos_builder.utils` is not installed.
+    """
     from skos_builder.utils import export_vocabs
 
     export_vocabs("src.vocabularies", "data")
