@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "heat-flow-vocabularies"
+name = "ihfc-vocabularies"
 version = "2024.1"
 description = "A collection of SKOS-based vocabularies relevant to the study of Earth's heat flow."
 authors = ["Sam <samuel.scott.jennings@gmail.com>"]
@@ -12,6 +12,7 @@ python = "^3.11"
 pandas = {extras = ["excel"], version = "^2.2.3"}
 rdflib = "^7.1.1"
 babel = "^2.16.0"
+rdflib-builder = {git = "https://github.com/SamuelJennings/skos-builder"}
 
 
 [tool.poetry.group.dev.dependencies]
