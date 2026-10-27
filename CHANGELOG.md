@@ -28,6 +28,7 @@ All notable changes to the vocabularies are recorded here. Versions are calendar
 
 ### Added
 
+- Definitions for every concept in the thermal conductivity vocabularies, citations and DOIs for the published pressure and temperature corrections, and the missing members of their collections.
 - Definitions, codes, readable labels and links between corrected and uncorrected measurements for every concept in the temperature method and temperature correction vocabularies, and the drill stem test values the 2023 structure lists.
 - Definitions, alternative labels and corrected labels for every concept in the heat-flow method, probe type, geographic environment, exploration method, exploration purpose and correction flag vocabularies.
 - Each release carries every vocabulary in Turtle, RDF/XML, JSON-LD and N-Triples, each as its
