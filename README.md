@@ -113,6 +113,8 @@ The checks confirm that every file parses and that:
 - no two concepts in a vocabulary share a label
 - every label and definition has a language tag and is not empty
 - every concept a collection or relationship names exists
+- `skos:broader`, `skos:narrower` and `skos:related` are stated in both directions, and the top concepts are exactly those with no broader concept
+- codes in `skos:notation` are unique within a vocabulary
 - every vocabulary can be written in every release format without losing anything
 
 The rules behind these checks are in [`CONSTITUTION.md`](CONSTITUTION.md), and the words used for
