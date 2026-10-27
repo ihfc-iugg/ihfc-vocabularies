@@ -1,114 +1,115 @@
+PREFIX : <https://portal.heatflow.world/vocabularies/heat-flow-probes/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX ghfdb: <https://portal.heatflow.world/vocabularies/heat-flow-probes/>
+PREFIX ihfc: <https://portal.heatflow.world/vocabularies/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-ghfdb:other
+:other
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-probes> ;
+    skos:inScheme ihfc:heat-flow-probes ;
     skos:prefLabel "Other (specify in comments)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-probes> ;
+    skos:topConceptOf ihfc:heat-flow-probes ;
 .
 
-ghfdb:outrigger_autonomous_no_corer
+:outrigger_autonomous_no_corer
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-probes> ;
+    skos:inScheme ihfc:heat-flow-probes ;
     skos:prefLabel "Outrigger probe (autonomous) without corer"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-probes> ;
+    skos:topConceptOf ihfc:heat-flow-probes ;
 .
 
-ghfdb:outrigger_autonomous_with_corer
+:outrigger_autonomous_with_corer
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-probes> ;
+    skos:inScheme ihfc:heat-flow-probes ;
     skos:prefLabel "Outrigger probe (autonomous) with corer"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-probes> ;
+    skos:topConceptOf ihfc:heat-flow-probes ;
 .
 
-ghfdb:outrigger_ewing
+:outrigger_ewing
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-probes> ;
+    skos:inScheme ihfc:heat-flow-probes ;
     skos:prefLabel "Outrigger probe (Ewing) with corer"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-probes> ;
+    skos:topConceptOf ihfc:heat-flow-probes ;
 .
 
-ghfdb:outrigger_haenel
+:outrigger_haenel
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-probes> ;
+    skos:inScheme ihfc:heat-flow-probes ;
     skos:prefLabel "Outrigger probe (Haenel) in-situ TC"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-probes> ;
+    skos:topConceptOf ihfc:heat-flow-probes ;
 .
 
-ghfdb:outrigger_hybrid_lister_hylo
+:outrigger_hybrid_lister_hylo
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-probes> ;
+    skos:inScheme ihfc:heat-flow-probes ;
     skos:prefLabel "Outrigger probe (Hybrid Lister) HyLO"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-probes> ;
+    skos:topConceptOf ihfc:heat-flow-probes ;
 .
 
-ghfdb:outrigger_lister
+:outrigger_lister
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-probes> ;
+    skos:inScheme ihfc:heat-flow-probes ;
     skos:prefLabel "Outrigger probe (Lister) with corer"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-probes> ;
+    skos:topConceptOf ihfc:heat-flow-probes ;
 .
 
-ghfdb:outrigger_von_herzen
+:outrigger_von_herzen
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-probes> ;
+    skos:inScheme ihfc:heat-flow-probes ;
     skos:prefLabel "Outrigger probe (Von Herzen) in-situ TC"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-probes> ;
+    skos:topConceptOf ihfc:heat-flow-probes ;
 .
 
-ghfdb:single_steel
+:single_steel
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-probes> ;
+    skos:inScheme ihfc:heat-flow-probes ;
     skos:prefLabel "Single Steel probe (Bullard)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-probes> ;
+    skos:topConceptOf ihfc:heat-flow-probes ;
 .
 
-ghfdb:single_steel_insituTC
+:single_steel_insituTC
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-probes> ;
+    skos:inScheme ihfc:heat-flow-probes ;
     skos:prefLabel "Single Steel probe (Bullard) in-situ TC"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-probes> ;
+    skos:topConceptOf ihfc:heat-flow-probes ;
 .
 
-ghfdb:submersible
+:submersible
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-probes> ;
+    skos:inScheme ihfc:heat-flow-probes ;
     skos:prefLabel "Submersible probe"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-probes> ;
+    skos:topConceptOf ihfc:heat-flow-probes ;
 .
 
-ghfdb:unspecified
+:unspecified
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-probes> ;
+    skos:inScheme ihfc:heat-flow-probes ;
     skos:prefLabel "Unspecified"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-probes> ;
+    skos:topConceptOf ihfc:heat-flow-probes ;
 .
 
-ghfdb:violin_bow
+:violin_bow
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-probes> ;
+    skos:inScheme ihfc:heat-flow-probes ;
     skos:prefLabel "Violin-Bow probe (Lister)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-probes> ;
+    skos:topConceptOf ihfc:heat-flow-probes ;
 .
 
-<https://portal.heatflow.world/vocabularies/heat-flow-probes>
+ihfc:heat-flow-probes
     a skos:ConceptScheme ;
     dcterms:description "Types of probe used to measure heat flow, mainly in marine settings."@en ;
     skos:hasTopConcept
-        ghfdb:other ,
-        ghfdb:outrigger_autonomous_no_corer ,
-        ghfdb:outrigger_autonomous_with_corer ,
-        ghfdb:outrigger_ewing ,
-        ghfdb:outrigger_haenel ,
-        ghfdb:outrigger_hybrid_lister_hylo ,
-        ghfdb:outrigger_lister ,
-        ghfdb:outrigger_von_herzen ,
-        ghfdb:single_steel ,
-        ghfdb:single_steel_insituTC ,
-        ghfdb:submersible ,
-        ghfdb:unspecified ,
-        ghfdb:violin_bow ;
+        :other ,
+        :outrigger_autonomous_no_corer ,
+        :outrigger_autonomous_with_corer ,
+        :outrigger_ewing ,
+        :outrigger_haenel ,
+        :outrigger_hybrid_lister_hylo ,
+        :outrigger_lister ,
+        :outrigger_von_herzen ,
+        :single_steel ,
+        :single_steel_insituTC ,
+        :submersible ,
+        :unspecified ,
+        :violin_bow ;
     skos:prefLabel "Heat-flow probe types"@en ;
 .

@@ -1,24 +1,45 @@
 [
   {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/actual",
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/recordedAmbient",
     "@type": [
-      "http://www.w3.org/2004/02/skos/core#Collection"
+      "http://www.w3.org/2004/02/skos/core#Concept"
     ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@language": "en",
-        "@value": "The condition at the respective depth of the heat-flow interval."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#member": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/actualInSitu"
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Actual"
+        "@value": "Recorded ambient pT conditions"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/replicatedP",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Replicated in-situ (p)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions"
       }
     ]
   },
@@ -45,125 +66,31 @@
     ]
   },
   {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "The pressure and temperature conditions under which thermal conductivity was measured, and whether they were recorded, replicated or corrected to in-situ conditions."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/actualInSitu"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/correctedP"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/correctedPT"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/correctedT"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/recordedAmbient"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/replicatedP"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/replicatedPT"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/replicatedT"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/unrecordedAmbient"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/unspecified"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Thermal conductivity measurement conditions"
-      }
-    ]
-  },
-  {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/unrecordedAmbient",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Unrecorded ambient pT conditions"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions"
-      }
-    ]
-  },
-  {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/replicated",
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/corrected",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Collection"
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "Determinations where the conditions at target depths are replicated under laboratory conditions"
+        "@value": "Determinations under laboratory pT conditions that were corrected to conditions at target depths"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#member": [
       {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/replicatedP"
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/correctedT"
       },
       {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/replicatedPT"
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/correctedPT"
       },
       {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/replicatedT"
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/correctedP"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Replicated conditions"
-      }
-    ]
-  },
-  {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/correctedT",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Corrected in-situ (T)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions"
+        "@value": "Corrected conditions"
       }
     ]
   },
@@ -212,6 +139,50 @@
     ]
   },
   {
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/unrecordedAmbient",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Unrecorded ambient pT conditions"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/correctedT",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Corrected in-situ (T)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions"
+      }
+    ]
+  },
+  {
     "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/actualInSitu",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -234,7 +205,36 @@
     ]
   },
   {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/recordedAmbient",
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/replicated",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Determinations where the conditions at target depths are replicated under laboratory conditions"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/replicatedPT"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/replicatedT"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/replicatedP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Replicated conditions"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/correctedPT",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -246,7 +246,7 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Recorded ambient pT conditions"
+        "@value": "Corrected in-situ (pT)"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -279,6 +279,29 @@
     ]
   },
   {
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/actual",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "The condition at the respective depth of the heat-flow interval."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/actualInSitu"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Actual"
+      }
+    ]
+  },
+  {
     "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/correctedP",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -301,75 +324,52 @@
     ]
   },
   {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/correctedPT",
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions",
     "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
     ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+    "http://purl.org/dc/terms/description": [
       {
         "@language": "en",
-        "@value": "Corrected in-situ (pT)"
+        "@value": "The pressure and temperature conditions under which thermal conductivity was measured, and whether they were recorded, replicated or corrected to in-situ conditions."
       }
     ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
       {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions"
-      }
-    ]
-  },
-  {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/replicatedP",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/recordedAmbient"
+      },
       {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/unrecordedAmbient"
+      },
       {
-        "@language": "en",
-        "@value": "Replicated in-situ (p)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions"
-      }
-    ]
-  },
-  {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/corrected",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Collection"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Determinations under laboratory pT conditions that were corrected to conditions at target depths"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#member": [
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/replicatedPT"
+      },
       {
         "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/correctedP"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/actualInSitu"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/correctedT"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/replicatedT"
       },
       {
         "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/correctedPT"
       },
       {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/correctedT"
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/unspecified"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-conditions/replicatedP"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Corrected conditions"
+        "@value": "Thermal conductivity measurement conditions"
       }
     ]
   }

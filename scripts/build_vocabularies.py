@@ -17,11 +17,13 @@ from pathlib import Path
 
 from rdflib import Graph
 from rdflib.compare import isomorphic
+from rdflib.namespace import DCTERMS, OWL, RDF, SKOS
 
 ROOT = Path(__file__).resolve().parent.parent
 SOURCE_DIR = ROOT / "vocabularies"
 EXPORT_DIR = ROOT / "data"
 SOURCE_FORMAT = "longturtle"
+BASE_URL = "https://portal.heatflow.world/vocabularies/"
 
 # Export folder name -> (rdflib format, file extension).
 EXPORT_FORMATS = {
@@ -41,9 +43,28 @@ def load(path, rdf_format="turtle"):
     return Graph().parse(path, format=rdf_format)
 
 
-def canonical_turtle(graph):
-    """Return the graph serialised in the fixed source layout."""
-    return graph.serialize(format=SOURCE_FORMAT)
+def with_prefixes(graph, name):
+    """Return a copy of the graph bound to the fixed set of prefixes.
+
+    ``ihfc:`` is the base address, so a vocabulary reads ``ihfc:heat-flow-method``.
+    The empty prefix is the vocabulary's own namespace, so its concepts read
+    ``:bullard``. Any prefix the file was written with is dropped.
+    """
+    prefixed = Graph(bind_namespaces="none")
+    for triple in graph:
+        prefixed.add(triple)
+    prefixed.bind("", f"{BASE_URL}{name}/")
+    prefixed.bind("ihfc", BASE_URL)
+    prefixed.bind("rdf", RDF)
+    prefixed.bind("skos", SKOS)
+    prefixed.bind("dcterms", DCTERMS)
+    prefixed.bind("owl", OWL)
+    return prefixed
+
+
+def canonical_turtle(graph, name):
+    """Return the vocabulary called ``name`` serialised in the fixed source layout."""
+    return with_prefixes(graph, name).serialize(format=SOURCE_FORMAT)
 
 
 def export_path(source, folder):
@@ -68,13 +89,14 @@ def build():
     """Rewrite every source in its fixed form and bring every export up to date."""
     for source in source_files():
         graph = load(source)
-        source.write_text(canonical_turtle(graph), encoding="utf-8")
+        source.write_text(canonical_turtle(graph, source.stem), encoding="utf-8")
         for folder, (rdf_format, _extension) in EXPORT_FORMATS.items():
             target = export_path(source, folder)
             if target.exists() and isomorphic(graph, load(target, rdf_format)):
                 continue
             target.parent.mkdir(parents=True, exist_ok=True)
-            target.write_text(serialize_export(graph, folder), encoding="utf-8")
+            text = serialize_export(with_prefixes(graph, source.stem), folder)
+            target.write_text(text, encoding="utf-8")
 
 
 if __name__ == "__main__":

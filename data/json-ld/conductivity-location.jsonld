@@ -44,28 +44,6 @@
     ]
   },
   {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-location/actual",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-location"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Actual heat-flow location"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-location"
-      }
-    ]
-  },
-  {
     "@id": "https://portal.heatflow.world/vocabularies/conductivity-location",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#ConceptScheme"
@@ -91,6 +69,28 @@
       {
         "@language": "en",
         "@value": "Thermal conductivity location"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-location/actual",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-location"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Actual heat-flow location"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-location"
       }
     ]
   }

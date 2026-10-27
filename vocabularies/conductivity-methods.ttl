@@ -1,179 +1,180 @@
+PREFIX : <https://portal.heatflow.world/vocabularies/conductivity-methods/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX ghfdb: <https://portal.heatflow.world/vocabularies/conductivity-methods/>
+PREFIX ihfc: <https://portal.heatflow.world/vocabularies/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-ghfdb:estimation
+:estimation
     a skos:Collection ;
     skos:definition "Estimation from other sources"@en ;
     skos:member
-        ghfdb:chlorineContent ,
-        ghfdb:lithology ,
-        ghfdb:mineralComposition ,
-        ghfdb:waterContent ;
+        :chlorineContent ,
+        :lithology ,
+        :mineralComposition ,
+        :waterContent ;
     skos:prefLabel "Estimation"@en ;
 .
 
-ghfdb:laboratory
+:laboratory
     a skos:Collection ;
     skos:definition "Laboratory measurements"@en ;
     skos:member
-        ghfdb:laboratoryOther ,
-        ghfdb:lineSourceFull ,
-        ghfdb:lineSourceHalf ,
-        ghfdb:planeSourceFull ,
-        ghfdb:planeSourceHalf ,
-        ghfdb:pointSource ;
+        :laboratoryOther ,
+        :lineSourceFull ,
+        :lineSourceHalf ,
+        :planeSourceFull ,
+        :planeSourceHalf ,
+        :pointSource ;
     skos:prefLabel "Laboratory"@en ;
 .
 
-ghfdb:other
+:other
     a skos:Collection ;
     skos:definition "Other methods"@en ;
-    skos:member ghfdb:unspecified ;
+    skos:member :unspecified ;
     skos:prefLabel "Other"@en ;
 .
 
-ghfdb:probe
+:probe
     a skos:Collection ;
     skos:definition "Probe measurements"@en ;
     skos:member
-        ghfdb:probeContinuousHeating ,
-        ghfdb:probePulse ;
+        :probeContinuousHeating ,
+        :probePulse ;
     skos:prefLabel "Probe"@en ;
 .
 
-ghfdb:well_log
+:well_log
     a skos:Collection ;
     skos:definition "Well-log interpretation"@en ;
     skos:member
-        ghfdb:wellLogDeterministic ,
-        ghfdb:wellLogEmpirical ;
+        :wellLogDeterministic ,
+        :wellLogEmpirical ;
     skos:prefLabel "Well-log"@en ;
 .
 
-ghfdb:chlorineContent
+:chlorineContent
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Estimation - from chlorine content"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:topConceptOf ihfc:conductivity-methods ;
 .
 
-ghfdb:laboratoryOther
+:laboratoryOther
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Lab - other"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:topConceptOf ihfc:conductivity-methods ;
 .
 
-ghfdb:lineSourceFull
+:lineSourceFull
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Lab - line source - full space"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:topConceptOf ihfc:conductivity-methods ;
 .
 
-ghfdb:lineSourceHalf
+:lineSourceHalf
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Lab - line source - half space"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:topConceptOf ihfc:conductivity-methods ;
 .
 
-ghfdb:lithology
+:lithology
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Estimation - from lithology and literature"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:topConceptOf ihfc:conductivity-methods ;
 .
 
-ghfdb:mineralComposition
+:mineralComposition
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Estimation - from mineral composition"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:topConceptOf ihfc:conductivity-methods ;
 .
 
-ghfdb:planeSourceFull
+:planeSourceFull
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Lab - plane source - full space"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:topConceptOf ihfc:conductivity-methods ;
 .
 
-ghfdb:planeSourceHalf
+:planeSourceHalf
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Lab - plane source - half space"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:topConceptOf ihfc:conductivity-methods ;
 .
 
-ghfdb:pointSource
+:pointSource
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Lab - point source"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:topConceptOf ihfc:conductivity-methods ;
 .
 
-ghfdb:probeContinuousHeating
+:probeContinuousHeating
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Probe - continuous heating technique"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:topConceptOf ihfc:conductivity-methods ;
 .
 
-ghfdb:probePulse
+:probePulse
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Probe - pulse technique"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:topConceptOf ihfc:conductivity-methods ;
 .
 
-ghfdb:unspecified
+:unspecified
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Unspecified"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:topConceptOf ihfc:conductivity-methods ;
 .
 
-ghfdb:waterContent
+:waterContent
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Estimation - from water content-porosity"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:topConceptOf ihfc:conductivity-methods ;
 .
 
-ghfdb:wellLogDeterministic
+:wellLogDeterministic
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Well-log - deterministic approach"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:topConceptOf ihfc:conductivity-methods ;
 .
 
-ghfdb:wellLogEmpirical
+:wellLogEmpirical
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Well-log - empirical equation"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-methods> ;
+    skos:topConceptOf ihfc:conductivity-methods ;
 .
 
-<https://portal.heatflow.world/vocabularies/conductivity-methods>
+ihfc:conductivity-methods
     a skos:ConceptScheme ;
     dcterms:description "Methods used to determine thermal conductivity, by laboratory measurement, in-situ probe, well-log interpretation or estimation."@en ;
     skos:hasTopConcept
-        ghfdb:chlorineContent ,
-        ghfdb:laboratoryOther ,
-        ghfdb:lineSourceFull ,
-        ghfdb:lineSourceHalf ,
-        ghfdb:lithology ,
-        ghfdb:mineralComposition ,
-        ghfdb:planeSourceFull ,
-        ghfdb:planeSourceHalf ,
-        ghfdb:pointSource ,
-        ghfdb:probeContinuousHeating ,
-        ghfdb:probePulse ,
-        ghfdb:unspecified ,
-        ghfdb:waterContent ,
-        ghfdb:wellLogDeterministic ,
-        ghfdb:wellLogEmpirical ;
+        :chlorineContent ,
+        :laboratoryOther ,
+        :lineSourceFull ,
+        :lineSourceHalf ,
+        :lithology ,
+        :mineralComposition ,
+        :planeSourceFull ,
+        :planeSourceHalf ,
+        :pointSource ,
+        :probeContinuousHeating ,
+        :probePulse ,
+        :unspecified ,
+        :waterContent ,
+        :wellLogDeterministic ,
+        :wellLogEmpirical ;
     skos:prefLabel "Thermal conductivity methods"@en ;
 .

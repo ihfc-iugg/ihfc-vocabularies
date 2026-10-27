@@ -1,6 +1,6 @@
 [
   {
-    "@id": "https://portal.heatflow.world/vocabularies/exploration-methods/indirect",
+    "@id": "https://portal.heatflow.world/vocabularies/exploration-methods/drilling_clustering",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -12,29 +12,7 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Indirect (GTM-BSR-CPD-etc.)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/exploration-methods"
-      }
-    ]
-  },
-  {
-    "@id": "https://portal.heatflow.world/vocabularies/exploration-methods/tunneling",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/exploration-methods"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Tunneling"
+        "@value": "Drilling-Clustering"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -66,6 +44,28 @@
     ]
   },
   {
+    "@id": "https://portal.heatflow.world/vocabularies/exploration-methods/indirect",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-methods"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Indirect (GTM-BSR-CPD-etc.)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-methods"
+      }
+    ]
+  },
+  {
     "@id": "https://portal.heatflow.world/vocabularies/exploration-methods/drilling",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -79,28 +79,6 @@
       {
         "@language": "en",
         "@value": "Drilling"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/exploration-methods"
-      }
-    ]
-  },
-  {
-    "@id": "https://portal.heatflow.world/vocabularies/exploration-methods/probing_onshore",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/exploration-methods"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Probing (onshore-lake-river-etc.)"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -132,7 +110,7 @@
     ]
   },
   {
-    "@id": "https://portal.heatflow.world/vocabularies/exploration-methods/drilling_clustering",
+    "@id": "https://portal.heatflow.world/vocabularies/exploration-methods/probing_onshore",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -144,7 +122,7 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Drilling-Clustering"
+        "@value": "Probing (onshore-lake-river-etc.)"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -176,28 +154,6 @@
     ]
   },
   {
-    "@id": "https://portal.heatflow.world/vocabularies/exploration-methods/mining",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/exploration-methods"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Mining"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/exploration-methods"
-      }
-    ]
-  },
-  {
     "@id": "https://portal.heatflow.world/vocabularies/exploration-methods/other",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -220,6 +176,28 @@
     ]
   },
   {
+    "@id": "https://portal.heatflow.world/vocabularies/exploration-methods/mining",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-methods"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Mining"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-methods"
+      }
+    ]
+  },
+  {
     "@id": "https://portal.heatflow.world/vocabularies/exploration-methods",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#ConceptScheme"
@@ -232,16 +210,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
       {
-        "@id": "https://portal.heatflow.world/vocabularies/exploration-methods/drilling"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/exploration-methods/drilling_clustering"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/exploration-methods/indirect"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/exploration-methods/mining"
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-methods/probing_offshore"
       },
       {
         "@id": "https://portal.heatflow.world/vocabularies/exploration-methods/other"
@@ -250,13 +219,22 @@
         "@id": "https://portal.heatflow.world/vocabularies/exploration-methods/probing_clustering"
       },
       {
-        "@id": "https://portal.heatflow.world/vocabularies/exploration-methods/probing_offshore"
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-methods/drilling"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-methods/drilling_clustering"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-methods/tunneling"
       },
       {
         "@id": "https://portal.heatflow.world/vocabularies/exploration-methods/probing_onshore"
       },
       {
-        "@id": "https://portal.heatflow.world/vocabularies/exploration-methods/tunneling"
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-methods/indirect"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-methods/mining"
       },
       {
         "@id": "https://portal.heatflow.world/vocabularies/exploration-methods/unspecified"
@@ -266,6 +244,28 @@
       {
         "@language": "en",
         "@value": "Exploration methods"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/exploration-methods/tunneling",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-methods"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Tunneling"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-methods"
       }
     ]
   }

@@ -1,34 +1,35 @@
+PREFIX : <https://portal.heatflow.world/vocabularies/conductivity-location/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX ghfdb: <https://portal.heatflow.world/vocabularies/conductivity-location/>
+PREFIX ihfc: <https://portal.heatflow.world/vocabularies/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-ghfdb:actual
+:actual
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-location> ;
+    skos:inScheme ihfc:conductivity-location ;
     skos:prefLabel "Actual heat-flow location"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-location> ;
+    skos:topConceptOf ihfc:conductivity-location ;
 .
 
-ghfdb:literature
+:literature
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-location> ;
+    skos:inScheme ihfc:conductivity-location ;
     skos:prefLabel "Literature-unspecified"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-location> ;
+    skos:topConceptOf ihfc:conductivity-location ;
 .
 
-ghfdb:other
+:other
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-location> ;
+    skos:inScheme ihfc:conductivity-location ;
     skos:prefLabel "Other location"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-location> ;
+    skos:topConceptOf ihfc:conductivity-location ;
 .
 
-<https://portal.heatflow.world/vocabularies/conductivity-location>
+ihfc:conductivity-location
     a skos:ConceptScheme ;
     dcterms:description "Where the thermal conductivity used for a heat-flow value was measured, relative to the heat-flow site."@en ;
     skos:hasTopConcept
-        ghfdb:actual ,
-        ghfdb:literature ,
-        ghfdb:other ;
+        :actual ,
+        :literature ,
+        :other ;
     skos:prefLabel "Thermal conductivity location"@en ;
 .

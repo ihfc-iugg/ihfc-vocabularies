@@ -1,27 +1,5 @@
 [
   {
-    "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections/unspecified",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Unspecified"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections"
-      }
-    ]
-  },
-  {
     "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections/aapg",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -35,6 +13,72 @@
       {
         "@language": "en",
         "@value": "AAPG correction"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Methods used to correct measured temperatures for disturbances, such as those caused by drilling, before heat flow is derived."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections/lineSourceExplosion"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections/cylinderSource"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections/aapg"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections/hornerPlot"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections/other"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections/unspecified"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections/inverseNM"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections/not_corrected"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Temperature correction methods"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections/unspecified",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Unspecified"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -110,72 +154,6 @@
     ]
   },
   {
-    "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections/hornerPlot",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Horner plot"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections"
-      }
-    ]
-  },
-  {
-    "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "Methods used to correct measured temperatures for disturbances, such as those caused by drilling, before heat flow is derived."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections/aapg"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections/cylinderSource"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections/hornerPlot"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections/inverseNM"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections/lineSourceExplosion"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections/not_corrected"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections/other"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections/unspecified"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Temperature correction methods"
-      }
-    ]
-  },
-  {
     "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections/other",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -211,6 +189,28 @@
       {
         "@language": "en",
         "@value": "not corrected"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections/hornerPlot",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-corrections"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Horner plot"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [

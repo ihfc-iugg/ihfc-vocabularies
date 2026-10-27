@@ -4,59 +4,59 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/geographic-environments/offshore_continental">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments"/>
-    <skos:prefLabel xml:lang="en">Offshore (continental)</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/geographic-environments">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <dcterms:description xml:lang="en">The basic geographic environment in which a heat-flow measurement was made, onshore or offshore.</dcterms:description>
-    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments/offshore_continental"/>
-    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments/offshore_marine"/>
-    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments/onshore_continental"/>
-    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments/onshore_marine"/>
-    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments/unspecified"/>
-    <skos:prefLabel xml:lang="en">Geographic environments</skos:prefLabel>
-  </rdf:Description>
   <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/geographic-environments/onshore">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
-    <skos:definition xml:lang="en">Geographic environments found onshore.</skos:definition>
     <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments/onshore_continental"/>
     <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments/onshore_marine"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <skos:definition xml:lang="en">Geographic environments found onshore.</skos:definition>
     <skos:prefLabel xml:lang="en">Onshore environments</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/geographic-environments/unspecified">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments"/>
-    <skos:prefLabel xml:lang="en">Unspecified</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/geographic-environments/offshore_marine">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:definition xml:lang="en">An offshore marine environment refers to the part of the ocean that is beyond the coastal zone, typically starting from the edge of the continental shelf and extending into the open ocean. It includes deep-sea regions, open waters, and underwater ecosystems such as seamounts, mid-ocean ridges, and abyssal plains.</skos:definition>
-    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments"/>
-    <skos:prefLabel xml:lang="en">Offshore (marine)</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments"/>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/geographic-environments">
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments/offshore_marine"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments/onshore_marine"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments/offshore_continental"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments/onshore_continental"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments/unspecified"/>
+    <dcterms:description xml:lang="en">The basic geographic environment in which a heat-flow measurement was made, onshore or offshore.</dcterms:description>
+    <skos:prefLabel xml:lang="en">Geographic environments</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/geographic-environments/onshore_marine">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments"/>
     <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Onshore (lake-river-etc.)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/geographic-environments/offshore_marine">
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments"/>
+    <skos:prefLabel xml:lang="en">Offshore (marine)</skos:prefLabel>
+    <skos:definition xml:lang="en">An offshore marine environment refers to the part of the ocean that is beyond the coastal zone, typically starting from the edge of the continental shelf and extending into the open ocean. It includes deep-sea regions, open waters, and underwater ecosystems such as seamounts, mid-ocean ridges, and abyssal plains.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/geographic-environments/offshore_continental">
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments"/>
+    <skos:prefLabel xml:lang="en">Offshore (continental)</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/geographic-environments/onshore_continental">
+    <skos:prefLabel xml:lang="en">Onshore (continental)</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/geographic-environments/offshore">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
-    <skos:definition xml:lang="en">Geographic environments found offshore.</skos:definition>
-    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments/offshore_continental"/>
     <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments/offshore_marine"/>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments/offshore_continental"/>
+    <skos:definition xml:lang="en">Geographic environments found offshore.</skos:definition>
     <skos:prefLabel xml:lang="en">Offshore environments</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/geographic-environments/onshore_continental">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/geographic-environments/unspecified">
+    <skos:prefLabel xml:lang="en">Unspecified</skos:prefLabel>
     <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments"/>
-    <skos:prefLabel xml:lang="en">Onshore (continental)</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/geographic-environments"/>
   </rdf:Description>
 </rdf:RDF>

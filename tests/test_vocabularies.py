@@ -8,6 +8,7 @@ from collections import Counter
 
 import pytest
 from build_vocabularies import (
+    BASE_URL,
     EXPORT_FORMATS,
     canonical_turtle,
     export_path,
@@ -19,7 +20,6 @@ from rdflib.compare import isomorphic
 from rdflib.namespace import DCTERMS, SKOS
 
 SOURCES = source_files()
-BASE_URL = "https://portal.heatflow.world/vocabularies/"
 LABELLED_TYPES = (SKOS.ConceptScheme, SKOS.Concept, SKOS.Collection)
 
 
@@ -45,7 +45,7 @@ class TestSource:
         assert SOURCES
 
     def test_is_in_the_fixed_layout(self, source, graph):
-        expected = canonical_turtle(graph)
+        expected = canonical_turtle(graph, source.stem)
         assert source.read_text(encoding="utf-8") == expected, (
             "run `uv run python scripts/build_vocabularies.py` to rewrite it"
         )

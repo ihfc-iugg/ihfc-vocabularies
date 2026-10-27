@@ -16,4 +16,4 @@ documentation use these terms as defined here.
 | **Translation** | A label or definition in a language other than English, stored on the same concept with its language tag (`"Bullard-Methode"@de`). | — |
 | **Source file** | A Turtle file in `vocabularies/`. Source files are the only files anyone edits. | "input" |
 | **Export** | A copy of a vocabulary in another RDF format, under `data/`. Exports are generated from the source files and never edited by hand. | "build", "output" |
-| **Fixed layout** | The exact Turtle text rdflib writes for a vocabulary (its `longturtle` format). Every source file is kept in it, so a diff shows only what changed in meaning. | "formatting" |
+| **Fixed layout** | The exact Turtle text rdflib writes for a vocabulary (its `longturtle` format), with two prefixes: `ihfc:` for `https://portal.heatflow.world/vocabularies/`, so a vocabulary reads `ihfc:heat-flow-method`, and the empty prefix for the vocabulary's own namespace, so its concepts read `:bullard`. Every source file is kept in it, so a diff shows only what changed in meaning. | "formatting" |

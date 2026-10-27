@@ -1,32 +1,6 @@
 [
   {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/in_situ",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Collection"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "In-situ measurements"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#member": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/insitu_probe"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/well_log"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "In-situ"
-      }
-    ]
-  },
-  {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/outcrop_samples",
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/core_samples",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -38,7 +12,7 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Outcrop samples"
+        "@value": "Core samples"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -48,7 +22,89 @@
     ]
   },
   {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/core_log",
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/laboratory",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Laboratory measurements"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/cutting_samples"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/outcrop_samples"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/core_samples"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/core_log"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Laboratory"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "The material or data the thermal conductivity values were obtained from, such as core samples, well logs or the literature."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/core_samples"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/core_log"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/mineral_computation"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/assumed_from_literature"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/other"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/unspecified"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/cutting_samples"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/outcrop_samples"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/well_log"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/insitu_probe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Thermal conductivity sources"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/insitu_probe",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -60,7 +116,7 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Core-log integration"
+        "@value": "In-situ probe"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -92,7 +148,7 @@
     ]
   },
   {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/assumed_from_literature",
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/core_log",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -104,104 +160,12 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Assumed from literature"
+        "@value": "Core-log integration"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
         "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources"
-      }
-    ]
-  },
-  {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/insitu_probe",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "In-situ probe"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources"
-      }
-    ]
-  },
-  {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/mineral_computation",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Mineral computation"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources"
-      }
-    ]
-  },
-  {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/core_samples",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Core samples"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources"
-      }
-    ]
-  },
-  {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/computation",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Collection"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Computed values"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#member": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/assumed_from_literature"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/mineral_computation"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Computation"
       }
     ]
   },
@@ -219,6 +183,28 @@
       {
         "@language": "en",
         "@value": "Other"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/cutting_samples",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Cutting samples"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -250,89 +236,33 @@
     ]
   },
   {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/laboratory",
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/in_situ",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Collection"
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "Laboratory measurements"
+        "@value": "In-situ measurements"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#member": [
       {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/core_log"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/core_samples"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/cutting_samples"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/outcrop_samples"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Laboratory"
-      }
-    ]
-  },
-  {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "The material or data the thermal conductivity values were obtained from, such as core samples, well logs or the literature."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/assumed_from_literature"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/core_log"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/core_samples"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/cutting_samples"
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/well_log"
       },
       {
         "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/insitu_probe"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/mineral_computation"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/other"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/outcrop_samples"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/unspecified"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/well_log"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Thermal conductivity sources"
+        "@value": "In-situ"
       }
     ]
   },
   {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/cutting_samples",
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/assumed_from_literature",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -344,7 +274,77 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Cutting samples"
+        "@value": "Assumed from literature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/outcrop_samples",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Outcrop samples"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/computation",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Computed values"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/mineral_computation"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/assumed_from_literature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Computation"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources/mineral_computation",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-sources"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Mineral computation"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [

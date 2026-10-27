@@ -1,400 +1,401 @@
+PREFIX : <https://portal.heatflow.world/vocabularies/conductivity-pt-function/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX ghfdb: <https://portal.heatflow.world/vocabularies/conductivity-pt-function/>
+PREFIX ihfc: <https://portal.heatflow.world/vocabularies/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-ghfdb:pressure
+:pressure
     a skos:Collection ;
     skos:member
-        ghfdb:Bridgman1924 ,
-        ghfdb:Demirci2004 ,
-        ghfdb:Duruturk2002 ,
-        ghfdb:FuchsFoerster2014 ,
-        ghfdb:Gorgulu2008 ,
-        ghfdb:Kukkonen1999 ,
-        ghfdb:RatcliffeP1960 ,
-        ghfdb:Seipold2001 ,
-        ghfdb:Sibbitt1975 ;
+        :Bridgman1924 ,
+        :Demirci2004 ,
+        :Duruturk2002 ,
+        :FuchsFoerster2014 ,
+        :Gorgulu2008 ,
+        :Kukkonen1999 ,
+        :RatcliffeP1960 ,
+        :Seipold2001 ,
+        :Sibbitt1975 ;
     skos:prefLabel "Pressure"@en ;
 .
 
-ghfdb:pressure_temperature
+:pressure_temperature
     a skos:Collection ;
     skos:member
-        ghfdb:Abdulagatov2006 ,
-        ghfdb:Abdulagatova2009 ,
-        ghfdb:Buntebarth1991 ,
-        ghfdb:ChapmanFurlong1992 ,
-        ghfdb:Emirov1997 ,
-        ghfdb:Emirov2017 ,
-        ghfdb:EmirovRamazanova2007 ,
-        ghfdb:Radcliff1960 ,
-        ghfdb:RamazanovaEmirov2010 ,
-        ghfdb:RamazanovaEmirov2012 ;
+        :Abdulagatov2006 ,
+        :Abdulagatova2009 ,
+        :Buntebarth1991 ,
+        :ChapmanFurlong1992 ,
+        :Emirov1997 ,
+        :Emirov2017 ,
+        :EmirovRamazanova2007 ,
+        :Radcliff1960 ,
+        :RamazanovaEmirov2010 ,
+        :RamazanovaEmirov2012 ;
     skos:prefLabel "Pressure and Temperature"@en ;
 .
 
-ghfdb:temperature
+:temperature
     a skos:Collection ;
     skos:member
-        ghfdb:Anand1973 ,
-        ghfdb:Blesch1983 ,
-        ghfdb:Chapman1984 ,
-        ghfdb:Funnell1996 ,
-        ghfdb:HaenelZoth1973 ,
-        ghfdb:KukkonenT1999 ,
-        ghfdb:KutasGordienko1971 ,
-        ghfdb:Miranda2018 ,
-        ghfdb:Ratcliff1960 ,
-        ghfdb:Sass1992 ,
-        ghfdb:SeipoldT2001 ,
-        ghfdb:Sekiguchi1984 ,
-        ghfdb:Somerton1992 ,
-        ghfdb:Sun2017 ,
-        ghfdb:Tikhomirov1968 ,
-        ghfdb:VosteenSchellschmidt2003 ,
-        ghfdb:ZothHaenal1988 ;
+        :Anand1973 ,
+        :Blesch1983 ,
+        :Chapman1984 ,
+        :Funnell1996 ,
+        :HaenelZoth1973 ,
+        :KukkonenT1999 ,
+        :KutasGordienko1971 ,
+        :Miranda2018 ,
+        :Ratcliff1960 ,
+        :Sass1992 ,
+        :SeipoldT2001 ,
+        :Sekiguchi1984 ,
+        :Somerton1992 ,
+        :Sun2017 ,
+        :Tikhomirov1968 ,
+        :VosteenSchellschmidt2003 ,
+        :ZothHaenal1988 ;
     skos:prefLabel "Temperature"@en ;
 .
 
-ghfdb:BirchClark1940
+:BirchClark1940
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "T - Birch & Clark (1940)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:Hyndman1974
+:Hyndman1974
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "pT - Hyndman et al. (1974)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:Langseth1965
+:Langseth1965
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "pT - Langseth (1965)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:other
+:other
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "Other"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:site_specific
+:site_specific
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "Site-specific experimental relationships"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:unspecified
+:unspecified
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "Unspecified"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:Abdulagatov2006
+:Abdulagatov2006
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "pT - Abdulagatov et al. (2006)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:Abdulagatova2009
+:Abdulagatova2009
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "pT - Abdulagatova et al. (2009)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:Anand1973
+:Anand1973
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "T - Anand et al. (1973)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:Blesch1983
+:Blesch1983
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "T - Blesch et al. (1983)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:Bridgman1924
+:Bridgman1924
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "p - Bridgman (1924)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:Buntebarth1991
+:Buntebarth1991
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "pT - Buntebarth (1991)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:Chapman1984
+:Chapman1984
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "T - Chapman et al. (1984)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:ChapmanFurlong1992
+:ChapmanFurlong1992
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "pT - Chapman & Furlong (1992)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:Demirci2004
+:Demirci2004
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "p - Demirci et al. (2004)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:Duruturk2002
+:Duruturk2002
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "p - Durutürk et al. (2002)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:Emirov1997
+:Emirov1997
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "pT - Emirov et al. (1997)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:Emirov2017
+:Emirov2017
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "pT - Emirov et al. (2017)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:EmirovRamazanova2007
+:EmirovRamazanova2007
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "pT - Emirov & Ramazanova (2007)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:FuchsFoerster2014
+:FuchsFoerster2014
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "p - Fuchs & Förster (2014)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:Funnell1996
+:Funnell1996
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "T - Funnell et al. (1996)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:Gorgulu2008
+:Gorgulu2008
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "p - Görgülü et al. (2008)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:HaenelZoth1973
+:HaenelZoth1973
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "T - Haenel & Zoth (1973)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:Kukkonen1999
+:Kukkonen1999
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "p - Kukkonen et al. (1999)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:KukkonenT1999
+:KukkonenT1999
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "T - Kukkonen et al. (1999)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:KutasGordienko1971
+:KutasGordienko1971
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "T - Kutas & Gordienko (1971)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:Miranda2018
+:Miranda2018
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "T - Miranda et al. (2018)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:Radcliff1960
+:Radcliff1960
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "pT - Ratcliffe (1960)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:RamazanovaEmirov2010
+:RamazanovaEmirov2010
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "pT - Ramazanova & Emirov (2010)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:RamazanovaEmirov2012
+:RamazanovaEmirov2012
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "pT - Ramazanova & Emirov (2012)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:Ratcliff1960
+:Ratcliff1960
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "T - Ratcliffe (1960)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:RatcliffeP1960
+:RatcliffeP1960
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "p - Ratcliffe (1960)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:Sass1992
+:Sass1992
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "T - Sass et al. (1992)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:Seipold2001
+:Seipold2001
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "p - Seipold (2001)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:SeipoldT2001
+:SeipoldT2001
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "T - Seipold (2001)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:Sekiguchi1984
+:Sekiguchi1984
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "T - Sekiguchi (1984)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:Sibbitt1975
+:Sibbitt1975
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "p - Sibbitt (1975)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:Somerton1992
+:Somerton1992
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "T - Somerton (1992)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:Sun2017
+:Sun2017
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "T - Sun et al. (2017)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:Tikhomirov1968
+:Tikhomirov1968
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "T - Tikhomirov (1968)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:VosteenSchellschmidt2003
+:VosteenSchellschmidt2003
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "T - Vosteen & Schellschmidt (2003)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-ghfdb:ZothHaenal1988
+:ZothHaenal1988
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:inScheme ihfc:conductivity-pt-function ;
     skos:prefLabel "T - Zoth & Haenel (1988)"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-pt-function> ;
+    skos:topConceptOf ihfc:conductivity-pt-function ;
 .
 
-<https://portal.heatflow.world/vocabularies/conductivity-pt-function>
+ihfc:conductivity-pt-function
     a skos:ConceptScheme ;
     dcterms:description "Functions used to correct measured thermal conductivity for the effects of pressure (p), temperature (T) or both (pT)."@en ;
     skos:hasTopConcept
-        ghfdb:Abdulagatov2006 ,
-        ghfdb:Abdulagatova2009 ,
-        ghfdb:Anand1973 ,
-        ghfdb:BirchClark1940 ,
-        ghfdb:Blesch1983 ,
-        ghfdb:Bridgman1924 ,
-        ghfdb:Buntebarth1991 ,
-        ghfdb:Chapman1984 ,
-        ghfdb:ChapmanFurlong1992 ,
-        ghfdb:Demirci2004 ,
-        ghfdb:Duruturk2002 ,
-        ghfdb:Emirov1997 ,
-        ghfdb:Emirov2017 ,
-        ghfdb:EmirovRamazanova2007 ,
-        ghfdb:FuchsFoerster2014 ,
-        ghfdb:Funnell1996 ,
-        ghfdb:Gorgulu2008 ,
-        ghfdb:HaenelZoth1973 ,
-        ghfdb:Hyndman1974 ,
-        ghfdb:Kukkonen1999 ,
-        ghfdb:KukkonenT1999 ,
-        ghfdb:KutasGordienko1971 ,
-        ghfdb:Langseth1965 ,
-        ghfdb:Miranda2018 ,
-        ghfdb:Radcliff1960 ,
-        ghfdb:RamazanovaEmirov2010 ,
-        ghfdb:RamazanovaEmirov2012 ,
-        ghfdb:Ratcliff1960 ,
-        ghfdb:RatcliffeP1960 ,
-        ghfdb:Sass1992 ,
-        ghfdb:Seipold2001 ,
-        ghfdb:SeipoldT2001 ,
-        ghfdb:Sekiguchi1984 ,
-        ghfdb:Sibbitt1975 ,
-        ghfdb:Somerton1992 ,
-        ghfdb:Sun2017 ,
-        ghfdb:Tikhomirov1968 ,
-        ghfdb:VosteenSchellschmidt2003 ,
-        ghfdb:ZothHaenal1988 ,
-        ghfdb:other ,
-        ghfdb:site_specific ,
-        ghfdb:unspecified ;
+        :Abdulagatov2006 ,
+        :Abdulagatova2009 ,
+        :Anand1973 ,
+        :BirchClark1940 ,
+        :Blesch1983 ,
+        :Bridgman1924 ,
+        :Buntebarth1991 ,
+        :Chapman1984 ,
+        :ChapmanFurlong1992 ,
+        :Demirci2004 ,
+        :Duruturk2002 ,
+        :Emirov1997 ,
+        :Emirov2017 ,
+        :EmirovRamazanova2007 ,
+        :FuchsFoerster2014 ,
+        :Funnell1996 ,
+        :Gorgulu2008 ,
+        :HaenelZoth1973 ,
+        :Hyndman1974 ,
+        :Kukkonen1999 ,
+        :KukkonenT1999 ,
+        :KutasGordienko1971 ,
+        :Langseth1965 ,
+        :Miranda2018 ,
+        :Radcliff1960 ,
+        :RamazanovaEmirov2010 ,
+        :RamazanovaEmirov2012 ,
+        :Ratcliff1960 ,
+        :RatcliffeP1960 ,
+        :Sass1992 ,
+        :Seipold2001 ,
+        :SeipoldT2001 ,
+        :Sekiguchi1984 ,
+        :Sibbitt1975 ,
+        :Somerton1992 ,
+        :Sun2017 ,
+        :Tikhomirov1968 ,
+        :VosteenSchellschmidt2003 ,
+        :ZothHaenal1988 ,
+        :other ,
+        :site_specific ,
+        :unspecified ;
     skos:prefLabel "Thermal conductivity pressure and temperature functions"@en ;
 .

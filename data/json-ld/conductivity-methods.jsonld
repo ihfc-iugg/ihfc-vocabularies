@@ -1,89 +1,67 @@
 [
   {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods",
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/probePulse",
     "@type": [
-      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+      "http://www.w3.org/2004/02/skos/core#Concept"
     ],
-    "http://purl.org/dc/terms/description": [
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@language": "en",
-        "@value": "Methods used to determine thermal conductivity, by laboratory measurement, in-situ probe, well-log interpretation or estimation."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/chlorineContent"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/laboratoryOther"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/lineSourceFull"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/lineSourceHalf"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/lithology"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/mineralComposition"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/planeSourceFull"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/planeSourceHalf"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/pointSource"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/probeContinuousHeating"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/probePulse"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/unspecified"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/waterContent"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/wellLogDeterministic"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/wellLogEmpirical"
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Thermal conductivity methods"
+        "@value": "Probe - pulse technique"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods"
       }
     ]
   },
   {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/other",
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/planeSourceHalf",
     "@type": [
-      "http://www.w3.org/2004/02/skos/core#Collection"
+      "http://www.w3.org/2004/02/skos/core#Concept"
     ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@language": "en",
-        "@value": "Other methods"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#member": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/unspecified"
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Other"
+        "@value": "Lab - plane source - half space"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/lineSourceFull",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Lab - line source - full space"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods"
       }
     ]
   },
@@ -132,6 +110,44 @@
     ]
   },
   {
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/laboratory",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Laboratory measurements"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/lineSourceHalf"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/lineSourceFull"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/planeSourceFull"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/pointSource"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/planeSourceHalf"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/laboratoryOther"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Laboratory"
+      }
+    ]
+  },
+  {
     "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/probe",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Collection"
@@ -158,7 +174,7 @@
     ]
   },
   {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/planeSourceHalf",
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/probeContinuousHeating",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -170,104 +186,12 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Lab - plane source - half space"
+        "@value": "Probe - continuous heating technique"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
         "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods"
-      }
-    ]
-  },
-  {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/probePulse",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Probe - pulse technique"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods"
-      }
-    ]
-  },
-  {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/estimation",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Collection"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Estimation from other sources"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#member": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/chlorineContent"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/lithology"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/mineralComposition"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/waterContent"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Estimation"
-      }
-    ]
-  },
-  {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/laboratory",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Collection"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Laboratory measurements"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#member": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/laboratoryOther"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/lineSourceFull"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/lineSourceHalf"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/planeSourceFull"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/planeSourceHalf"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/pointSource"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Laboratory"
       }
     ]
   },
@@ -285,76 +209,6 @@
       {
         "@language": "en",
         "@value": "Lab - point source"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods"
-      }
-    ]
-  },
-  {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/waterContent",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Estimation - from water content-porosity"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods"
-      }
-    ]
-  },
-  {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/well_log",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Collection"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Well-log interpretation"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#member": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/wellLogDeterministic"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/wellLogEmpirical"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Well-log"
-      }
-    ]
-  },
-  {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/wellLogDeterministic",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Well-log - deterministic approach"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -386,7 +240,153 @@
     ]
   },
   {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/probeContinuousHeating",
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/estimation",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Estimation from other sources"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/waterContent"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/chlorineContent"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/mineralComposition"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/lithology"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Estimation"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/other",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Other methods"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/unspecified"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Other"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Methods used to determine thermal conductivity, by laboratory measurement, in-situ probe, well-log interpretation or estimation."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/probeContinuousHeating"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/laboratoryOther"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/wellLogEmpirical"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/unspecified"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/lineSourceHalf"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/lineSourceFull"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/planeSourceFull"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/pointSource"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/lithology"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/planeSourceHalf"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/wellLogDeterministic"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/probePulse"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/waterContent"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/chlorineContent"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/mineralComposition"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Thermal conductivity methods"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/well_log",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Well-log interpretation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/wellLogDeterministic"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/wellLogEmpirical"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Well-log"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/mineralComposition",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -398,7 +398,7 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Probe - continuous heating technique"
+        "@value": "Estimation - from mineral composition"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -408,7 +408,7 @@
     ]
   },
   {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/lineSourceFull",
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/waterContent",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -420,7 +420,51 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Lab - line source - full space"
+        "@value": "Estimation - from water content-porosity"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/wellLogDeterministic",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Well-log - deterministic approach"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/unspecified",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Unspecified"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -487,50 +531,6 @@
       {
         "@language": "en",
         "@value": "Estimation - from chlorine content"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods"
-      }
-    ]
-  },
-  {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/mineralComposition",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Estimation - from mineral composition"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods"
-      }
-    ]
-  },
-  {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods/unspecified",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-methods"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Unspecified"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [

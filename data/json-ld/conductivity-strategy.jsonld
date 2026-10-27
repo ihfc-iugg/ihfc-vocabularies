@@ -1,43 +1,5 @@
 [
   {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-strategy",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@language": "en",
-        "@value": "The strategy used to obtain thermal conductivity values for the depth interval of a heat-flow determination."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-strategy/characterize"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-strategy/computation"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-strategy/other"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-strategy/random"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-strategy/unspecified"
-      },
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-strategy/well_log"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Thermal conductivity strategies"
-      }
-    ]
-  },
-  {
     "@id": "https://portal.heatflow.world/vocabularies/conductivity-strategy/computation",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -60,30 +22,40 @@
     ]
   },
   {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-strategy/unspecified",
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-strategy",
     "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
     ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
+    "http://purl.org/dc/terms/description": [
       {
         "@language": "en",
-        "@value": "Unspecified"
+        "@value": "The strategy used to obtain thermal conductivity values for the depth interval of a heat-flow determination."
       }
     ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
       {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-strategy"
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-strategy/well_log"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-strategy/characterize"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-strategy/random"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-strategy/other"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-strategy/unspecified"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-strategy/computation"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Unspecified"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-strategy"
+        "@value": "Thermal conductivity strategies"
       }
     ]
   },
@@ -132,28 +104,6 @@
     ]
   },
   {
-    "@id": "https://portal.heatflow.world/vocabularies/conductivity-strategy/random",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-strategy"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Random or periodic depth sampling"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://portal.heatflow.world/vocabularies/conductivity-strategy"
-      }
-    ]
-  },
-  {
     "@id": "https://portal.heatflow.world/vocabularies/conductivity-strategy/other",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -173,6 +123,56 @@
       {
         "@language": "en",
         "@value": "Other"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-strategy"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-strategy/unspecified",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Unspecified"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-strategy"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Unspecified"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-strategy"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-strategy/random",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-strategy"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Random or periodic depth sampling"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [

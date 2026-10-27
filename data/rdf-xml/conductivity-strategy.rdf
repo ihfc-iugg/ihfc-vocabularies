@@ -4,53 +4,53 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-strategy/well_log">
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-strategy/random">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy"/>
-    <skos:prefLabel xml:lang="en">Well log interpretation</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Random or periodic depth sampling</skos:prefLabel>
     <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-strategy/characterize">
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy"/>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy"/>
+    <skos:prefLabel xml:lang="en">Characterize formation conductivities</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-strategy">
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy/well_log"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy/characterize"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy/random"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy/other"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy/unspecified"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy/computation"/>
+    <skos:prefLabel xml:lang="en">Thermal conductivity strategies</skos:prefLabel>
+    <dcterms:description xml:lang="en">The strategy used to obtain thermal conductivity values for the depth interval of a heat-flow determination.</dcterms:description>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-strategy/unspecified">
+    <skos:prefLabel xml:lang="en">Unspecified</skos:prefLabel>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">Unspecified</skos:definition>
     <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy"/>
-    <skos:prefLabel xml:lang="en">Unspecified</skos:prefLabel>
     <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-strategy">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <dcterms:description xml:lang="en">The strategy used to obtain thermal conductivity values for the depth interval of a heat-flow determination.</dcterms:description>
-    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy/characterize"/>
-    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy/computation"/>
-    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy/other"/>
-    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy/random"/>
-    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy/unspecified"/>
-    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy/well_log"/>
-    <skos:prefLabel xml:lang="en">Thermal conductivity strategies</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-strategy/other">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">Other</skos:definition>
-    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy"/>
-    <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
     <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy"/>
+    <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-strategy/computation">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy"/>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">Computation from probe sensing</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-strategy/characterize">
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-strategy/well_log">
+    <skos:prefLabel xml:lang="en">Well log interpretation</skos:prefLabel>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy"/>
-    <skos:prefLabel xml:lang="en">Characterize formation conductivities</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-strategy/random">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy"/>
-    <skos:prefLabel xml:lang="en">Random or periodic depth sampling</skos:prefLabel>
     <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-strategy"/>
   </rdf:Description>
 </rdf:RDF>

@@ -4,102 +4,102 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-sources/computation">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
-    <skos:definition xml:lang="en">Computed values</skos:definition>
-    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/assumed_from_literature"/>
-    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/mineral_computation"/>
-    <skos:prefLabel xml:lang="en">Computation</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-sources/core_samples">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-sources/core_log">
     <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
-    <skos:prefLabel xml:lang="en">Core samples</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-sources/outcrop_samples">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
-    <skos:prefLabel xml:lang="en">Outcrop samples</skos:prefLabel>
     <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-sources/unspecified">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
-    <skos:prefLabel xml:lang="en">Unspecified</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-sources/mineral_computation">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
-    <skos:prefLabel xml:lang="en">Mineral computation</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-sources/well_log">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
-    <skos:prefLabel xml:lang="en">Well-log interpretation</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-sources/laboratory">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
-    <skos:definition xml:lang="en">Laboratory measurements</skos:definition>
-    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/core_log"/>
-    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/core_samples"/>
-    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/cutting_samples"/>
-    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/outcrop_samples"/>
-    <skos:prefLabel xml:lang="en">Laboratory</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Core-log integration</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-sources/in_situ">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
     <skos:definition xml:lang="en">In-situ measurements</skos:definition>
-    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/insitu_probe"/>
     <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/well_log"/>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/insitu_probe"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
     <skos:prefLabel xml:lang="en">In-situ</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-sources/other">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
-    <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-sources/insitu_probe">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
-    <skos:prefLabel xml:lang="en">In-situ probe</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-sources/computation">
+    <skos:definition xml:lang="en">Computed values</skos:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <skos:prefLabel xml:lang="en">Computation</skos:prefLabel>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/mineral_computation"/>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/assumed_from_literature"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-sources">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <dcterms:description xml:lang="en">The material or data the thermal conductivity values were obtained from, such as core samples, well logs or the literature.</dcterms:description>
-    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/assumed_from_literature"/>
-    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/core_log"/>
-    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/core_samples"/>
-    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/cutting_samples"/>
-    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/insitu_probe"/>
-    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/mineral_computation"/>
-    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/other"/>
-    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/outcrop_samples"/>
-    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/unspecified"/>
-    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/well_log"/>
     <skos:prefLabel xml:lang="en">Thermal conductivity sources</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/core_samples"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/core_log"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/mineral_computation"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/assumed_from_literature"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/other"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/unspecified"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/cutting_samples"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/outcrop_samples"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/well_log"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/insitu_probe"/>
+    <dcterms:description xml:lang="en">The material or data the thermal conductivity values were obtained from, such as core samples, well logs or the literature.</dcterms:description>
   </rdf:Description>
-  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-sources/core_log">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-sources/assumed_from_literature">
     <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
-    <skos:prefLabel xml:lang="en">Core-log integration</skos:prefLabel>
     <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Assumed from literature</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-sources/cutting_samples">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
-    <skos:prefLabel xml:lang="en">Cutting samples</skos:prefLabel>
     <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
+    <skos:prefLabel xml:lang="en">Cutting samples</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-sources/assumed_from_literature">
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-sources/laboratory">
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/cutting_samples"/>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/outcrop_samples"/>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/core_samples"/>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources/core_log"/>
+    <skos:definition xml:lang="en">Laboratory measurements</skos:definition>
+    <skos:prefLabel xml:lang="en">Laboratory</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-sources/well_log">
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Well-log interpretation</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-sources/outcrop_samples">
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
-    <skos:prefLabel xml:lang="en">Assumed from literature</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Outcrop samples</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-sources/unspecified">
     <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
+    <skos:prefLabel xml:lang="en">Unspecified</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-sources/insitu_probe">
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">In-situ probe</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-sources/mineral_computation">
+    <skos:prefLabel xml:lang="en">Mineral computation</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-sources/other">
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
+    <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-sources/core_samples">
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
+    <skos:prefLabel xml:lang="en">Core samples</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-sources"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
   </rdf:Description>
 </rdf:RDF>

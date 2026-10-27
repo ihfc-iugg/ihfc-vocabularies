@@ -1,62 +1,63 @@
+PREFIX : <https://portal.heatflow.world/vocabularies/heat-flow-method/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX ghfdb: <https://portal.heatflow.world/vocabularies/heat-flow-method/>
+PREFIX ihfc: <https://portal.heatflow.world/vocabularies/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-ghfdb:bootstrap
+:bootstrap
     a skos:Concept ;
     skos:definition "Iterative procedure aimed at minimize the difference between the measured and modelled temperatures by solving the 1-D steady-state conductive geotherm (radiogenic heat production of rocks is accounted for)"@en ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-method> ;
+    skos:inScheme ihfc:heat-flow-method ;
     skos:prefLabel "Boot-strapping method"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-method> ;
+    skos:topConceptOf ihfc:heat-flow-method ;
 .
 
-ghfdb:bullard
+:bullard
     a skos:Concept ;
     skos:definition "Heat-flow value given as the angular coefficient of the linear regression of the thermal resistance vs. temperature data (used when there is a significant variation of thermal conductivity within the depth range over which the temperatures have been measured)"@en ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-method> ;
+    skos:inScheme ihfc:heat-flow-method ;
     skos:prefLabel "Bullard method"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-method> ;
+    skos:topConceptOf ihfc:heat-flow-method ;
 .
 
-ghfdb:interval
+:interval
     a skos:Concept ;
     skos:definition "Product of the mean thermal gradient to the mean thermal conductivity with reference to a specified depth interval"@en ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-method> ;
+    skos:inScheme ihfc:heat-flow-method ;
     skos:prefLabel "Interval method"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-method> ;
+    skos:topConceptOf ihfc:heat-flow-method ;
 .
 
-ghfdb:numerical
+:numerical
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-method> ;
+    skos:inScheme ihfc:heat-flow-method ;
     skos:prefLabel "Other numerical computations"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-method> ;
+    skos:topConceptOf ihfc:heat-flow-method ;
 .
 
-ghfdb:other
+:other
     a skos:Concept ;
     skos:definition "Specify the method in comments"@en ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-method> ;
+    skos:inScheme ihfc:heat-flow-method ;
     skos:prefLabel "Other"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-method> ;
+    skos:topConceptOf ihfc:heat-flow-method ;
 .
 
-ghfdb:unspecified
+:unspecified
     a skos:Concept ;
-    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-method> ;
+    skos:inScheme ihfc:heat-flow-method ;
     skos:prefLabel "Unspecified"@en ;
-    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-method> ;
+    skos:topConceptOf ihfc:heat-flow-method ;
 .
 
-<https://portal.heatflow.world/vocabularies/heat-flow-method>
+ihfc:heat-flow-method
     a skos:ConceptScheme ;
     dcterms:description "Methods used to determine a heat-flow value from temperature and thermal conductivity data."@en ;
     skos:hasTopConcept
-        ghfdb:bootstrap ,
-        ghfdb:bullard ,
-        ghfdb:interval ,
-        ghfdb:numerical ,
-        ghfdb:other ,
-        ghfdb:unspecified ;
+        :bootstrap ,
+        :bullard ,
+        :interval ,
+        :numerical ,
+        :other ,
+        :unspecified ;
     skos:prefLabel "Heat-flow methods"@en ;
 .
