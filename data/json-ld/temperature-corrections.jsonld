@@ -1,0 +1,222 @@
+[
+  {
+    "@id": "https://heatflow.world/vocabularies/temperature-corrections/cylinderSource",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://heatflow.world/vocabularies/temperature-corrections"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Cylinder source method"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://heatflow.world/vocabularies/temperature-corrections"
+      }
+    ]
+  },
+  {
+    "@id": "https://heatflow.world/vocabularies/temperature-corrections/hornerPlot",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://heatflow.world/vocabularies/temperature-corrections"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Horner plot"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://heatflow.world/vocabularies/temperature-corrections"
+      }
+    ]
+  },
+  {
+    "@id": "https://heatflow.world/vocabularies/temperature-corrections/aapg",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://heatflow.world/vocabularies/temperature-corrections"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "AAPG correction"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://heatflow.world/vocabularies/temperature-corrections"
+      }
+    ]
+  },
+  {
+    "@id": "https://heatflow.world/vocabularies/temperature-corrections/lineSourceExplosion",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://heatflow.world/vocabularies/temperature-corrections"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Line source explosion method"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://heatflow.world/vocabularies/temperature-corrections"
+      }
+    ]
+  },
+  {
+    "@id": "https://heatflow.world/vocabularies/temperature-corrections/other",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://heatflow.world/vocabularies/temperature-corrections"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Other published correction"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://heatflow.world/vocabularies/temperature-corrections"
+      }
+    ]
+  },
+  {
+    "@id": "https://heatflow.world/vocabularies/temperature-corrections/not_corrected",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://heatflow.world/vocabularies/temperature-corrections"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "not corrected"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://heatflow.world/vocabularies/temperature-corrections"
+      }
+    ]
+  },
+  {
+    "@id": "https://heatflow.world/vocabularies/temperature-corrections/unspecified",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://heatflow.world/vocabularies/temperature-corrections"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Unspecified"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://heatflow.world/vocabularies/temperature-corrections"
+      }
+    ]
+  },
+  {
+    "@id": "https://heatflow.world/vocabularies/temperature-corrections/inverseNM",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://heatflow.world/vocabularies/temperature-corrections"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Inverse numerical modelling"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://heatflow.world/vocabularies/temperature-corrections"
+      }
+    ]
+  },
+  {
+    "@id": "https://heatflow.world/vocabularies/temperature-corrections",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Methods used to correct temperature data for the purpose of heat flow measurements."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://heatflow.world/vocabularies/temperature-corrections/aapg"
+      },
+      {
+        "@id": "https://heatflow.world/vocabularies/temperature-corrections/cylinderSource"
+      },
+      {
+        "@id": "https://heatflow.world/vocabularies/temperature-corrections/hornerPlot"
+      },
+      {
+        "@id": "https://heatflow.world/vocabularies/temperature-corrections/inverseNM"
+      },
+      {
+        "@id": "https://heatflow.world/vocabularies/temperature-corrections/lineSourceExplosion"
+      },
+      {
+        "@id": "https://heatflow.world/vocabularies/temperature-corrections/not_corrected"
+      },
+      {
+        "@id": "https://heatflow.world/vocabularies/temperature-corrections/other"
+      },
+      {
+        "@id": "https://heatflow.world/vocabularies/temperature-corrections/unspecified"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Temperature correction methods"
+      }
+    ]
+  }
+]

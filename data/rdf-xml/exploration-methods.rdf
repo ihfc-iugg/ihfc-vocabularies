@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/exploration-methods/other">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/exploration-methods"/>
+    <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/exploration-methods"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/exploration-methods/unspecified">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/exploration-methods"/>
+    <skos:prefLabel xml:lang="en">Unspecified</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/exploration-methods"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/exploration-methods/probing_onshore">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/exploration-methods"/>
+    <skos:prefLabel xml:lang="en">Probing (onshore-lake-river-etc.)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/exploration-methods"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/exploration-methods/mining">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/exploration-methods"/>
+    <skos:prefLabel xml:lang="en">Mining</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/exploration-methods"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/exploration-methods/tunneling">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/exploration-methods"/>
+    <skos:prefLabel xml:lang="en">Tunneling</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/exploration-methods"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/exploration-methods/indirect">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/exploration-methods"/>
+    <skos:prefLabel xml:lang="en">Indirect (GTM-BSR-CPD-etc.)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/exploration-methods"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/exploration-methods">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:definition xml:lang="en">General means by which the rock was accessed by temperature sensors.</skos:definition>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/exploration-methods/drilling"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/exploration-methods/drilling_clustering"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/exploration-methods/indirect"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/exploration-methods/mining"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/exploration-methods/other"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/exploration-methods/probing_clustering"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/exploration-methods/probing_offshore"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/exploration-methods/probing_onshore"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/exploration-methods/tunneling"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/exploration-methods/unspecified"/>
+    <skos:prefLabel xml:lang="en">exploration methods</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/exploration-methods/drilling_clustering">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/exploration-methods"/>
+    <skos:prefLabel xml:lang="en">Drilling-Clustering</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/exploration-methods"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/exploration-methods/drilling">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/exploration-methods"/>
+    <skos:prefLabel xml:lang="en">Drilling</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/exploration-methods"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/exploration-methods/probing_offshore">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/exploration-methods"/>
+    <skos:prefLabel xml:lang="en">Probing (offshore-ocean)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/exploration-methods"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/exploration-methods/probing_clustering">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/exploration-methods"/>
+    <skos:prefLabel xml:lang="en">Probing-Clustering</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/exploration-methods"/>
+  </rdf:Description>
+</rdf:RDF>

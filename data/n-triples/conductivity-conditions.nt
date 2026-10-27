@@ -1,0 +1,73 @@
+<https://heatflow.world/vocabularies/conductivity-conditions/actual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
+<https://heatflow.world/vocabularies/conductivity-conditions/actual> <http://www.w3.org/2004/02/skos/core#definition> "The condition at the respective depth of the heat-flow interval."@en .
+<https://heatflow.world/vocabularies/conductivity-conditions/actual> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-conditions/actualInSitu> .
+<https://heatflow.world/vocabularies/conductivity-conditions/actual> <http://www.w3.org/2004/02/skos/core#prefLabel> "Actual"@en .
+<https://heatflow.world/vocabularies/conductivity-conditions/actualInSitu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-conditions/actualInSitu> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-conditions> .
+<https://heatflow.world/vocabularies/conductivity-conditions/actualInSitu> <http://www.w3.org/2004/02/skos/core#prefLabel> "Actual in-situ (pT) conditions"@en .
+<https://heatflow.world/vocabularies/conductivity-conditions/actualInSitu> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-conditions> .
+<https://heatflow.world/vocabularies/conductivity-conditions/corrected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
+<https://heatflow.world/vocabularies/conductivity-conditions/corrected> <http://www.w3.org/2004/02/skos/core#definition> "Determinations under laboratory pT conditions that were corrected to conditions at target depths"@en .
+<https://heatflow.world/vocabularies/conductivity-conditions/corrected> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-conditions/correctedP> .
+<https://heatflow.world/vocabularies/conductivity-conditions/corrected> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-conditions/correctedPT> .
+<https://heatflow.world/vocabularies/conductivity-conditions/corrected> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-conditions/correctedT> .
+<https://heatflow.world/vocabularies/conductivity-conditions/corrected> <http://www.w3.org/2004/02/skos/core#prefLabel> "Corrected conditions"@en .
+<https://heatflow.world/vocabularies/conductivity-conditions/correctedP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-conditions/correctedP> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-conditions> .
+<https://heatflow.world/vocabularies/conductivity-conditions/correctedP> <http://www.w3.org/2004/02/skos/core#prefLabel> "Corrected in-situ (p)"@en .
+<https://heatflow.world/vocabularies/conductivity-conditions/correctedP> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-conditions> .
+<https://heatflow.world/vocabularies/conductivity-conditions/correctedPT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-conditions/correctedPT> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-conditions> .
+<https://heatflow.world/vocabularies/conductivity-conditions/correctedPT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Corrected in-situ (pT)"@en .
+<https://heatflow.world/vocabularies/conductivity-conditions/correctedPT> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-conditions> .
+<https://heatflow.world/vocabularies/conductivity-conditions/correctedT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-conditions/correctedT> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-conditions> .
+<https://heatflow.world/vocabularies/conductivity-conditions/correctedT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Corrected in-situ (T)"@en .
+<https://heatflow.world/vocabularies/conductivity-conditions/correctedT> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-conditions> .
+<https://heatflow.world/vocabularies/conductivity-conditions/recorded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
+<https://heatflow.world/vocabularies/conductivity-conditions/recorded> <http://www.w3.org/2004/02/skos/core#definition> "Determinations under true conditions at target depths (e.g. sensing in boreholes)"@en .
+<https://heatflow.world/vocabularies/conductivity-conditions/recorded> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-conditions/recordedAmbient> .
+<https://heatflow.world/vocabularies/conductivity-conditions/recorded> <http://www.w3.org/2004/02/skos/core#prefLabel> "Recorded"@en .
+<https://heatflow.world/vocabularies/conductivity-conditions/recordedAmbient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-conditions/recordedAmbient> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-conditions> .
+<https://heatflow.world/vocabularies/conductivity-conditions/recordedAmbient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Recorded ambient pT conditions"@en .
+<https://heatflow.world/vocabularies/conductivity-conditions/recordedAmbient> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-conditions> .
+<https://heatflow.world/vocabularies/conductivity-conditions/replicated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
+<https://heatflow.world/vocabularies/conductivity-conditions/replicated> <http://www.w3.org/2004/02/skos/core#definition> "Determinations where the conditions at target depths are replicated under laboratory conditions"@en .
+<https://heatflow.world/vocabularies/conductivity-conditions/replicated> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-conditions/replicatedP> .
+<https://heatflow.world/vocabularies/conductivity-conditions/replicated> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-conditions/replicatedPT> .
+<https://heatflow.world/vocabularies/conductivity-conditions/replicated> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-conditions/replicatedT> .
+<https://heatflow.world/vocabularies/conductivity-conditions/replicated> <http://www.w3.org/2004/02/skos/core#prefLabel> "Replicated conditions"@en .
+<https://heatflow.world/vocabularies/conductivity-conditions/replicatedP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-conditions/replicatedP> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-conditions> .
+<https://heatflow.world/vocabularies/conductivity-conditions/replicatedP> <http://www.w3.org/2004/02/skos/core#prefLabel> "Replicated in-situ (p)"@en .
+<https://heatflow.world/vocabularies/conductivity-conditions/replicatedP> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-conditions> .
+<https://heatflow.world/vocabularies/conductivity-conditions/replicatedPT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-conditions/replicatedPT> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-conditions> .
+<https://heatflow.world/vocabularies/conductivity-conditions/replicatedPT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Replicated in-situ (pT)"@en .
+<https://heatflow.world/vocabularies/conductivity-conditions/replicatedPT> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-conditions> .
+<https://heatflow.world/vocabularies/conductivity-conditions/replicatedT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-conditions/replicatedT> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-conditions> .
+<https://heatflow.world/vocabularies/conductivity-conditions/replicatedT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Replicated in-situ (T)"@en .
+<https://heatflow.world/vocabularies/conductivity-conditions/replicatedT> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-conditions> .
+<https://heatflow.world/vocabularies/conductivity-conditions/unrecordedAmbient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-conditions/unrecordedAmbient> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-conditions> .
+<https://heatflow.world/vocabularies/conductivity-conditions/unrecordedAmbient> <http://www.w3.org/2004/02/skos/core#prefLabel> "Unrecorded ambient pT conditions"@en .
+<https://heatflow.world/vocabularies/conductivity-conditions/unrecordedAmbient> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-conditions> .
+<https://heatflow.world/vocabularies/conductivity-conditions/unspecified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-conditions/unspecified> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-conditions> .
+<https://heatflow.world/vocabularies/conductivity-conditions/unspecified> <http://www.w3.org/2004/02/skos/core#prefLabel> "Unspecified"@en .
+<https://heatflow.world/vocabularies/conductivity-conditions/unspecified> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-conditions> .
+<https://heatflow.world/vocabularies/conductivity-conditions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://heatflow.world/vocabularies/conductivity-conditions> <http://www.w3.org/2004/02/skos/core#definition> "Conditions under which the thermal conductivity was measured."@en .
+<https://heatflow.world/vocabularies/conductivity-conditions> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-conditions/actualInSitu> .
+<https://heatflow.world/vocabularies/conductivity-conditions> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-conditions/correctedP> .
+<https://heatflow.world/vocabularies/conductivity-conditions> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-conditions/correctedPT> .
+<https://heatflow.world/vocabularies/conductivity-conditions> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-conditions/correctedT> .
+<https://heatflow.world/vocabularies/conductivity-conditions> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-conditions/recordedAmbient> .
+<https://heatflow.world/vocabularies/conductivity-conditions> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-conditions/replicatedP> .
+<https://heatflow.world/vocabularies/conductivity-conditions> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-conditions/replicatedPT> .
+<https://heatflow.world/vocabularies/conductivity-conditions> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-conditions/replicatedT> .
+<https://heatflow.world/vocabularies/conductivity-conditions> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-conditions/unrecordedAmbient> .
+<https://heatflow.world/vocabularies/conductivity-conditions> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-conditions/unspecified> .
+<https://heatflow.world/vocabularies/conductivity-conditions> <http://www.w3.org/2004/02/skos/core#prefLabel> "Conductivity measurement conditions"@en .

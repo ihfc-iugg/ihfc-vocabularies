@@ -1,0 +1,108 @@
+<https://heatflow.world/vocabularies/conductivity-methods/chlorineContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-methods/chlorineContent> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/chlorineContent> <http://www.w3.org/2004/02/skos/core#prefLabel> "Estimation - from chlorine content"@en .
+<https://heatflow.world/vocabularies/conductivity-methods/chlorineContent> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/estimation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
+<https://heatflow.world/vocabularies/conductivity-methods/estimation> <http://www.w3.org/2004/02/skos/core#definition> "Estimation from other sources"@en .
+<https://heatflow.world/vocabularies/conductivity-methods/estimation> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-methods/chlorineContent> .
+<https://heatflow.world/vocabularies/conductivity-methods/estimation> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-methods/lithology> .
+<https://heatflow.world/vocabularies/conductivity-methods/estimation> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-methods/mineralComposition> .
+<https://heatflow.world/vocabularies/conductivity-methods/estimation> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-methods/waterContent> .
+<https://heatflow.world/vocabularies/conductivity-methods/estimation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Estimation"@en .
+<https://heatflow.world/vocabularies/conductivity-methods/laboratory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
+<https://heatflow.world/vocabularies/conductivity-methods/laboratory> <http://www.w3.org/2004/02/skos/core#definition> "Laboratory measurements"@en .
+<https://heatflow.world/vocabularies/conductivity-methods/laboratory> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-methods/laboratoryOther> .
+<https://heatflow.world/vocabularies/conductivity-methods/laboratory> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-methods/lineSourceFull> .
+<https://heatflow.world/vocabularies/conductivity-methods/laboratory> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-methods/lineSourceHalf> .
+<https://heatflow.world/vocabularies/conductivity-methods/laboratory> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-methods/planeSourceFull> .
+<https://heatflow.world/vocabularies/conductivity-methods/laboratory> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-methods/planeSourceHalf> .
+<https://heatflow.world/vocabularies/conductivity-methods/laboratory> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-methods/pointSource> .
+<https://heatflow.world/vocabularies/conductivity-methods/laboratory> <http://www.w3.org/2004/02/skos/core#prefLabel> "Laboratory"@en .
+<https://heatflow.world/vocabularies/conductivity-methods/laboratoryOther> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-methods/laboratoryOther> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/laboratoryOther> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lab - other"@en .
+<https://heatflow.world/vocabularies/conductivity-methods/laboratoryOther> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/lineSourceFull> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-methods/lineSourceFull> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/lineSourceFull> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lab - line source - full space"@en .
+<https://heatflow.world/vocabularies/conductivity-methods/lineSourceFull> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/lineSourceHalf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-methods/lineSourceHalf> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/lineSourceHalf> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lab - line source - half space"@en .
+<https://heatflow.world/vocabularies/conductivity-methods/lineSourceHalf> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/lithology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-methods/lithology> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/lithology> <http://www.w3.org/2004/02/skos/core#prefLabel> "Estimation - from lithology and literature"@en .
+<https://heatflow.world/vocabularies/conductivity-methods/lithology> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/mineralComposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-methods/mineralComposition> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/mineralComposition> <http://www.w3.org/2004/02/skos/core#prefLabel> "Estimation - from mineral composition"@en .
+<https://heatflow.world/vocabularies/conductivity-methods/mineralComposition> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
+<https://heatflow.world/vocabularies/conductivity-methods/other> <http://www.w3.org/2004/02/skos/core#definition> "Other methods"@en .
+<https://heatflow.world/vocabularies/conductivity-methods/other> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-methods/unspecified> .
+<https://heatflow.world/vocabularies/conductivity-methods/other> <http://www.w3.org/2004/02/skos/core#prefLabel> "Other"@en .
+<https://heatflow.world/vocabularies/conductivity-methods/planeSourceFull> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-methods/planeSourceFull> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/planeSourceFull> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lab - plane source - full space"@en .
+<https://heatflow.world/vocabularies/conductivity-methods/planeSourceFull> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/planeSourceHalf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-methods/planeSourceHalf> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/planeSourceHalf> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lab - plane source - half space"@en .
+<https://heatflow.world/vocabularies/conductivity-methods/planeSourceHalf> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/pointSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-methods/pointSource> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/pointSource> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lab - point source"@en .
+<https://heatflow.world/vocabularies/conductivity-methods/pointSource> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/probe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
+<https://heatflow.world/vocabularies/conductivity-methods/probe> <http://www.w3.org/2004/02/skos/core#definition> "Probe measurements"@en .
+<https://heatflow.world/vocabularies/conductivity-methods/probe> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-methods/probeContinuousHeating> .
+<https://heatflow.world/vocabularies/conductivity-methods/probe> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-methods/probePulse> .
+<https://heatflow.world/vocabularies/conductivity-methods/probe> <http://www.w3.org/2004/02/skos/core#prefLabel> "Probe"@en .
+<https://heatflow.world/vocabularies/conductivity-methods/probeContinuousHeating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-methods/probeContinuousHeating> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/probeContinuousHeating> <http://www.w3.org/2004/02/skos/core#prefLabel> "Probe - continuous heating technique"@en .
+<https://heatflow.world/vocabularies/conductivity-methods/probeContinuousHeating> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/probePulse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-methods/probePulse> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/probePulse> <http://www.w3.org/2004/02/skos/core#prefLabel> "Probe - pulse technique"@en .
+<https://heatflow.world/vocabularies/conductivity-methods/probePulse> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/unspecified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-methods/unspecified> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/unspecified> <http://www.w3.org/2004/02/skos/core#prefLabel> "Unspecified"@en .
+<https://heatflow.world/vocabularies/conductivity-methods/unspecified> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/waterContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-methods/waterContent> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/waterContent> <http://www.w3.org/2004/02/skos/core#prefLabel> "Estimation - from water content-porosity"@en .
+<https://heatflow.world/vocabularies/conductivity-methods/waterContent> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/wellLogDeterministic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-methods/wellLogDeterministic> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/wellLogDeterministic> <http://www.w3.org/2004/02/skos/core#prefLabel> "Well-log - deterministic approach"@en .
+<https://heatflow.world/vocabularies/conductivity-methods/wellLogDeterministic> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/wellLogEmpirical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-methods/wellLogEmpirical> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/wellLogEmpirical> <http://www.w3.org/2004/02/skos/core#prefLabel> "Well-log - empirical equation"@en .
+<https://heatflow.world/vocabularies/conductivity-methods/wellLogEmpirical> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-methods> .
+<https://heatflow.world/vocabularies/conductivity-methods/well_log> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
+<https://heatflow.world/vocabularies/conductivity-methods/well_log> <http://www.w3.org/2004/02/skos/core#definition> "Well-log interpretation"@en .
+<https://heatflow.world/vocabularies/conductivity-methods/well_log> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-methods/wellLogDeterministic> .
+<https://heatflow.world/vocabularies/conductivity-methods/well_log> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-methods/wellLogEmpirical> .
+<https://heatflow.world/vocabularies/conductivity-methods/well_log> <http://www.w3.org/2004/02/skos/core#prefLabel> "Well-log"@en .
+<https://heatflow.world/vocabularies/conductivity-methods> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://heatflow.world/vocabularies/conductivity-methods> <http://www.w3.org/2004/02/skos/core#definition> "Methods used to calculate thermal conductivity in rock specimens or sections for the purpose of heat flow measurements."@en .
+<https://heatflow.world/vocabularies/conductivity-methods> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-methods/chlorineContent> .
+<https://heatflow.world/vocabularies/conductivity-methods> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-methods/laboratoryOther> .
+<https://heatflow.world/vocabularies/conductivity-methods> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-methods/lineSourceFull> .
+<https://heatflow.world/vocabularies/conductivity-methods> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-methods/lineSourceHalf> .
+<https://heatflow.world/vocabularies/conductivity-methods> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-methods/lithology> .
+<https://heatflow.world/vocabularies/conductivity-methods> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-methods/mineralComposition> .
+<https://heatflow.world/vocabularies/conductivity-methods> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-methods/planeSourceFull> .
+<https://heatflow.world/vocabularies/conductivity-methods> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-methods/planeSourceHalf> .
+<https://heatflow.world/vocabularies/conductivity-methods> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-methods/pointSource> .
+<https://heatflow.world/vocabularies/conductivity-methods> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-methods/probeContinuousHeating> .
+<https://heatflow.world/vocabularies/conductivity-methods> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-methods/probePulse> .
+<https://heatflow.world/vocabularies/conductivity-methods> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-methods/unspecified> .
+<https://heatflow.world/vocabularies/conductivity-methods> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-methods/waterContent> .
+<https://heatflow.world/vocabularies/conductivity-methods> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-methods/wellLogDeterministic> .
+<https://heatflow.world/vocabularies/conductivity-methods> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-methods/wellLogEmpirical> .
+<https://heatflow.world/vocabularies/conductivity-methods> <http://www.w3.org/2004/02/skos/core#prefLabel> "Conductivity methods"@en .

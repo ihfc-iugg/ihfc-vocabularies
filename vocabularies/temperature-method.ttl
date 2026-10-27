@@ -1,0 +1,239 @@
+PREFIX ghfdb: <https://heatflow.world/vocabularies/temperature-method/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+ghfdb:BHT
+    a skos:Concept ;
+    skos:definition "Bottom Hole Temperature, uncorrected."@en ;
+    skos:inScheme <https://heatflow.world/vocabularies/temperature-method> ;
+    skos:prefLabel "BHT"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-method> ;
+.
+
+ghfdb:BLK
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/temperature-method> ;
+    skos:prefLabel "BLK"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-method> ;
+.
+
+ghfdb:BSR
+    a skos:Concept ;
+    skos:definition "Temperature estimates from bottom-simulating seismic reflector."@en ;
+    skos:inScheme <https://heatflow.world/vocabularies/temperature-method> ;
+    skos:prefLabel "BSR"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-method> ;
+.
+
+ghfdb:CPD
+    a skos:Concept ;
+    skos:definition "Curie Point/Depth temperature estimates."@en ;
+    skos:inScheme <https://heatflow.world/vocabularies/temperature-method> ;
+    skos:prefLabel "CPD"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-method> ;
+.
+
+ghfdb:DTSeq
+    a skos:Concept ;
+    skos:definition "Distributed Temperature Sensing (DTS) in equilibrium conditions."@en ;
+    skos:inScheme <https://heatflow.world/vocabularies/temperature-method> ;
+    skos:prefLabel "DTSeq"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-method> ;
+.
+
+ghfdb:DTSpert
+    a skos:Concept ;
+    skos:definition "Distributed Temperature Sensing (DTS) in perturbed conditions."@en ;
+    skos:inScheme <https://heatflow.world/vocabularies/temperature-method> ;
+    skos:prefLabel "DTSpert"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-method> ;
+.
+
+ghfdb:EGRT
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/temperature-method> ;
+    skos:prefLabel "EGRT"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-method> ;
+.
+
+ghfdb:GRT
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/temperature-method> ;
+    skos:prefLabel "GRT"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-method> ;
+.
+
+ghfdb:GTM
+    a skos:Concept ;
+    skos:definition "Temperature estimates from geothermometry."@en ;
+    skos:inScheme <https://heatflow.world/vocabularies/temperature-method> ;
+    skos:prefLabel "GTM"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-method> ;
+.
+
+ghfdb:HT_FT
+    a skos:Concept ;
+    skos:definition "High-temperature fluid-temperature measurement in equilibrium conditions."@en ;
+    skos:inScheme <https://heatflow.world/vocabularies/temperature-method> ;
+    skos:prefLabel "HT-FTeq"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-method> ;
+.
+
+ghfdb:HT_FTpert
+    a skos:Concept ;
+    skos:definition "High-temperature fluid-temperature measurement in perturbed conditions."@en ;
+    skos:inScheme <https://heatflow.world/vocabularies/temperature-method> ;
+    skos:prefLabel "HT-FTpert"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-method> ;
+.
+
+ghfdb:LOGeq
+    a skos:Concept ;
+    skos:definition "Continuous temperature logging in borehole equilibrium using semiconductor transducer or thermistor probe."@en ;
+    skos:inScheme <https://heatflow.world/vocabularies/temperature-method> ;
+    skos:prefLabel "LOGeq"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-method> ;
+.
+
+ghfdb:LOGpert
+    a skos:Concept ;
+    skos:definition "Continuous temperature logging in a perturbed borehole using semiconductor transducer or thermistor probe."@en ;
+    skos:inScheme <https://heatflow.world/vocabularies/temperature-method> ;
+    skos:prefLabel "LOGpert"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-method> ;
+.
+
+ghfdb:ODTT_PC
+    a skos:Concept ;
+    skos:definition "Ocean Drilling Temperature Tool - piston corer."@en ;
+    skos:inScheme <https://heatflow.world/vocabularies/temperature-method> ;
+    skos:prefLabel "ODTT-PC"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-method> ;
+.
+
+ghfdb:ODTT_TP
+    a skos:Concept ;
+    skos:definition "Ocean Drilling Temperature Tool - thermistor probe."@en ;
+    skos:inScheme <https://heatflow.world/vocabularies/temperature-method> ;
+    skos:prefLabel "ODTT-TP"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-method> ;
+.
+
+ghfdb:RTDeq
+    a skos:Concept ;
+    skos:definition "Resistance Temperature Detector (RTD) measurement in equilibrium conditions."@en ;
+    skos:inScheme <https://heatflow.world/vocabularies/temperature-method> ;
+    skos:prefLabel "RTDeq"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-method> ;
+.
+
+ghfdb:RTDpert
+    a skos:Concept ;
+    skos:definition "Resistance Temperature Detector (RTD) measurement in perturbed conditions."@en ;
+    skos:inScheme <https://heatflow.world/vocabularies/temperature-method> ;
+    skos:prefLabel "RTDpert"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-method> ;
+.
+
+ghfdb:SUR
+    a skos:Concept ;
+    skos:definition "Surface temperature or bottom water temperature measurement."@en ;
+    skos:inScheme <https://heatflow.world/vocabularies/temperature-method> ;
+    skos:prefLabel "SUR"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-method> ;
+.
+
+ghfdb:XEN
+    a skos:Concept ;
+    skos:definition "Temperature estimates from xenoliths."@en ;
+    skos:inScheme <https://heatflow.world/vocabularies/temperature-method> ;
+    skos:prefLabel "XEN"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-method> ;
+.
+
+ghfdb:cBHT
+    a skos:Concept ;
+    skos:definition "Bottom Hole Temperature, corrected for perturbations."@en ;
+    skos:inScheme <https://heatflow.world/vocabularies/temperature-method> ;
+    skos:prefLabel "cBHT"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-method> ;
+.
+
+ghfdb:cDTS
+    a skos:Concept ;
+    skos:definition "Distributed Temperature Sensing (DTS) in perturbed conditions, corrected for perturbations."@en ;
+    skos:inScheme <https://heatflow.world/vocabularies/temperature-method> ;
+    skos:prefLabel "cDTS"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-method> ;
+.
+
+ghfdb:cHT_FT
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/temperature-method> ;
+    skos:prefLabel "cHT-FT"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-method> ;
+.
+
+ghfdb:cLOG
+    a skos:Concept ;
+    skos:definition "Continuous temperature logging in a perturbed borehole, corrected for perturbations."@en ;
+    skos:inScheme <https://heatflow.world/vocabularies/temperature-method> ;
+    skos:prefLabel "cLOG"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-method> ;
+.
+
+ghfdb:cRTD
+    a skos:Concept ;
+    skos:definition "Resistance Temperature Detector (RTD) measurement in perturbed conditions, corrected for perturbations."@en ;
+    skos:inScheme <https://heatflow.world/vocabularies/temperature-method> ;
+    skos:prefLabel "cRTD"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-method> ;
+.
+
+ghfdb:other
+    a skos:Concept ;
+    skos:definition "Other temperature determination method (must be specified in comments)."@en ;
+    skos:inScheme <https://heatflow.world/vocabularies/temperature-method> ;
+    skos:prefLabel "Other"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-method> ;
+.
+
+ghfdb:unspecified
+    a skos:Concept ;
+    skos:definition "Unspecified temperature determination method."@en ;
+    skos:inScheme <https://heatflow.world/vocabularies/temperature-method> ;
+    skos:prefLabel "Unspecified"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-method> ;
+.
+
+<https://heatflow.world/vocabularies/temperature-method>
+    a skos:ConceptScheme ;
+    skos:definition "Methods used to determine temperature for the purpose of deriving heat flow."@en ;
+    skos:hasTopConcept
+        ghfdb:BHT ,
+        ghfdb:BLK ,
+        ghfdb:BSR ,
+        ghfdb:CPD ,
+        ghfdb:DTSeq ,
+        ghfdb:DTSpert ,
+        ghfdb:EGRT ,
+        ghfdb:GRT ,
+        ghfdb:GTM ,
+        ghfdb:HT_FT ,
+        ghfdb:HT_FTpert ,
+        ghfdb:LOGeq ,
+        ghfdb:LOGpert ,
+        ghfdb:ODTT_PC ,
+        ghfdb:ODTT_TP ,
+        ghfdb:RTDeq ,
+        ghfdb:RTDpert ,
+        ghfdb:SUR ,
+        ghfdb:XEN ,
+        ghfdb:cBHT ,
+        ghfdb:cDTS ,
+        ghfdb:cHT_FT ,
+        ghfdb:cLOG ,
+        ghfdb:cRTD ,
+        ghfdb:other ,
+        ghfdb:unspecified ;
+    skos:prefLabel "Temperature determination method"@en ;
+.

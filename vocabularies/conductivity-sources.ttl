@@ -1,0 +1,118 @@
+PREFIX ghfdb: <https://heatflow.world/vocabularies/conductivity-sources/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+ghfdb:computation
+    a skos:Collection ;
+    skos:definition "Computed values"@en ;
+    skos:member
+        ghfdb:assumed_from_literature ,
+        ghfdb:mineral_computation ;
+    skos:prefLabel "Computation"@en ;
+.
+
+ghfdb:in_situ
+    a skos:Collection ;
+    skos:definition "In-situ measurements"@en ;
+    skos:member
+        ghfdb:insitu_probe ,
+        ghfdb:well_log ;
+    skos:prefLabel "In-situ"@en ;
+.
+
+ghfdb:laboratory
+    a skos:Collection ;
+    skos:definition "Laboratory measurements"@en ;
+    skos:member
+        ghfdb:core_log ,
+        ghfdb:core_samples ,
+        ghfdb:cutting_samples ,
+        ghfdb:outcrop_samples ;
+    skos:prefLabel "Laboratory"@en ;
+.
+
+ghfdb:other
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/conductivity-sources> ;
+    skos:prefLabel "Other"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-sources> ;
+.
+
+ghfdb:unspecified
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/conductivity-sources> ;
+    skos:prefLabel "Unspecified"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-sources> ;
+.
+
+ghfdb:assumed_from_literature
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/conductivity-sources> ;
+    skos:prefLabel "Assumed from literature"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-sources> ;
+.
+
+ghfdb:core_log
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/conductivity-sources> ;
+    skos:prefLabel "Core-log integration"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-sources> ;
+.
+
+ghfdb:core_samples
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/conductivity-sources> ;
+    skos:prefLabel "Core samples"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-sources> ;
+.
+
+ghfdb:cutting_samples
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/conductivity-sources> ;
+    skos:prefLabel "Cutting samples"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-sources> ;
+.
+
+ghfdb:insitu_probe
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/conductivity-sources> ;
+    skos:prefLabel "In-situ probe"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-sources> ;
+.
+
+ghfdb:mineral_computation
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/conductivity-sources> ;
+    skos:prefLabel "Mineral computation"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-sources> ;
+.
+
+ghfdb:outcrop_samples
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/conductivity-sources> ;
+    skos:prefLabel "Outcrop samples"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-sources> ;
+.
+
+ghfdb:well_log
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/conductivity-sources> ;
+    skos:prefLabel "Well-log interpretation"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-sources> ;
+.
+
+<https://heatflow.world/vocabularies/conductivity-sources>
+    a skos:ConceptScheme ;
+    skos:definition "Specification of the source of the thermal conductivity data."@en ;
+    skos:hasTopConcept
+        ghfdb:assumed_from_literature ,
+        ghfdb:core_log ,
+        ghfdb:core_samples ,
+        ghfdb:cutting_samples ,
+        ghfdb:insitu_probe ,
+        ghfdb:mineral_computation ,
+        ghfdb:other ,
+        ghfdb:outcrop_samples ,
+        ghfdb:unspecified ,
+        ghfdb:well_log ;
+    skos:prefLabel "conductivity sources"@en ;
+.

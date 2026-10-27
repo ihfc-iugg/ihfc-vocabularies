@@ -1,0 +1,233 @@
+[
+  {
+    "@id": "https://heatflow.world/vocabularies/conductivity-saturation/saturatedCalculated",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Thermal conductivity has been calculated from dry measured rocks, porosity and pore-filling fluid"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://heatflow.world/vocabularies/conductivity-saturation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Saturated calculated"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://heatflow.world/vocabularies/conductivity-saturation"
+      }
+    ]
+  },
+  {
+    "@id": "https://heatflow.world/vocabularies/conductivity-saturation/unspecified",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://heatflow.world/vocabularies/conductivity-saturation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Unspecified"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://heatflow.world/vocabularies/conductivity-saturation"
+      }
+    ]
+  },
+  {
+    "@id": "https://heatflow.world/vocabularies/conductivity-saturation/dryMeasured",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Rocks have been technically dried before measurement"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://heatflow.world/vocabularies/conductivity-saturation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Dry measured"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://heatflow.world/vocabularies/conductivity-saturation"
+      }
+    ]
+  },
+  {
+    "@id": "https://heatflow.world/vocabularies/conductivity-saturation/recovered",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "As recovered (rocks have been preserved and measured in close to their natural saturation state)."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://heatflow.world/vocabularies/conductivity-saturation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Recovered"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://heatflow.world/vocabularies/conductivity-saturation"
+      }
+    ]
+  },
+  {
+    "@id": "https://heatflow.world/vocabularies/conductivity-saturation/saturatedMeasured",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Saturated measured (rocks have been technically saturated completely before measurement)."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://heatflow.world/vocabularies/conductivity-saturation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Saturated measured"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://heatflow.world/vocabularies/conductivity-saturation"
+      }
+    ]
+  },
+  {
+    "@id": "https://heatflow.world/vocabularies/conductivity-saturation/other",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Other saturation state (must be specified in comments)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://heatflow.world/vocabularies/conductivity-saturation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Other"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://heatflow.world/vocabularies/conductivity-saturation"
+      }
+    ]
+  },
+  {
+    "@id": "https://heatflow.world/vocabularies/conductivity-saturation",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Specification of the saturation state of the rocks during the thermal conductivity measurement."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://heatflow.world/vocabularies/conductivity-saturation/dryMeasured"
+      },
+      {
+        "@id": "https://heatflow.world/vocabularies/conductivity-saturation/other"
+      },
+      {
+        "@id": "https://heatflow.world/vocabularies/conductivity-saturation/recovered"
+      },
+      {
+        "@id": "https://heatflow.world/vocabularies/conductivity-saturation/saturatedCalculated"
+      },
+      {
+        "@id": "https://heatflow.world/vocabularies/conductivity-saturation/saturatedInSitu"
+      },
+      {
+        "@id": "https://heatflow.world/vocabularies/conductivity-saturation/saturatedMeasured"
+      },
+      {
+        "@id": "https://heatflow.world/vocabularies/conductivity-saturation/unspecified"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Heat-flow specific conductivity saturation states"
+      }
+    ]
+  },
+  {
+    "@id": "https://heatflow.world/vocabularies/conductivity-saturation/saturatedInSitu",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Insitu saturated measured (measurements with probe sensing / marine measurements)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://heatflow.world/vocabularies/conductivity-saturation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Saturated measured in-situ"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://heatflow.world/vocabularies/conductivity-saturation"
+      }
+    ]
+  }
+]

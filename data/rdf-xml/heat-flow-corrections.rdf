@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-corrections">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:definition xml:lang="en">Generic flag choices for heat flow data.</skos:definition>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections/consideredP"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections/consideredPT"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections/consideredT"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections/corrected"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections/driftCorrected"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections/notConsidered"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections/notCorrected"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections/not_recognized"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections/present_corrected"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections/present_not_corrected"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections/present_not_significant"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections/tiltCorrected"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections/unspecified"/>
+    <skos:prefLabel xml:lang="en">Generic flag choices</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-corrections/insitu">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <skos:definition xml:lang="en">In-situ measurements</skos:definition>
+    <skos:member rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections/consideredP"/>
+    <skos:member rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections/consideredPT"/>
+    <skos:member rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections/consideredT"/>
+    <skos:member rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections/notConsidered"/>
+    <skos:member rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections/unspecified"/>
+    <skos:prefLabel xml:lang="en">In-situ</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-corrections/tiltCorrected">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections"/>
+    <skos:prefLabel xml:lang="en">Tilt corrected</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-corrections/consideredT">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections"/>
+    <skos:prefLabel xml:lang="en">Considered - t</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-corrections/notConsidered">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections"/>
+    <skos:prefLabel xml:lang="en">not considered</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-corrections/temperature">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <skos:definition xml:lang="en">Temperature measurements</skos:definition>
+    <skos:member rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections/corrected"/>
+    <skos:member rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections/driftCorrected"/>
+    <skos:member rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections/notCorrected"/>
+    <skos:member rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections/tiltCorrected"/>
+    <skos:member rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections/unspecified"/>
+    <skos:prefLabel xml:lang="en">Temperature</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-corrections/present_corrected">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections"/>
+    <skos:prefLabel xml:lang="en">Present and corrected</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-corrections/generic">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <skos:definition xml:lang="en">Generic flag choices for heat flow data</skos:definition>
+    <skos:member rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections/not_recognized"/>
+    <skos:member rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections/present_corrected"/>
+    <skos:member rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections/present_not_corrected"/>
+    <skos:member rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections/present_not_significant"/>
+    <skos:member rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections/unspecified"/>
+    <skos:prefLabel xml:lang="en">Generic</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-corrections/notCorrected">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections"/>
+    <skos:prefLabel xml:lang="en">not corrected</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-corrections/driftCorrected">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections"/>
+    <skos:prefLabel xml:lang="en">Drift corrected</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-corrections/consideredP">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections"/>
+    <skos:prefLabel xml:lang="en">Considered - p</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-corrections/unspecified">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections"/>
+    <skos:prefLabel xml:lang="en">unspecified</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-corrections/consideredPT">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections"/>
+    <skos:prefLabel xml:lang="en">Considered - pT</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-corrections/present_not_significant">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections"/>
+    <skos:prefLabel xml:lang="en">Present not significant</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-corrections/corrected">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections"/>
+    <skos:prefLabel xml:lang="en">Corrected</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-corrections/present_not_corrected">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections"/>
+    <skos:prefLabel xml:lang="en">Present and not corrected</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-corrections/not_recognized">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections"/>
+    <skos:prefLabel xml:lang="en">not recognized</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/heat-flow-corrections"/>
+  </rdf:Description>
+</rdf:RDF>

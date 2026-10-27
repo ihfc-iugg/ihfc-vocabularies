@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-probes/unspecified">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes"/>
+    <skos:prefLabel xml:lang="en">Unspecified</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-probes">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:definition xml:lang="en">Types of heat-flow probes used for collecting heat flow data, typically in marine settings.</skos:definition>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes/other"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes/outrigger_autonomous_no_corer"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes/outrigger_autonomous_with_corer"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes/outrigger_ewing"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes/outrigger_haenel"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes/outrigger_hybrid_lister_hylo"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes/outrigger_lister"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes/outrigger_von_herzen"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes/single_steel"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes/single_steel_insituTC"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes/submersible"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes/unspecified"/>
+    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes/violin_bow"/>
+    <skos:prefLabel xml:lang="en">Heat flow probe types</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-probes/outrigger_autonomous_with_corer">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes"/>
+    <skos:prefLabel xml:lang="en">Outrigger probe (autonomous) with corer</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-probes/outrigger_hybrid_lister_hylo">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes"/>
+    <skos:prefLabel xml:lang="en">Outrigger probe (Hybrid Lister) HyLO</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-probes/outrigger_von_herzen">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes"/>
+    <skos:prefLabel xml:lang="en">Outrigger probe (Von Herzen) in-situ TC</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-probes/violin_bow">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes"/>
+    <skos:prefLabel xml:lang="en">Violin-Bow probe (Lister)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-probes/single_steel">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes"/>
+    <skos:prefLabel xml:lang="en">Single Steel probe (Bullard)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-probes/outrigger_autonomous_no_corer">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes"/>
+    <skos:prefLabel xml:lang="en">Outrigger probe (autonomous) without corer</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-probes/submersible">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes"/>
+    <skos:prefLabel xml:lang="en">Submersible probe</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-probes/outrigger_lister">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes"/>
+    <skos:prefLabel xml:lang="en">Outrigger probe (Lister) with corer</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-probes/other">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes"/>
+    <skos:prefLabel xml:lang="en">Other (specify in comments)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-probes/outrigger_haenel">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes"/>
+    <skos:prefLabel xml:lang="en">Outrigger probe (Haenel) in-situ TC</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-probes/single_steel_insituTC">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes"/>
+    <skos:prefLabel xml:lang="en">Single Steel probe (Bullard) in-situ TC</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://heatflow.world/vocabularies/heat-flow-probes/outrigger_ewing">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes"/>
+    <skos:prefLabel xml:lang="en">Outrigger probe (Ewing) with corer</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/heat-flow-probes"/>
+  </rdf:Description>
+</rdf:RDF>

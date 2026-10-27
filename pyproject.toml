@@ -1,23 +1,28 @@
-[tool.poetry]
+[project]
 name = "ihfc-vocabularies"
-version = "2024.1"
-description = "A collection of SKOS-based vocabularies relevant to the study of Earth's heat flow."
-authors = ["Sam <samuel.scott.jennings@gmail.com>"]
-license = "CC-BY-4.0"
+version = "2026.1"
+description = "SKOS vocabularies for the scientific study of Earth's heat flow."
 readme = "README.md"
-packages = [{include = "heat_flow_vocabularies"}]
+license = "CC-BY-4.0 AND MIT"
+requires-python = ">=3.12"
+authors = [{ name = "Sam Jennings", email = "samuel.scott.jennings@gmail.com" }]
+dependencies = ["rdflib>=7.1"]
 
-[tool.poetry.dependencies]
-python = "^3.11"
-pandas = {extras = ["excel"], version = "^2.2.3"}
-rdflib = "^7.1.1"
-babel = "^2.16.0"
-rdflib-builder = {git = "https://github.com/SamuelJennings/skos-builder"}
+[dependency-groups]
+dev = ["pytest>=8", "pre-commit>=4"]
 
+[tool.uv]
+package = false
 
-[tool.poetry.group.dev.dependencies]
-invoke = "^2.2.0"
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["scripts"]
+# rdflib's JSON-LD parser uses its own deprecated ConjunctiveGraph.
+filterwarnings = ["ignore:ConjunctiveGraph is deprecated:DeprecationWarning"]
 
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
