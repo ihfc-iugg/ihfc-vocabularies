@@ -39,9 +39,8 @@ Each vocabulary is one file in `vocabularies/`, and its address is
 ## Using the vocabularies
 
 The Turtle files in `vocabularies/` are the source. Each
-[release](https://github.com/ihfc-iugg/ihfc-vocabularies/releases) also carries an archive,
-`ihfc-vocabularies-<version>.zip`, with every vocabulary in four formats. All the files sit in one
-directory and differ only by extension:
+[release](https://github.com/ihfc-iugg/ihfc-vocabularies/releases) also carries every vocabulary in
+four formats, as separate files that differ only by extension:
 
 | Format | Extension |
 | --- | --- |
@@ -49,6 +48,18 @@ directory and differ only by extension:
 | RDF/XML | `.rdf` |
 | JSON-LD | `.jsonld` |
 | N-Triples | `.nt` |
+
+Each file has its own link. A link with a version always returns that release's file:
+
+```text
+https://github.com/ihfc-iugg/ihfc-vocabularies/releases/download/v2026.1/heat-flow-method.jsonld
+```
+
+A link with `latest` always returns the file from the newest release:
+
+```text
+https://github.com/ihfc-iugg/ihfc-vocabularies/releases/latest/download/heat-flow-method.jsonld
+```
 
 Any RDF library can read them. For example, with [rdflib](https://rdflib.readthedocs.io):
 

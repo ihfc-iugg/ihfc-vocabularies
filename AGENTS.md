@@ -48,7 +48,8 @@ Required status checks (exact names): `["Check vocabularies"]`, from `.github/wo
    notes in `CHANGELOG.md` under a heading for that version.
 2. Merge that change, then publish a GitHub Release tagged `v<year>.<release>`.
 3. `.github/workflows/publish.yml` checks the tag against the version, runs the checks, and
-   attaches `ihfc-vocabularies-<version>.zip` to the release.
+   attaches every vocabulary in every format, and the CC BY 4.0 licence, to the release as
+   separate files.
 
 ## Automated contributions
 
