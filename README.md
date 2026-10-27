@@ -108,6 +108,7 @@ uv run pytest
 The checks confirm that every file parses and that:
 
 - each file holds one vocabulary, named after the file, with an English label and description
+- each vocabulary names its creator, publisher, licence and sources, and cites each source
 - every concept belongs to its vocabulary, has one English label, and has an address under the vocabulary's address
 - no two concepts in a vocabulary share a label
 - every label and definition has a language tag and is not empty

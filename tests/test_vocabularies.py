@@ -17,7 +17,7 @@ from build_vocabularies import (
 )
 from rdflib import RDF, Literal, URIRef
 from rdflib.compare import isomorphic
-from rdflib.namespace import DCTERMS, SKOS
+from rdflib.namespace import DCTERMS, FOAF, SKOS
 
 SOURCES = source_files()
 LABELLED_TYPES = (SKOS.ConceptScheme, SKOS.Concept, SKOS.Collection)
@@ -59,6 +59,25 @@ class TestScheme:
         for predicate in (SKOS.prefLabel, DCTERMS.description):
             values = [value.language for value in graph.objects(scheme, predicate)]
             assert "en" in values, f"scheme has no English {predicate}"
+
+    @pytest.mark.parametrize(
+        "predicate",
+        [DCTERMS.creator, DCTERMS.publisher, DCTERMS.license, DCTERMS.source],
+        ids=lambda predicate: predicate.split("/")[-1],
+    )
+    def test_states_its_provenance(self, graph, scheme, predicate):
+        assert (scheme, predicate, None) in graph
+
+    def test_names_its_creator_and_publisher(self, graph, scheme):
+        for predicate in (DCTERMS.creator, DCTERMS.publisher):
+            for agent in graph.objects(scheme, predicate):
+                assert (agent, FOAF.name, None) in graph, f"{agent} has no name"
+
+    def test_cites_its_sources(self, graph, scheme):
+        for source in graph.objects(scheme, DCTERMS.source):
+            assert (source, DCTERMS.bibliographicCitation, None) in graph, (
+                f"{source} has no citation"
+            )
 
 
 class TestConcepts:

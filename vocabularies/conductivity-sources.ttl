@@ -1,6 +1,8 @@
 PREFIX : <https://portal.heatflow.world/vocabularies/conductivity-sources/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX ihfc: <https://portal.heatflow.world/vocabularies/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :computation
@@ -32,6 +34,16 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     skos:prefLabel "Laboratory"@en ;
 .
 
+<https://doi.org/10.1016/j.tecto.2023.229976>
+    a dcterms:BibliographicResource ;
+    dcterms:bibliographicCitation "Fuchs, S., Norden, B., Neumann, F., Kaul, N., Tanaka, A., Kukkonen, I. T., et al. (2023). Quality-assurance of heat-flow data: The new structure and evaluation scheme of the IHFC Global Heat Flow Database. Tectonophysics, 863, 229976."@en ;
+.
+
+<https://doi.org/10.31214/ijthfa.v4i1.62>
+    a dcterms:BibliographicResource ;
+    dcterms:bibliographicCitation "Fuchs, S., Beardsmore, G., Chiozzi, P., Espinoza-Ojeda, O. M., Gola, G., Gosnold, W., Harris, R., Jennings, S., Liu, S., Negrete-Aranda, R., Neumann, F., Norden, B., Poort, J., Rajver, D., Ray, L., Richards, M., Smith, J., Tanaka, A., and Verdoya, M. (2021). A new database structure for the IHFC Global Heat Flow Database. International Journal of Terrestrial Heat Flow and Applied Geothermics, 4(1), 1–14."@en ;
+.
+
 :other
     a skos:Concept ;
     skos:inScheme ihfc:conductivity-sources ;
@@ -44,6 +56,18 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     skos:inScheme ihfc:conductivity-sources ;
     skos:prefLabel "Unspecified"@en ;
     skos:topConceptOf ihfc:conductivity-sources ;
+.
+
+<https://ror.org/04z8jg394>
+    a foaf:Organization ;
+    foaf:homepage <https://www.gfz.de/en/> ;
+    foaf:name "GFZ Helmholtz Centre for Geosciences"@en ;
+.
+
+<https://ihfc-iugg.org/>
+    a foaf:Organization ;
+    foaf:homepage <https://ihfc-iugg.org/> ;
+    foaf:name "International Heat Flow Commission"@en ;
 .
 
 :assumed_from_literature
@@ -104,7 +128,15 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 ihfc:conductivity-sources
     a skos:ConceptScheme ;
+    dcterms:creator <https://ihfc-iugg.org/> ;
     dcterms:description "The material or data the thermal conductivity values were obtained from, such as core samples, well logs or the literature."@en ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:publisher <https://ror.org/04z8jg394> ;
+    dcterms:source
+        <https://doi.org/10.1016/j.tecto.2023.229976> ,
+        <https://doi.org/10.31214/ijthfa.v4i1.62> ;
+    rdfs:seeAlso <https://github.com/ihfc-iugg/ihfc-vocabularies> ;
     skos:hasTopConcept
         :assumed_from_literature ,
         :core_log ,
@@ -117,4 +149,5 @@ ihfc:conductivity-sources
         :unspecified ,
         :well_log ;
     skos:prefLabel "Thermal conductivity sources"@en ;
+    skos:scopeNote "Lists the values allowed in the field tc_source of the Global Heat Flow Database."@en ;
 .

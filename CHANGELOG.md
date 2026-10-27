@@ -17,6 +17,9 @@ All notable changes to the vocabularies are recorded here. Versions are calendar
   `heat-flow-corrections`, `exploration-methods`, `temperature-corrections`).
 - Every vocabulary has an English label and a `dcterms:description`. The descriptions taken
   from the portal were corrected for grammar and checked against the concepts they cover.
+- Every vocabulary names its creator (the International Heat Flow Commission), its publisher
+  (GFZ Helmholtz Centre for Geosciences), its licence, its language, the publications its values
+  come from, and the Global Heat Flow Database fields that use it.
 - Every concept now names its vocabulary (`skos:inScheme`), and every vocabulary lists its top
   concepts.
 - The onshore geographic environments and the correction flags each named a concept that
