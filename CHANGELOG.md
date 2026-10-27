@@ -28,6 +28,7 @@ All notable changes to the vocabularies are recorded here. Versions are calendar
 
 ### Added
 
+- Definitions, alternative labels and corrected labels for every concept in the heat-flow method, probe type, geographic environment, exploration method, exploration purpose and correction flag vocabularies.
 - Each release carries every vocabulary in Turtle, RDF/XML, JSON-LD and N-Triples, each as its
   own file with its own download link.
 - Checks that run on every pull request.
