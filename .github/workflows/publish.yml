@@ -1,7 +1,9 @@
 name: Publish
 
 # Publishes a release with every vocabulary, in every format, attached as its own
-# file, so every format of every version has a direct download link.
+# file, so every format of every version has a direct download link. A release
+# archive, ihfc-vocabularies-<version>.zip, holds the same files with the README,
+# contributors, changelog and licence.
 #
 # Run it from the Actions tab to release the default branch. The version is
 # worked out from the current year and the last release: the first release of a
@@ -71,6 +73,14 @@ jobs:
         run: |
           uv run python scripts/build_vocabularies.py --export dist
           cp LICENSE-CC-BY-4.0 dist/
+      - name: Build the release archive
+        run: |
+          name="ihfc-vocabularies-${TAG#v}"
+          mkdir -p "archive/$name/vocabularies"
+          cp dist/*.ttl dist/*.rdf dist/*.jsonld dist/*.nt "archive/$name/vocabularies/"
+          cp README.md CONTRIBUTORS.md CHANGELOG.md "archive/$name/"
+          cp LICENSE-CC-BY-4.0 "archive/$name/LICENSE"
+          (cd archive && zip -qr "../dist/$name.zip" "$name")
       - name: Attach the files to the release
         env:
           GH_TOKEN: ${{ github.token }}
