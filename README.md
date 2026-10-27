@@ -38,14 +38,28 @@ Each vocabulary is one file in `vocabularies/`, and its address is
 
 ## Using the vocabularies
 
-The Turtle files in `vocabularies/` are the source. The same vocabularies are under `data/` in
-three more RDF formats:
+The Turtle files in `vocabularies/` are the source. Each
+[release](https://github.com/ihfc-iugg/ihfc-vocabularies/releases) also carries every vocabulary in
+four formats, as separate files that differ only by extension:
 
-| Format | Folder |
+| Format | Extension |
 | --- | --- |
-| RDF/XML | `data/rdf-xml/*.rdf` |
-| JSON-LD | `data/json-ld/*.jsonld` |
-| N-Triples | `data/n-triples/*.nt` |
+| Turtle | `.ttl` |
+| RDF/XML | `.rdf` |
+| JSON-LD | `.jsonld` |
+| N-Triples | `.nt` |
+
+Each file has its own link. A link with a version always returns that release's file:
+
+```text
+https://github.com/ihfc-iugg/ihfc-vocabularies/releases/download/v2026.1/heat-flow-method.jsonld
+```
+
+A link with `latest` always returns the file from the newest release:
+
+```text
+https://github.com/ihfc-iugg/ihfc-vocabularies/releases/latest/download/heat-flow-method.jsonld
+```
 
 Any RDF library can read them. For example, with [rdflib](https://rdflib.readthedocs.io):
 
@@ -72,7 +86,7 @@ the vocabularies at their addresses either: the Global Heat Flow Database portal
 
 **When in doubt:**
 
-- The Turtle file is the truth. Everything under `data/` is derived from it.
+- The Turtle file is the truth. Every other format is derived from it.
 - Data that already refers to a concept matters more than tidiness. Correct a label or a
   definition, but never change what a published address means.
 - A translation is another language-tagged label on the same concept, never a separate file.
@@ -83,7 +97,7 @@ Suggestions and corrections are welcome. Please open an issue to discuss a chang
 pull request.
 
 To change a vocabulary, edit its file in `vocabularies/`, then rewrite it in its fixed layout and
-regenerate the exports:
+run the checks:
 
 ```bash
 uv sync
@@ -98,7 +112,7 @@ The checks confirm that every file parses and that:
 - no two concepts in a vocabulary share a label
 - every label and definition has a language tag and is not empty
 - every concept a collection or relationship names exists
-- every export matches its source file
+- every vocabulary can be written in every release format without losing anything
 
 The rules behind these checks are in [`CONSTITUTION.md`](CONSTITUTION.md), and the words used for
 the parts of a vocabulary are in [`CONTEXT.md`](CONTEXT.md).
@@ -111,7 +125,7 @@ Forschungsgemeinschaft (DFG), project number 491795283.
 
 ## License
 
-The vocabularies, in `vocabularies/` and `data/`, are licensed under the
+The vocabularies, in `vocabularies/` and in every release archive, are licensed under the
 [Creative Commons Attribution 4.0 International License](https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/LICENSE-CC-BY-4.0).
 The script and tests are licensed under the
 [MIT License](https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/LICENSE).

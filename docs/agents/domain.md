@@ -15,7 +15,6 @@ This is a single-context repo. There is no `CONTEXT-MAP.md`.
 ```
 /
 ├── vocabularies/           ← the source files, one vocabulary each, edited by hand
-├── data/                   ← exports in RDF/XML, JSON-LD and N-Triples, generated
 ├── scripts/                ← build_vocabularies.py
 ├── tests/                  ← the checks every vocabulary must pass
 ├── CONTEXT.md              ← glossary

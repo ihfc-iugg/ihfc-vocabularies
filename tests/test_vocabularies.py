@@ -11,7 +11,7 @@ from build_vocabularies import (
     BASE_URL,
     EXPORT_FORMATS,
     canonical_turtle,
-    export_path,
+    export,
     load,
     source_files,
 )
@@ -131,21 +131,26 @@ class TestConcepts:
         assert not missing
 
 
-@pytest.mark.parametrize("folder", EXPORT_FORMATS)
-def test_export_matches_its_source(source, graph, folder):
-    target = export_path(source, folder)
-    assert target.exists(), f"{target.name} is missing"
-    assert isomorphic(graph, load(target, EXPORT_FORMATS[folder][0])), (
-        "run `uv run python scripts/build_vocabularies.py` to regenerate it"
-    )
+@pytest.fixture(scope="module")
+def exported(tmp_path_factory):
+    directory = tmp_path_factory.mktemp("export")
+    export(directory)
+    return directory
 
 
-def test_every_export_has_a_source():
-    stems = {path.stem for path in SOURCES}
-    orphans = [
-        path
-        for folder in EXPORT_FORMATS
-        for path in export_path(SOURCES[0], folder).parent.iterdir()
-        if path.stem not in stems
-    ]
-    assert not orphans
+class TestExport:
+    @pytest.mark.parametrize("extension", EXPORT_FORMATS)
+    def test_holds_the_same_graph_as_its_source(
+        self, exported, source, graph, extension
+    ):
+        target = exported / f"{source.stem}{extension}"
+        assert isomorphic(graph, load(target))
+
+    def test_writes_one_file_per_vocabulary_and_format(self, exported):
+        written = sorted(path.name for path in exported.iterdir())
+        expected = sorted(
+            f"{path.stem}{extension}"
+            for path in SOURCES
+            for extension in EXPORT_FORMATS
+        )
+        assert written == expected

@@ -1,7 +1,5 @@
-# The files under data/ are generated, and the files under vocabularies/ are kept in rdflib's
-# own layout by scripts/build_vocabularies.py. The whitespace hooks leave both alone.
-exclude: "^data/"
-
+# The files under vocabularies/ are kept in rdflib's own layout by
+# scripts/build_vocabularies.py, so the whitespace hooks leave them alone.
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
