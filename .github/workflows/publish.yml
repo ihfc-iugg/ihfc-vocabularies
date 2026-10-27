@@ -1,36 +1,68 @@
 name: Publish
 
-# Attaches every vocabulary, in every format, to a published GitHub Release, each as its
-# own file so every format of every version has a direct download link.
-# The release tag must be the version in pyproject.toml with a leading "v".
+# Publishes a release with every vocabulary, in every format, attached as its own
+# file, so every format of every version has a direct download link.
+#
+# Run it from the Actions tab to release the default branch. The version is
+# worked out from the current year and the last release: the first release of a
+# year is v<year>.1, and each later one adds 1 (v2026.1, v2026.2, then v2027.1).
+# The notes under [Unreleased] in CHANGELOG.md become the release notes.
+#
+# A release published by hand on GitHub also runs it, to attach the files. Its
+# tag must have the same v<year>.<release> form.
 
 on:
+  workflow_dispatch:
   release:
     types: [published]
 
 permissions:
   contents: write
 
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
 jobs:
   publish:
-    name: Attach the vocabularies to the release
+    name: Publish the vocabularies
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
       - uses: astral-sh/setup-uv@v10.3.0
       - run: uv sync --locked
-      - name: Check the tag matches the version
-        env:
-          TAG: ${{ github.event.release.tag_name }}
-        run: |
-          version="$(uv version --short)"
-          if [ "$TAG" != "v$version" ]; then
-            echo "Release tag $TAG does not match version v$version in pyproject.toml"
-            exit 1
-          fi
-          echo "VERSION=$version" >> "$GITHUB_ENV"
       - name: Check the vocabularies
         run: uv run pytest
+      - name: Work out the release tag
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASED_TAG: ${{ github.event.release.tag_name }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          if [ -n "$RELEASED_TAG" ]; then
+            if ! echo "$RELEASED_TAG" | grep -Eq '^v[0-9]{4}\.[1-9][0-9]*$'; then
+              echo "Release tag $RELEASED_TAG is not of the form v<year>.<release>"
+              exit 1
+            fi
+            echo "TAG=$RELEASED_TAG" >> "$GITHUB_ENV"
+            exit 0
+          fi
+          if [ "$GITHUB_REF" != "refs/heads/$DEFAULT_BRANCH" ]; then
+            echo "Releases are made from $DEFAULT_BRANCH; this run is on $GITHUB_REF"
+            exit 1
+          fi
+          year="$(date -u +%Y)"
+          last="$(gh release list --repo "$GITHUB_REPOSITORY" --limit 1000 \
+            --json tagName --jq '.[].tagName' \
+            | sed -n "s/^v$year\.\([0-9][0-9]*\)$/\1/p" | sort -n | tail -1)"
+          echo "TAG=v$year.$(( ${last:-0} + 1 ))" >> "$GITHUB_ENV"
+      - name: Create the release
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          awk '/^## \[Unreleased\]/{found=1; next} /^## \[/{found=0} found' CHANGELOG.md > notes.md
+          gh release create "$TAG" --target "$GITHUB_SHA" --title "${TAG#v}" --notes-file notes.md
       - name: Export the vocabularies
         run: |
           uv run python scripts/build_vocabularies.py --export dist
@@ -38,5 +70,4 @@ jobs:
       - name: Attach the files to the release
         env:
           GH_TOKEN: ${{ github.token }}
-          TAG: ${{ github.event.release.tag_name }}
         run: gh release upload "$TAG" dist/* --clobber

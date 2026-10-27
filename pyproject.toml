@@ -1,6 +1,8 @@
 [project]
 name = "ihfc-vocabularies"
-version = "2026.1"
+# The release version is the tag the Publish workflow creates (<year>.<release>), not this
+# field. It is required by the [project] table and never changes.
+version = "0"
 description = "SKOS vocabularies for the scientific study of Earth's heat flow."
 readme = "README.md"
 license = "CC-BY-4.0 AND MIT"

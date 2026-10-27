@@ -44,14 +44,16 @@ Required status checks (exact names): `["Check vocabularies"]`, from `.github/wo
 
 ## Releasing
 
-1. Set the new calendar version with `uv version <year>.<release>`, and move the `[Unreleased]`
-   notes in `CHANGELOG.md` under a heading for that version.
-2. Merge that change, then publish a GitHub Release tagged `v<year>.<release>`.
-3. `.github/workflows/publish.yml` checks the tag against the version, runs the checks, and
-   attaches every vocabulary in every format, and the CC BY 4.0 licence, to the release as
-   separate files.
-4. To attach the files again, for example after a failed run, run the Publish workflow from
-   the Actions tab with the release's tag, or with no tag for the latest release.
+Never create a release, a tag or a Publish run yourself. Releases are made by a maintainer.
+When a change is ready to release, tell the user to run the **Publish** workflow from the
+repository's Actions tab, on `main`. That run works out the next version (`v<year>.<release>`),
+runs the checks, creates the release with the `[Unreleased]` notes from `CHANGELOG.md`, and
+attaches every vocabulary in every format.
+
+After a release, the `[Unreleased]` notes in `CHANGELOG.md` move under a heading for the
+released version. That is an ordinary pull request.
+
+The version is the release tag alone; it is not recorded in `pyproject.toml`.
 
 ## Automated contributions
 
