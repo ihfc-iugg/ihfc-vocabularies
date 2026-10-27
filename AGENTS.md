@@ -44,16 +44,16 @@ Required status checks (exact names): `["Check vocabularies"]`, from `.github/wo
 
 ## Releasing
 
-1. Run the Publish workflow from the Actions tab, on `main`. It works out the next version
-   from the current year and the last release (`v2026.1`, `v2026.2`, then `v2027.1` in a new
-   year), runs the checks, creates the release with the `[Unreleased]` notes from
-   `CHANGELOG.md`, and attaches every vocabulary in every format and the CC BY 4.0 licence as
-   separate files.
-2. Then move the `[Unreleased]` notes in `CHANGELOG.md` under a heading for that version.
+Never create a release, a tag or a Publish run yourself. Releases are made by a maintainer.
+When a change is ready to release, tell the user to run the **Publish** workflow from the
+repository's Actions tab, on `main`. That run works out the next version (`v<year>.<release>`),
+runs the checks, creates the release with the `[Unreleased]` notes from `CHANGELOG.md`, and
+attaches every vocabulary in every format.
 
-A release published by hand on GitHub also runs the workflow, which attaches the files to it.
-Its tag must have the form `v<year>.<release>`. The version is the release tag alone; it is
-not recorded in `pyproject.toml`.
+After a release, the `[Unreleased]` notes in `CHANGELOG.md` move under a heading for the
+released version. That is an ordinary pull request.
+
+The version is the release tag alone; it is not recorded in `pyproject.toml`.
 
 ## Automated contributions
 
