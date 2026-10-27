@@ -50,6 +50,8 @@ Required status checks (exact names): `["Check vocabularies"]`, from `.github/wo
 3. `.github/workflows/publish.yml` checks the tag against the version, runs the checks, and
    attaches every vocabulary in every format, and the CC BY 4.0 licence, to the release as
    separate files.
+4. To attach the files again, for example after a failed run, run the Publish workflow from
+   the Actions tab with the release's tag, or with no tag for the latest release.
 
 ## Automated contributions
 
