@@ -17,7 +17,7 @@ from build_vocabularies import (
 )
 from rdflib import RDF, Literal, URIRef
 from rdflib.compare import isomorphic
-from rdflib.namespace import DCTERMS, SKOS
+from rdflib.namespace import DCTERMS, FOAF, SKOS
 
 SOURCES = source_files()
 LABELLED_TYPES = (SKOS.ConceptScheme, SKOS.Concept, SKOS.Collection)
@@ -59,6 +59,30 @@ class TestScheme:
         for predicate in (SKOS.prefLabel, DCTERMS.description):
             values = [value.language for value in graph.objects(scheme, predicate)]
             assert "en" in values, f"scheme has no English {predicate}"
+
+    @pytest.mark.parametrize(
+        "predicate",
+        [DCTERMS.creator, DCTERMS.publisher, DCTERMS.license, DCTERMS.source],
+        ids=lambda predicate: predicate.split("/")[-1],
+    )
+    def test_states_its_provenance(self, graph, scheme, predicate):
+        assert (scheme, predicate, None) in graph
+
+    def test_names_its_creator_and_publisher(self, graph, scheme):
+        for predicate in (DCTERMS.creator, DCTERMS.publisher):
+            for agent in graph.objects(scheme, predicate):
+                assert (agent, FOAF.name, None) in graph, f"{agent} has no name"
+
+    def test_cites_its_sources_and_publication(self, graph, scheme):
+        assert (scheme, DCTERMS.isPartOf, None) in graph
+        cited = [
+            *graph.objects(scheme, DCTERMS.source),
+            *graph.objects(scheme, DCTERMS.isPartOf),
+        ]
+        for source in cited:
+            assert (source, DCTERMS.bibliographicCitation, None) in graph, (
+                f"{source} has no citation"
+            )
 
 
 class TestConcepts:
@@ -108,9 +132,16 @@ class TestConcepts:
         wrong = [
             (subject, predicate)
             for subject, predicate, value in graph
-            if isinstance(value, Literal) and (not value.language or not value.strip())
+            if isinstance(value, Literal)
+            and predicate != SKOS.notation
+            and (not value.language or not value.strip())
         ]
         assert not wrong
+
+    def test_notations_have_no_language_and_are_unique(self, graph):
+        notations = [value for value in graph.objects(None, SKOS.notation)]
+        assert not [value for value in notations if value.language]
+        assert len(notations) == len(set(notations))
 
     def test_collection_members_exist(self, graph):
         missing = [
@@ -129,6 +160,42 @@ class TestConcepts:
             if (target, RDF.type, SKOS.Concept) not in graph
         ]
         assert not missing
+
+    @pytest.mark.parametrize(
+        ("predicate", "inverse"),
+        [
+            (SKOS.broader, SKOS.narrower),
+            (SKOS.narrower, SKOS.broader),
+            (SKOS.related, SKOS.related),
+        ],
+        ids=["broader", "narrower", "related"],
+    )
+    def test_relationships_are_stated_both_ways(self, graph, predicate, inverse):
+        one_way = [
+            (subject, target)
+            for subject, target in graph.subject_objects(predicate)
+            if (target, inverse, subject) not in graph
+        ]
+        assert not one_way
+
+    def test_top_concepts_are_exactly_those_without_a_broader_concept(
+        self, graph, scheme
+    ):
+        concepts = set(graph.subjects(RDF.type, SKOS.Concept))
+        without_broader = {c for c in concepts if (c, SKOS.broader, None) not in graph}
+        top = set(graph.objects(scheme, SKOS.hasTopConcept))
+        top_of = set(graph.subjects(SKOS.topConceptOf, scheme))
+        assert top == without_broader
+        assert top_of == without_broader
+
+    def test_related_concepts_are_not_also_in_a_hierarchy(self, graph):
+        clashes = [
+            (subject, target)
+            for subject, target in graph.subject_objects(SKOS.related)
+            if (subject, SKOS.broader, target) in graph
+            or (subject, SKOS.narrower, target) in graph
+        ]
+        assert not clashes
 
 
 @pytest.fixture(scope="module")

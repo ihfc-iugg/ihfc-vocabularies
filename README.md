@@ -108,14 +108,23 @@ uv run pytest
 The checks confirm that every file parses and that:
 
 - each file holds one vocabulary, named after the file, with an English label and description
+- each vocabulary names its creator, publisher, licence and sources, and the data publication it is part of, and cites each
 - every concept belongs to its vocabulary, has one English label, and has an address under the vocabulary's address
 - no two concepts in a vocabulary share a label
 - every label and definition has a language tag and is not empty
 - every concept a collection or relationship names exists
+- `skos:broader`, `skos:narrower` and `skos:related` are stated in both directions, and the top concepts are exactly those with no broader concept
+- codes in `skos:notation` are unique within a vocabulary
 - every vocabulary can be written in every release format without losing anything
 
 The rules behind these checks are in [`CONSTITUTION.md`](CONSTITUTION.md), and the words used for
 the parts of a vocabulary are in [`CONTEXT.md`](CONTEXT.md).
+
+## How to cite
+
+Jennings, Samuel; Neumann, Florian; Norden, Ben; Balkan-Pazvantoğlu, Elif; Elbarbary, Samah;
+Petrunin, Alexey G.; Elger, Kirsten; Fuchs, Sven (2026): IHFC Controlled Vocabularies for the
+Global Heat Flow Database. GFZ Data Services. https://doi.org/10.5880/fidgeo.2026.065
 
 ## Attribution
 

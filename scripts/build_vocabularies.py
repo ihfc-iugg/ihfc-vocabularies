@@ -16,7 +16,7 @@ import argparse
 from pathlib import Path
 
 from rdflib import Graph
-from rdflib.namespace import DCTERMS, OWL, RDF, SKOS
+from rdflib.namespace import DCTERMS, FOAF, OWL, RDF, RDFS, SKOS
 
 ROOT = Path(__file__).resolve().parent.parent
 SOURCE_DIR = ROOT / "vocabularies"
@@ -58,6 +58,8 @@ def with_prefixes(graph, name):
     prefixed.bind("skos", SKOS)
     prefixed.bind("dcterms", DCTERMS)
     prefixed.bind("owl", OWL)
+    prefixed.bind("rdfs", RDFS)
+    prefixed.bind("foaf", FOAF)
     return prefixed
 
 
