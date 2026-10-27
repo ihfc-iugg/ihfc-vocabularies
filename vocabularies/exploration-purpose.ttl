@@ -5,11 +5,6 @@ PREFIX ihfc: <https://portal.heatflow.world/vocabularies/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-<https://doi.org/10.1016/j.tecto.2023.229976>
-    a dcterms:BibliographicResource ;
-    dcterms:bibliographicCitation "Fuchs, S., Norden, B., Neumann, F., Kaul, N., Tanaka, A., Kukkonen, I. T., et al. (2023). Quality-assurance of heat-flow data: The new structure and evaluation scheme of the IHFC Global Heat Flow Database. Tectonophysics, 863, 229976."@en ;
-.
-
 <https://doi.org/10.31214/ijthfa.v4i1.62>
     a dcterms:BibliographicResource ;
     dcterms:bibliographicCitation "Fuchs, S., Beardsmore, G., Chiozzi, P., Espinoza-Ojeda, O. M., Gola, G., Gosnold, W., Harris, R., Jennings, S., Liu, S., Negrete-Aranda, R., Neumann, F., Norden, B., Poort, J., Rajver, D., Ray, L., Richards, M., Smith, J., Tanaka, A., and Verdoya, M. (2021). A new database structure for the IHFC Global Heat Flow Database. International Journal of Terrestrial Heat Flow and Applied Geothermics, 4(1), 1–14."@en ;
@@ -23,6 +18,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :geothermal
     a skos:Concept ;
+    skos:definition "The excavation was made to find or produce geothermal energy."@en ;
     skos:inScheme ihfc:exploration-purpose ;
     skos:prefLabel "Geothermal"@en ;
     skos:topConceptOf ihfc:exploration-purpose ;
@@ -30,6 +26,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :groundwater
     a skos:Concept ;
+    skos:definition "The excavation was made to find, monitor or produce groundwater."@en ;
     skos:inScheme ihfc:exploration-purpose ;
     skos:prefLabel "Groundwater"@en ;
     skos:topConceptOf ihfc:exploration-purpose ;
@@ -37,6 +34,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :hydrocarbon
     a skos:Concept ;
+    skos:definition "The excavation was made to find or produce oil or gas."@en ;
     skos:inScheme ihfc:exploration-purpose ;
     skos:prefLabel "Hydrocarbon"@en ;
     skos:topConceptOf ihfc:exploration-purpose ;
@@ -44,6 +42,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :mapping
     a skos:Concept ;
+    skos:definition "The excavation was made to map the geology or subsurface conditions of an area."@en ;
     skos:inScheme ihfc:exploration-purpose ;
     skos:prefLabel "Mapping"@en ;
     skos:topConceptOf ihfc:exploration-purpose ;
@@ -51,6 +50,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :mining
     a skos:Concept ;
+    skos:definition "The excavation was made to find or extract mineral resources."@en ;
     skos:inScheme ihfc:exploration-purpose ;
     skos:prefLabel "Mining"@en ;
     skos:topConceptOf ihfc:exploration-purpose ;
@@ -58,6 +58,8 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :other
     a skos:Concept ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "A purpose not listed here. The contributor names it in the comments."@en ;
     skos:inScheme ihfc:exploration-purpose ;
     skos:prefLabel "Other"@en ;
     skos:topConceptOf ihfc:exploration-purpose ;
@@ -65,6 +67,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :research
     a skos:Concept ;
+    skos:definition "The excavation was made for scientific research."@en ;
     skos:inScheme ihfc:exploration-purpose ;
     skos:prefLabel "Research"@en ;
     skos:topConceptOf ihfc:exploration-purpose ;
@@ -72,6 +75,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :tunneling
     a skos:Concept ;
+    skos:definition "The excavation was made to build a tunnel."@en ;
     skos:inScheme ihfc:exploration-purpose ;
     skos:prefLabel "Tunneling"@en ;
     skos:topConceptOf ihfc:exploration-purpose ;
@@ -79,6 +83,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :underground_storage
     a skos:Concept ;
+    skos:definition "The excavation was made to store material underground, such as gas or carbon dioxide."@en ;
     skos:inScheme ihfc:exploration-purpose ;
     skos:prefLabel "Underground storage"@en ;
     skos:topConceptOf ihfc:exploration-purpose ;
@@ -86,6 +91,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :unspecified
     a skos:Concept ;
+    skos:definition "The purpose of the excavation is not stated or not known."@en ;
     skos:inScheme ihfc:exploration-purpose ;
     skos:prefLabel "Unspecified"@en ;
     skos:topConceptOf ihfc:exploration-purpose ;
@@ -95,6 +101,11 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a foaf:Organization ;
     foaf:homepage <https://www.gfz.de/en/> ;
     foaf:name "GFZ Helmholtz Centre for Geosciences"@en ;
+.
+
+<https://doi.org/10.1016/j.tecto.2023.229976>
+    a dcterms:BibliographicResource ;
+    dcterms:bibliographicCitation "Fuchs, S., Norden, B., Neumann, F., Kaul, N., Tanaka, A., Kukkonen, I. T., et al. (2023). Quality-assurance of heat-flow data: The new structure and evaluation scheme of the IHFC Global Heat Flow Database. Tectonophysics, 863, 229976."@en ;
 .
 
 <https://ihfc-iugg.org/>

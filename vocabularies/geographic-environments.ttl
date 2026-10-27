@@ -7,7 +7,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :offshore
     a skos:Collection ;
-    skos:definition "Geographic environments found offshore."@en ;
+    skos:definition "Environments where the site lies under the sea."@en ;
     skos:member
         :offshore_continental ,
         :offshore_marine ;
@@ -16,7 +16,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :onshore
     a skos:Collection ;
-    skos:definition "Geographic environments found onshore."@en ;
+    skos:definition "Environments where the site lies on land, including under inland water."@en ;
     skos:member
         :onshore_continental ,
         :onshore_marine ;
@@ -41,6 +41,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :unspecified
     a skos:Concept ;
+    skos:definition "The geographic environment is not stated or not known."@en ;
     skos:inScheme ihfc:geographic-environments ;
     skos:prefLabel "Unspecified"@en ;
     skos:topConceptOf ihfc:geographic-environments ;
@@ -60,6 +61,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :offshore_continental
     a skos:Concept ;
+    skos:definition "The site is under the sea on continental crust, for example on the continental shelf or slope."@en ;
     skos:inScheme ihfc:geographic-environments ;
     skos:prefLabel "Offshore (continental)"@en ;
     skos:topConceptOf ihfc:geographic-environments ;
@@ -67,7 +69,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :offshore_marine
     a skos:Concept ;
-    skos:definition "An offshore marine environment refers to the part of the ocean that is beyond the coastal zone, typically starting from the edge of the continental shelf and extending into the open ocean. It includes deep-sea regions, open waters, and underwater ecosystems such as seamounts, mid-ocean ridges, and abyssal plains."@en ;
+    skos:definition "The site is in the part of the ocean beyond the continental shelf edge. This includes deep-sea regions and open water with seamounts, mid-ocean ridges and abyssal plains."@en ;
     skos:inScheme ihfc:geographic-environments ;
     skos:prefLabel "Offshore (marine)"@en ;
     skos:topConceptOf ihfc:geographic-environments ;
@@ -75,6 +77,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :onshore_continental
     a skos:Concept ;
+    skos:definition "The site is on land, on continental crust."@en ;
     skos:inScheme ihfc:geographic-environments ;
     skos:prefLabel "Onshore (continental)"@en ;
     skos:topConceptOf ihfc:geographic-environments ;
@@ -82,8 +85,10 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :onshore_marine
     a skos:Concept ;
+    skos:definition "The site is on land but under inland water, for example the bed of a lake or river."@en ;
+    skos:hiddenLabel "Onshore (lake-river-etc.)"@en ;
     skos:inScheme ihfc:geographic-environments ;
-    skos:prefLabel "Onshore (lake-river-etc.)"@en ;
+    skos:prefLabel "Onshore (lake, river, etc.)"@en ;
     skos:topConceptOf ihfc:geographic-environments ;
 .
 
