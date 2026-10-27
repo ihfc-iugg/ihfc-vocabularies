@@ -5,11 +5,6 @@ PREFIX ihfc: <https://portal.heatflow.world/vocabularies/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-<https://doi.org/10.1016/j.tecto.2023.229976>
-    a dcterms:BibliographicResource ;
-    dcterms:bibliographicCitation "Fuchs, S., Norden, B., Neumann, F., Kaul, N., Tanaka, A., Kukkonen, I. T., et al. (2023). Quality-assurance of heat-flow data: The new structure and evaluation scheme of the IHFC Global Heat Flow Database. Tectonophysics, 863, 229976."@en ;
-.
-
 <https://doi.org/10.31214/ijthfa.v4i1.62>
     a dcterms:BibliographicResource ;
     dcterms:bibliographicCitation "Fuchs, S., Beardsmore, G., Chiozzi, P., Espinoza-Ojeda, O. M., Gola, G., Gosnold, W., Harris, R., Jennings, S., Liu, S., Negrete-Aranda, R., Neumann, F., Norden, B., Poort, J., Rajver, D., Ray, L., Richards, M., Smith, J., Tanaka, A., and Verdoya, M. (2021). A new database structure for the IHFC Global Heat Flow Database. International Journal of Terrestrial Heat Flow and Applied Geothermics, 4(1), 1–14."@en ;
@@ -21,197 +16,141 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     dcterms:title "IHFC Controlled Vocabularies for the Global Heat Flow Database"@en ;
 .
 
-:BHT
-    a skos:Concept ;
-    skos:definition "Bottom Hole Temperature, uncorrected."@en ;
-    skos:inScheme ihfc:temperature-method ;
-    skos:prefLabel "BHT"@en ;
-    skos:topConceptOf ihfc:temperature-method ;
-.
-
 :BLK
     a skos:Concept ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "Temperature recorded with a thermal blanket, a water-saturated, thermistor-equipped foam laid over unsedimented seafloor rock, from below and at the top of the blanket."@en ;
+    skos:hiddenLabel "BLK"@en ;
     skos:inScheme ihfc:temperature-method ;
-    skos:prefLabel "BLK"@en ;
+    skos:notation "BLK" ;
+    skos:prefLabel "Thermal blanket"@en ;
     skos:topConceptOf ihfc:temperature-method ;
 .
 
 :BSR
     a skos:Concept ;
-    skos:definition "Temperature estimates from bottom-simulating seismic reflector."@en ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "Temperature estimated from the depth of a bottom-simulating seismic reflector, which marks the base of the gas hydrate stability zone."@en ;
+    skos:hiddenLabel "BSR"@en ;
     skos:inScheme ihfc:temperature-method ;
-    skos:prefLabel "BSR"@en ;
+    skos:notation "BSR" ;
+    skos:prefLabel "Bottom-simulating reflector"@en ;
     skos:topConceptOf ihfc:temperature-method ;
 .
 
 :CPD
     a skos:Concept ;
-    skos:definition "Curie Point/Depth temperature estimates."@en ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "Temperature estimated from the Curie point depth, the depth at which rocks lose their magnetisation."@en ;
+    skos:hiddenLabel "CPD"@en ;
     skos:inScheme ihfc:temperature-method ;
-    skos:prefLabel "CPD"@en ;
+    skos:notation "CPD" ;
+    skos:prefLabel "Curie point depth"@en ;
     skos:topConceptOf ihfc:temperature-method ;
 .
 
 :DTSeq
     a skos:Concept ;
-    skos:definition "Distributed Temperature Sensing (DTS) in equilibrium conditions."@en ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "Temperature measured with distributed temperature sensing (DTS) in a borehole at thermal equilibrium."@en ;
+    skos:hiddenLabel "DTSeq"@en ;
     skos:inScheme ihfc:temperature-method ;
-    skos:prefLabel "DTSeq"@en ;
-    skos:topConceptOf ihfc:temperature-method ;
-.
-
-:DTSpert
-    a skos:Concept ;
-    skos:definition "Distributed Temperature Sensing (DTS) in perturbed conditions."@en ;
-    skos:inScheme ihfc:temperature-method ;
-    skos:prefLabel "DTSpert"@en ;
-    skos:topConceptOf ihfc:temperature-method ;
-.
-
-:EGRT
-    a skos:Concept ;
-    skos:inScheme ihfc:temperature-method ;
-    skos:prefLabel "EGRT"@en ;
-    skos:topConceptOf ihfc:temperature-method ;
-.
-
-:GRT
-    a skos:Concept ;
-    skos:inScheme ihfc:temperature-method ;
-    skos:prefLabel "GRT"@en ;
+    skos:notation "DTSeq" ;
+    skos:prefLabel "Distributed temperature sensing, equilibrium"@en ;
     skos:topConceptOf ihfc:temperature-method ;
 .
 
 :GTM
     a skos:Concept ;
-    skos:definition "Temperature estimates from geothermometry."@en ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "Temperature estimated from the chemistry or mineral content of fluids or rocks."@en ;
+    skos:hiddenLabel "GTM"@en ;
     skos:inScheme ihfc:temperature-method ;
-    skos:prefLabel "GTM"@en ;
+    skos:notation "GTM" ;
+    skos:prefLabel "Geothermometry"@en ;
     skos:topConceptOf ihfc:temperature-method ;
 .
 
 :HT_FT
     a skos:Concept ;
     skos:definition "High-temperature fluid-temperature measurement in equilibrium conditions."@en ;
+    skos:hiddenLabel "HT-FTeq"@en ;
     skos:inScheme ihfc:temperature-method ;
-    skos:prefLabel "HT-FTeq"@en ;
-    skos:topConceptOf ihfc:temperature-method ;
-.
-
-:HT_FTpert
-    a skos:Concept ;
-    skos:definition "High-temperature fluid-temperature measurement in perturbed conditions."@en ;
-    skos:inScheme ihfc:temperature-method ;
-    skos:prefLabel "HT-FTpert"@en ;
+    skos:notation "HT-FTeq" ;
+    skos:prefLabel "High-temperature fluid temperature, equilibrium"@en ;
     skos:topConceptOf ihfc:temperature-method ;
 .
 
 :LOGeq
     a skos:Concept ;
-    skos:definition "Continuous temperature logging in borehole equilibrium using semiconductor transducer or thermistor probe."@en ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "Continuous temperature logging in a borehole at thermal equilibrium, using a semiconductor transducer or thermistor probe."@en ;
+    skos:hiddenLabel "LOGeq"@en ;
     skos:inScheme ihfc:temperature-method ;
-    skos:prefLabel "LOGeq"@en ;
-    skos:topConceptOf ihfc:temperature-method ;
-.
-
-:LOGpert
-    a skos:Concept ;
-    skos:definition "Continuous temperature logging in a perturbed borehole using semiconductor transducer or thermistor probe."@en ;
-    skos:inScheme ihfc:temperature-method ;
-    skos:prefLabel "LOGpert"@en ;
+    skos:notation "LOGeq" ;
+    skos:prefLabel "Temperature log, equilibrium"@en ;
     skos:topConceptOf ihfc:temperature-method ;
 .
 
 :ODTT_PC
     a skos:Concept ;
-    skos:definition "Ocean Drilling Temperature Tool - piston corer."@en ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "Temperature measured with the ocean drilling temperature tool mounted on a piston corer."@en ;
+    skos:hiddenLabel "ODTT-PC"@en ;
     skos:inScheme ihfc:temperature-method ;
-    skos:prefLabel "ODTT-PC"@en ;
+    skos:notation "ODTT-PC" ;
+    skos:prefLabel "Ocean drilling temperature tool, piston corer"@en ;
     skos:topConceptOf ihfc:temperature-method ;
 .
 
 :ODTT_TP
     a skos:Concept ;
-    skos:definition "Ocean Drilling Temperature Tool - thermistor probe."@en ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "Temperature measured with the ocean drilling temperature tool as a thermistor probe."@en ;
+    skos:hiddenLabel "ODTT-TP"@en ;
     skos:inScheme ihfc:temperature-method ;
-    skos:prefLabel "ODTT-TP"@en ;
+    skos:notation "ODTT-TP" ;
+    skos:prefLabel "Ocean drilling temperature tool, thermistor probe"@en ;
     skos:topConceptOf ihfc:temperature-method ;
 .
 
 :RTDeq
     a skos:Concept ;
-    skos:definition "Resistance Temperature Detector (RTD) measurement in equilibrium conditions."@en ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "Temperature measured with a resistance temperature detector (RTD) at thermal equilibrium."@en ;
+    skos:hiddenLabel "RTDeq"@en ;
     skos:inScheme ihfc:temperature-method ;
-    skos:prefLabel "RTDeq"@en ;
-    skos:topConceptOf ihfc:temperature-method ;
-.
-
-:RTDpert
-    a skos:Concept ;
-    skos:definition "Resistance Temperature Detector (RTD) measurement in perturbed conditions."@en ;
-    skos:inScheme ihfc:temperature-method ;
-    skos:prefLabel "RTDpert"@en ;
+    skos:notation "RTDeq" ;
+    skos:prefLabel "Resistance temperature detector, equilibrium"@en ;
     skos:topConceptOf ihfc:temperature-method ;
 .
 
 :SUR
     a skos:Concept ;
-    skos:definition "Surface temperature or bottom water temperature measurement."@en ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "Temperature measured at the ground surface or in the water at the seabed."@en ;
+    skos:hiddenLabel "SUR"@en ;
     skos:inScheme ihfc:temperature-method ;
-    skos:prefLabel "SUR"@en ;
+    skos:notation "SUR" ;
+    skos:prefLabel "Surface or bottom-water temperature"@en ;
     skos:topConceptOf ihfc:temperature-method ;
 .
 
 :XEN
     a skos:Concept ;
-    skos:definition "Temperature estimates from xenoliths."@en ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "Temperature estimated from xenoliths, rock fragments carried up from depth in volcanic rocks."@en ;
+    skos:hiddenLabel "XEN"@en ;
     skos:inScheme ihfc:temperature-method ;
-    skos:prefLabel "XEN"@en ;
-    skos:topConceptOf ihfc:temperature-method ;
-.
-
-:cBHT
-    a skos:Concept ;
-    skos:definition "Bottom Hole Temperature, corrected for perturbations."@en ;
-    skos:inScheme ihfc:temperature-method ;
-    skos:prefLabel "cBHT"@en ;
-    skos:topConceptOf ihfc:temperature-method ;
-.
-
-:cDTS
-    a skos:Concept ;
-    skos:definition "Distributed Temperature Sensing (DTS) in perturbed conditions, corrected for perturbations."@en ;
-    skos:inScheme ihfc:temperature-method ;
-    skos:prefLabel "cDTS"@en ;
-    skos:topConceptOf ihfc:temperature-method ;
-.
-
-:cHT_FT
-    a skos:Concept ;
-    skos:inScheme ihfc:temperature-method ;
-    skos:prefLabel "cHT-FT"@en ;
-    skos:topConceptOf ihfc:temperature-method ;
-.
-
-:cLOG
-    a skos:Concept ;
-    skos:definition "Continuous temperature logging in a perturbed borehole, corrected for perturbations."@en ;
-    skos:inScheme ihfc:temperature-method ;
-    skos:prefLabel "cLOG"@en ;
-    skos:topConceptOf ihfc:temperature-method ;
-.
-
-:cRTD
-    a skos:Concept ;
-    skos:definition "Resistance Temperature Detector (RTD) measurement in perturbed conditions, corrected for perturbations."@en ;
-    skos:inScheme ihfc:temperature-method ;
-    skos:prefLabel "cRTD"@en ;
+    skos:notation "XEN" ;
+    skos:prefLabel "Xenoliths"@en ;
     skos:topConceptOf ihfc:temperature-method ;
 .
 
 :other
     a skos:Concept ;
-    skos:definition "Other temperature determination method (must be specified in comments)."@en ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "Other temperature determination method, which must be specified in the comments."@en ;
     skos:inScheme ihfc:temperature-method ;
     skos:prefLabel "Other"@en ;
     skos:topConceptOf ihfc:temperature-method ;
@@ -219,7 +158,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :unspecified
     a skos:Concept ;
-    skos:definition "Unspecified temperature determination method."@en ;
+    skos:definition "Temperature determination method not specified."@en ;
     skos:inScheme ihfc:temperature-method ;
     skos:prefLabel "Unspecified"@en ;
     skos:topConceptOf ihfc:temperature-method ;
@@ -235,6 +174,175 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a foaf:Organization ;
     foaf:homepage <https://ihfc-iugg.org/> ;
     foaf:name "International Heat Flow Commission"@en ;
+.
+
+:BHT
+    a skos:Concept ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "Temperature measured at the bottom of a borehole shortly after drilling stops, not corrected for the cooling caused by drilling."@en ;
+    skos:hiddenLabel "BHT"@en ;
+    skos:inScheme ihfc:temperature-method ;
+    skos:notation "BHT" ;
+    skos:prefLabel "Bottom-hole temperature, uncorrected"@en ;
+    skos:related :cBHT ;
+    skos:topConceptOf ihfc:temperature-method ;
+.
+
+:DST
+    a skos:Concept ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "Temperature measured during a drill stem test, a short flow test of a borehole interval, and not corrected for perturbations."@en ;
+    skos:hiddenLabel "DST"@en ;
+    skos:inScheme ihfc:temperature-method ;
+    skos:notation "DST" ;
+    skos:prefLabel "Drill stem test, uncorrected"@en ;
+    skos:related :cDST ;
+    skos:topConceptOf ihfc:temperature-method ;
+.
+
+:DTSpert
+    a skos:Concept ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "Temperature measured with distributed temperature sensing (DTS) in a borehole that is still thermally perturbed."@en ;
+    skos:hiddenLabel "DTSpert"@en ;
+    skos:inScheme ihfc:temperature-method ;
+    skos:notation "DTSpert" ;
+    skos:prefLabel "Distributed temperature sensing, perturbed"@en ;
+    skos:related :cDTS ;
+    skos:topConceptOf ihfc:temperature-method ;
+.
+
+:EGRT
+    a skos:Concept ;
+    skos:definition "Temperature derived from an enhanced geothermal response test, a geothermal response test that also measures temperature along the depth of the borehole, for example with optical fibre."@en ;
+    skos:hiddenLabel "EGRT"@en ;
+    skos:inScheme ihfc:temperature-method ;
+    skos:notation "EGRT" ;
+    skos:prefLabel "Enhanced geothermal response test"@en ;
+    skos:related :GRT ;
+    skos:topConceptOf ihfc:temperature-method ;
+.
+
+:GRT
+    a skos:Concept ;
+    skos:definition "Temperature derived from a geothermal response test, in which fluid is circulated through a borehole heat exchanger and its temperature change is monitored."@en ;
+    skos:hiddenLabel "GRT"@en ;
+    skos:inScheme ihfc:temperature-method ;
+    skos:notation "GRT" ;
+    skos:prefLabel "Geothermal response test"@en ;
+    skos:related :EGRT ;
+    skos:topConceptOf ihfc:temperature-method ;
+.
+
+:HT_FTpert
+    a skos:Concept ;
+    skos:definition "High-temperature fluid-temperature measurement in perturbed conditions."@en ;
+    skos:hiddenLabel "HT-FTpert"@en ;
+    skos:inScheme ihfc:temperature-method ;
+    skos:notation "HT-FTpert" ;
+    skos:prefLabel "High-temperature fluid temperature, perturbed"@en ;
+    skos:related :cHT_FT ;
+    skos:topConceptOf ihfc:temperature-method ;
+.
+
+:LOGpert
+    a skos:Concept ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "Continuous temperature logging in a borehole that is not at thermal equilibrium, using a semiconductor transducer or thermistor probe."@en ;
+    skos:hiddenLabel "LOGpert"@en ;
+    skos:inScheme ihfc:temperature-method ;
+    skos:notation "LOGpert" ;
+    skos:prefLabel "Temperature log, perturbed"@en ;
+    skos:related :cLOG ;
+    skos:topConceptOf ihfc:temperature-method ;
+.
+
+:RTDpert
+    a skos:Concept ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "Temperature measured with a resistance temperature detector (RTD) under thermally perturbed conditions."@en ;
+    skos:hiddenLabel "RTDpert"@en ;
+    skos:inScheme ihfc:temperature-method ;
+    skos:notation "RTDpert" ;
+    skos:prefLabel "Resistance temperature detector, perturbed"@en ;
+    skos:related :cRTD ;
+    skos:topConceptOf ihfc:temperature-method ;
+.
+
+:cBHT
+    a skos:Concept ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "Temperature measured at the bottom of a borehole, corrected for the cooling caused by drilling."@en ;
+    skos:hiddenLabel "cBHT"@en ;
+    skos:inScheme ihfc:temperature-method ;
+    skos:notation "cBHT" ;
+    skos:prefLabel "Bottom-hole temperature, corrected"@en ;
+    skos:related :BHT ;
+    skos:topConceptOf ihfc:temperature-method ;
+.
+
+:cDST
+    a skos:Concept ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "Temperature measured during a drill stem test, corrected for perturbations."@en ;
+    skos:hiddenLabel "cDST"@en ;
+    skos:inScheme ihfc:temperature-method ;
+    skos:notation "cDST" ;
+    skos:prefLabel "Drill stem test, corrected"@en ;
+    skos:related :DST ;
+    skos:topConceptOf ihfc:temperature-method ;
+.
+
+:cDTS
+    a skos:Concept ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "Temperature measured with distributed temperature sensing (DTS) in a perturbed borehole, corrected for the perturbation."@en ;
+    skos:hiddenLabel "cDTS"@en ;
+    skos:inScheme ihfc:temperature-method ;
+    skos:notation "cDTS" ;
+    skos:prefLabel "Distributed temperature sensing, corrected"@en ;
+    skos:related :DTSpert ;
+    skos:topConceptOf ihfc:temperature-method ;
+.
+
+:cHT_FT
+    a skos:Concept ;
+    skos:definition "High-temperature fluid-temperature measurement in perturbed conditions, corrected for the perturbation."@en ;
+    skos:hiddenLabel "cHT-FT"@en ;
+    skos:inScheme ihfc:temperature-method ;
+    skos:notation "cHT-FT" ;
+    skos:prefLabel "High-temperature fluid temperature, corrected"@en ;
+    skos:related :HT_FTpert ;
+    skos:topConceptOf ihfc:temperature-method ;
+.
+
+:cLOG
+    a skos:Concept ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "Continuous temperature logging in a perturbed borehole, corrected for the perturbation."@en ;
+    skos:hiddenLabel "cLOG"@en ;
+    skos:inScheme ihfc:temperature-method ;
+    skos:notation "cLOG" ;
+    skos:prefLabel "Temperature log, corrected"@en ;
+    skos:related :LOGpert ;
+    skos:topConceptOf ihfc:temperature-method ;
+.
+
+:cRTD
+    a skos:Concept ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "Temperature measured with a resistance temperature detector (RTD) under perturbed conditions, corrected for the perturbation."@en ;
+    skos:hiddenLabel "cRTD"@en ;
+    skos:inScheme ihfc:temperature-method ;
+    skos:notation "cRTD" ;
+    skos:prefLabel "Resistance temperature detector, corrected"@en ;
+    skos:related :RTDpert ;
+    skos:topConceptOf ihfc:temperature-method ;
+.
+
+<https://doi.org/10.1016/j.tecto.2023.229976>
+    a dcterms:BibliographicResource ;
+    dcterms:bibliographicCitation "Fuchs, S., Norden, B., Neumann, F., Kaul, N., Tanaka, A., Kukkonen, I. T., et al. (2023). Quality-assurance of heat-flow data: The new structure and evaluation scheme of the IHFC Global Heat Flow Database. Tectonophysics, 863, 229976."@en ;
 .
 
 ihfc:temperature-method
@@ -254,6 +362,7 @@ ihfc:temperature-method
         :BLK ,
         :BSR ,
         :CPD ,
+        :DST ,
         :DTSeq ,
         :DTSpert ,
         :EGRT ,
@@ -270,6 +379,7 @@ ihfc:temperature-method
         :SUR ,
         :XEN ,
         :cBHT ,
+        :cDST ,
         :cDTS ,
         :cHT_FT ,
         :cLOG ,
