@@ -48,7 +48,7 @@ Never create a release, a tag or a Publish run yourself. Releases are made by a 
 When a change is ready to release, tell the user to run the **Publish** workflow from the
 repository's Actions tab, on `main`. That run works out the next version (`v<year>.<release>`),
 runs the checks, creates the release with the `[Unreleased]` notes from `CHANGELOG.md`, and
-attaches every vocabulary in every format.
+attaches every vocabulary in every format, and the release archive for GFZ Data Services.
 
 After a release, the `[Unreleased]` notes in `CHANGELOG.md` move under a heading for the
 released version. That is an ordinary pull request.

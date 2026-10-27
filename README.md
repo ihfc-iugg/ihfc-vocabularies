@@ -1,46 +1,169 @@
-# IHFC Heat Flow Vocabularies
+# IHFC Controlled Vocabularies
 
 [![Checks](https://github.com/ihfc-iugg/ihfc-vocabularies/actions/workflows/checks.yml/badge.svg)](https://github.com/ihfc-iugg/ihfc-vocabularies/actions/workflows/checks.yml)
 [![Vocabularies: CC BY 4.0](https://img.shields.io/badge/vocabularies-CC%20BY%204.0-lightgrey.svg)](https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/LICENSE-CC-BY-4.0)
 
-Controlled vocabularies for the scientific study of Earth's heat flow, published as
-[SKOS](https://www.w3.org/2004/02/skos/) concept schemes. They define the values used to describe
-heat-flow measurements in the [Global Heat Flow Database](https://heatflow.world): how heat flow,
-temperature and thermal conductivity were determined, what was corrected, and where and why the
-measurement was made.
+The IHFC Controlled Vocabularies are the controlled terms the International Heat Flow Commission
+(IHFC) maintains for the Global Heat Flow Database (GHFDB) and related heat-flow data products.
+They set the permitted values for the metadata fields used when heat-flow data are submitted,
+validated, assessed for quality and published.
 
-The vocabularies were developed with the international heat flow community during the
-restructuring of the Global Heat Flow Database, and are used to assess the quality of heat-flow
-data and metadata.
+The GHFDB is the primary international repository for terrestrial and marine heat-flow
+measurements. Comparing and reusing those measurements depends on consistent metadata: how a
+measurement was made, which corrections were applied, and the geological and environmental
+setting of the site. Shared terminology makes that metadata consistent across datasets, makes
+automated quality checks possible, and supports the FAIR data principles.
+
+The vocabularies were developed during the restructuring of the GHFDB. They cover the method used
+to calculate a heat-flow value, the probe and exploration context, the geographic setting, the
+type of temperature measurement and its corrections, and the thermal conductivity parameters:
+source, location, measurement method, saturation state, measurement conditions, pressure and
+temperature correction, and averaging strategy.
+
+There are fifteen vocabularies, each a SKOS (Simple Knowledge Organization System) concept scheme
+written in RDF Turtle. Every vocabulary and concept has a persistent URI under
+`https://portal.heatflow.world/vocabularies/` and an English label and definition. Translations
+are further language-tagged labels on the same concepts, so they never change a URI. The Turtle
+files are edited directly and checked automatically on every change. Each versioned release
+publishes them, with copies in RDF/XML, JSON-LD and N-Triples, as a citable snapshot.
+
+The repository is maintained by the [GFZ Helmholtz Centre for Geosciences](https://www.gfz.de/en/)
+through the [World Heat Flow Database Project](https://heatflow.world), funded by the Deutsche
+Forschungsgemeinschaft (DFG), project number 491795283. The vocabularies are released under the
+Creative Commons Attribution 4.0 International licence (CC BY 4.0).
 
 ## Vocabularies
 
-Each vocabulary is one file in `vocabularies/`, and its address is
-`https://portal.heatflow.world/vocabularies/<name>`.
+### Heat flow and site
 
-| Name | Label |
-| --- | --- |
-| `conductivity-conditions` | Thermal conductivity measurement conditions |
-| `conductivity-location` | Thermal conductivity location |
-| `conductivity-methods` | Thermal conductivity methods |
-| `conductivity-pt-function` | Thermal conductivity pressure and temperature functions |
-| `conductivity-saturation` | Thermal conductivity saturation states |
-| `conductivity-sources` | Thermal conductivity sources |
-| `conductivity-strategy` | Thermal conductivity strategies |
-| `exploration-methods` | Exploration methods |
-| `exploration-purpose` | Exploration purposes |
-| `geographic-environments` | Geographic environments |
-| `heat-flow-corrections` | Correction flags |
-| `heat-flow-method` | Heat-flow methods |
-| `heat-flow-probes` | Heat-flow probe types |
-| `temperature-corrections` | Temperature correction methods |
-| `temperature-method` | Temperature methods |
+#### Heat-flow methods
+
+- **Name:** `heat-flow-method`
+- **URI:** <https://portal.heatflow.world/vocabularies/heat-flow-method>
+- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/heat-flow-method.ttl>
+
+Methods used to determine a heat-flow value from temperature and thermal conductivity data.
+
+#### Heat-flow probe types
+
+- **Name:** `heat-flow-probes`
+- **URI:** <https://portal.heatflow.world/vocabularies/heat-flow-probes>
+- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/heat-flow-probes.ttl>
+
+Types of probe used to measure heat flow, mainly in marine settings.
+
+#### Correction flags
+
+- **Name:** `heat-flow-corrections`
+- **URI:** <https://portal.heatflow.world/vocabularies/heat-flow-corrections>
+- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/heat-flow-corrections.ttl>
+
+Flags recording whether an effect that can bias heat-flow data was present, and whether it was considered or corrected.
+
+#### Geographic environments
+
+- **Name:** `geographic-environments`
+- **URI:** <https://portal.heatflow.world/vocabularies/geographic-environments>
+- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/geographic-environments.ttl>
+
+The basic geographic environment in which a heat-flow measurement was made, onshore or offshore.
+
+#### Exploration methods
+
+- **Name:** `exploration-methods`
+- **URI:** <https://portal.heatflow.world/vocabularies/exploration-methods>
+- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/exploration-methods.ttl>
+
+The general means by which temperature sensors gained access to the rock, such as drilling, probing, mining or tunnelling.
+
+#### Exploration purposes
+
+- **Name:** `exploration-purpose`
+- **URI:** <https://portal.heatflow.world/vocabularies/exploration-purpose>
+- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/exploration-purpose.ttl>
+
+The main purpose of the original excavation that gave temperature sensors access to the rock.
+
+### Temperature
+
+#### Temperature methods
+
+- **Name:** `temperature-method`
+- **URI:** <https://portal.heatflow.world/vocabularies/temperature-method>
+- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/temperature-method.ttl>
+
+Methods used to measure or estimate the temperatures from which heat flow is derived.
+
+#### Temperature correction methods
+
+- **Name:** `temperature-corrections`
+- **URI:** <https://portal.heatflow.world/vocabularies/temperature-corrections>
+- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/temperature-corrections.ttl>
+
+Methods used to correct measured temperatures for disturbances, such as those caused by drilling, before heat flow is derived.
+
+### Thermal conductivity
+
+#### Thermal conductivity sources
+
+- **Name:** `conductivity-sources`
+- **URI:** <https://portal.heatflow.world/vocabularies/conductivity-sources>
+- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/conductivity-sources.ttl>
+
+The material or data the thermal conductivity values were obtained from, such as core samples, well logs or the literature.
+
+#### Thermal conductivity location
+
+- **Name:** `conductivity-location`
+- **URI:** <https://portal.heatflow.world/vocabularies/conductivity-location>
+- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/conductivity-location.ttl>
+
+Where the thermal conductivity used for a heat-flow value was measured, relative to the heat-flow site.
+
+#### Thermal conductivity methods
+
+- **Name:** `conductivity-methods`
+- **URI:** <https://portal.heatflow.world/vocabularies/conductivity-methods>
+- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/conductivity-methods.ttl>
+
+Methods used to determine thermal conductivity, by laboratory measurement, in-situ probe, well-log interpretation or estimation.
+
+#### Thermal conductivity saturation states
+
+- **Name:** `conductivity-saturation`
+- **URI:** <https://portal.heatflow.world/vocabularies/conductivity-saturation>
+- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/conductivity-saturation.ttl>
+
+The saturation state of the rock when its thermal conductivity was measured.
+
+#### Thermal conductivity measurement conditions
+
+- **Name:** `conductivity-conditions`
+- **URI:** <https://portal.heatflow.world/vocabularies/conductivity-conditions>
+- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/conductivity-conditions.ttl>
+
+The pressure and temperature conditions under which thermal conductivity was measured, and whether they were recorded, replicated or corrected to in-situ conditions.
+
+#### Thermal conductivity pressure and temperature functions
+
+- **Name:** `conductivity-pt-function`
+- **URI:** <https://portal.heatflow.world/vocabularies/conductivity-pt-function>
+- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/conductivity-pt-function.ttl>
+
+Functions used to correct measured thermal conductivity for the effects of pressure (p), temperature (T) or both (pT).
+
+#### Thermal conductivity strategies
+
+- **Name:** `conductivity-strategy`
+- **URI:** <https://portal.heatflow.world/vocabularies/conductivity-strategy>
+- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/conductivity-strategy.ttl>
+
+The strategy used to obtain thermal conductivity values for the depth interval of a heat-flow determination.
 
 ## Using the vocabularies
 
-The Turtle files in `vocabularies/` are the source. Each
-[release](https://github.com/ihfc-iugg/ihfc-vocabularies/releases) also carries every vocabulary in
-four formats, as separate files that differ only by extension:
+Each [release](https://github.com/ihfc-iugg/ihfc-vocabularies/releases) carries every vocabulary
+in four formats, as separate files that differ only by extension:
 
 | Format | Extension |
 | --- | --- |
@@ -49,7 +172,7 @@ four formats, as separate files that differ only by extension:
 | JSON-LD | `.jsonld` |
 | N-Triples | `.nt` |
 
-Each file has its own link. A link with a version always returns that release's file:
+A link with a version always returns that release's file:
 
 ```text
 https://github.com/ihfc-iugg/ihfc-vocabularies/releases/download/v2026.1/heat-flow-method.jsonld
@@ -61,43 +184,43 @@ A link with `latest` always returns the file from the newest release:
 https://github.com/ihfc-iugg/ihfc-vocabularies/releases/latest/download/heat-flow-method.jsonld
 ```
 
-Any RDF library can read them. For example, with [rdflib](https://rdflib.readthedocs.io):
+Each release also carries `ihfc-vocabularies-<version>.zip`: every vocabulary in every format,
+with this README, the list of contributors, the changelog and the licence. With the
+[GitHub CLI](https://cli.github.com), `gh release download v2026.1 --repo ihfc-iugg/ihfc-vocabularies`
+downloads every file of a release.
+
+Any RDF library can read the files. For example, with [rdflib](https://rdflib.readthedocs.io):
 
 ```python
 from rdflib import Graph
 
-url = "https://raw.githubusercontent.com/ihfc-iugg/ihfc-vocabularies/main/vocabularies/heat-flow-method.ttl"
-graph = Graph().parse(url)
+url = "https://github.com/ihfc-iugg/ihfc-vocabularies/releases/latest/download/heat-flow-method.ttl"
+graph = Graph().parse(url, format="turtle")
 ```
 
-A concept's address never changes once it is published. A concept that is withdrawn stays in its
+A concept's URI never changes once it is published. A concept that is withdrawn stays in its
 vocabulary, marked as deprecated, so data that refers to it keeps resolving.
 
-## Scope & philosophy
+## Repository structure
 
-**What this is.** The single published source of the heat-flow vocabularies. Applications that
-need them, such as the Global Heat Flow Database portal, import these files rather than keeping
-their own copies.
+```text
+vocabularies/          the fifteen vocabularies, one Turtle file each: the only files edited
+scripts/
+  build_vocabularies.py  rewrites the Turtle files in their fixed layout, and exports them
+tests/                 the checks every vocabulary must pass
+.github/workflows/
+  checks.yml           runs the checks on every pull request
+  publish.yml          creates a release and attaches its files
+CONTRIBUTORS.md        everyone who has contributed to the vocabularies
+CHANGELOG.md           what changed in each release
+CONSTITUTION.md        the rules every change follows
+CONTEXT.md             the words used for the parts of a vocabulary
+```
 
-**What this is not.** It is not software. There is no package to install and no code that builds
-the vocabularies. The only code is a script that checks and exports the files. It does not serve
-the vocabularies at their addresses either: the Global Heat Flow Database portal does that, at
-`portal.heatflow.world`.
+### How the vocabularies are maintained
 
-**When in doubt:**
-
-- The Turtle file is the truth. Every other format is derived from it.
-- Data that already refers to a concept matters more than tidiness. Correct a label or a
-  definition, but never change what a published address means.
-- A translation is another language-tagged label on the same concept, never a separate file.
-
-## Contributing
-
-Suggestions and corrections are welcome. Please open an issue to discuss a change before opening a
-pull request.
-
-To change a vocabulary, edit its file in `vocabularies/`, then rewrite it in its fixed layout and
-run the checks:
+The Turtle files in `vocabularies/` are the vocabularies. There is no other source and no
+generated copy in the repository. A change is made by editing a file directly, in a pull request:
 
 ```bash
 uv sync
@@ -105,11 +228,12 @@ uv run python scripts/build_vocabularies.py
 uv run pytest
 ```
 
-The checks confirm that every file parses and that:
+The build script rewrites every file in one fixed layout, so a diff shows only what changed in
+meaning. The checks run on every pull request and confirm that every file parses and that:
 
 - each file holds one vocabulary, named after the file, with an English label and description
 - each vocabulary names its creator, publisher, licence and sources, and the data publication it is part of, and cites each
-- every concept belongs to its vocabulary, has one English label, and has an address under the vocabulary's address
+- every concept belongs to its vocabulary, has one English label, and has a URI under the vocabulary's URI
 - no two concepts in a vocabulary share a label
 - every label and definition has a language tag and is not empty
 - every concept a collection or relationship names exists
@@ -117,8 +241,41 @@ The checks confirm that every file parses and that:
 - codes in `skos:notation` are unique within a vocabulary
 - every vocabulary can be written in every release format without losing anything
 
-The rules behind these checks are in [`CONSTITUTION.md`](CONSTITUTION.md), and the words used for
-the parts of a vocabulary are in [`CONTEXT.md`](CONTEXT.md).
+The rules behind these checks are in
+[`CONSTITUTION.md`](https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/CONSTITUTION.md), and
+the words used for the parts of a vocabulary are in
+[`CONTEXT.md`](https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/CONTEXT.md).
+
+### How releases are made
+
+A maintainer runs the **Publish** workflow from the repository's Actions tab, on `main`. It runs
+the checks, works out the next version from the current year and the last release (`v2026.1`,
+`v2026.2`, then `v2027.1` in a new year), and creates the release with the `[Unreleased]` notes
+from `CHANGELOG.md`. It then exports every vocabulary into every format and attaches the files and
+the release archive.
+
+## Contributing
+
+Suggestions and corrections are welcome. Please open an
+[issue](https://github.com/ihfc-iugg/ihfc-vocabularies/issues) to discuss a change before opening
+a pull request.
+
+## Scope & philosophy
+
+**What this is.** The single published source of the heat-flow vocabularies. Applications that
+need them, such as the Global Heat Flow Database portal, import these files rather than keeping
+their own copies.
+
+**What this is not.** It is not software. There is no package to install, and the only code is
+the script that checks and exports the files. It does not serve the vocabularies at their URIs
+either: the Global Heat Flow Database portal does that, at `portal.heatflow.world`.
+
+**When in doubt:**
+
+- The Turtle file is the truth. Every other format is derived from it.
+- Data that already refers to a concept matters more than tidiness. Correct a label or a
+  definition, but never change what a published URI means.
+- A translation is another language-tagged label on the same concept, never a separate file.
 
 ## How to cite
 
@@ -126,11 +283,8 @@ Jennings, Samuel; Neumann, Florian; Norden, Ben; Balkan-Pazvantoğlu, Elif; Elba
 Petrunin, Alexey G.; Elger, Kirsten; Fuchs, Sven (2026): IHFC Controlled Vocabularies for the
 Global Heat Flow Database. GFZ Data Services. https://doi.org/10.5880/fidgeo.2026.065
 
-## Attribution
-
-Maintained by the [GFZ Helmholtz Centre for Geosciences](https://www.gfz.de/en/) through the
-[World Heat Flow Database Project](https://heatflow.world), funded by the Deutsche
-Forschungsgemeinschaft (DFG), project number 491795283.
+Everyone who has contributed to the vocabularies is listed in
+[`CONTRIBUTORS.md`](https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/CONTRIBUTORS.md).
 
 ## License
 
