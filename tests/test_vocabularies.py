@@ -204,7 +204,7 @@ class TestReadme:
     def test_lists_the_vocabulary(self, source, graph, scheme):
         description = graph.value(scheme, DCTERMS.description)
         for expected in (
-            f"#### {graph.value(scheme, SKOS.prefLabel)}\n",
+            f"### {graph.value(scheme, SKOS.prefLabel)}\n",
             f"`{source.stem}`",
             f"<{scheme}>",
             f"/blob/main/vocabularies/{source.stem}.ttl>",

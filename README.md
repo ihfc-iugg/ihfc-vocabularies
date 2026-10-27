@@ -1,5 +1,7 @@
 # IHFC Controlled Vocabularies
 
+[![DOI](https://img.shields.io/badge/DOI-10.5880%2Ffidgeo.2026.065-blue.svg)](https://doi.org/10.5880/fidgeo.2026.065)
+[![Latest release](https://img.shields.io/github/v/release/ihfc-iugg/ihfc-vocabularies)](https://github.com/ihfc-iugg/ihfc-vocabularies/releases/latest)
 [![Checks](https://github.com/ihfc-iugg/ihfc-vocabularies/actions/workflows/checks.yml/badge.svg)](https://github.com/ihfc-iugg/ihfc-vocabularies/actions/workflows/checks.yml)
 [![Vocabularies: CC BY 4.0](https://img.shields.io/badge/vocabularies-CC%20BY%204.0-lightgrey.svg)](https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/LICENSE-CC-BY-4.0)
 
@@ -34,109 +36,7 @@ Creative Commons Attribution 4.0 International licence (CC BY 4.0).
 
 ## Vocabularies
 
-### Heat flow and site
-
-#### Heat-flow methods
-
-- **Name:** `heat-flow-method`
-- **URI:** <https://portal.heatflow.world/vocabularies/heat-flow-method>
-- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/heat-flow-method.ttl>
-
-Methods used to determine a heat-flow value from temperature and thermal conductivity data.
-
-#### Heat-flow probe types
-
-- **Name:** `heat-flow-probes`
-- **URI:** <https://portal.heatflow.world/vocabularies/heat-flow-probes>
-- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/heat-flow-probes.ttl>
-
-Types of probe used to measure heat flow, mainly in marine settings.
-
-#### Correction flags
-
-- **Name:** `heat-flow-corrections`
-- **URI:** <https://portal.heatflow.world/vocabularies/heat-flow-corrections>
-- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/heat-flow-corrections.ttl>
-
-Flags recording whether an effect that can bias heat-flow data was present, and whether it was considered or corrected.
-
-#### Geographic environments
-
-- **Name:** `geographic-environments`
-- **URI:** <https://portal.heatflow.world/vocabularies/geographic-environments>
-- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/geographic-environments.ttl>
-
-The basic geographic environment in which a heat-flow measurement was made, onshore or offshore.
-
-#### Exploration methods
-
-- **Name:** `exploration-methods`
-- **URI:** <https://portal.heatflow.world/vocabularies/exploration-methods>
-- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/exploration-methods.ttl>
-
-The general means by which temperature sensors gained access to the rock, such as drilling, probing, mining or tunnelling.
-
-#### Exploration purposes
-
-- **Name:** `exploration-purpose`
-- **URI:** <https://portal.heatflow.world/vocabularies/exploration-purpose>
-- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/exploration-purpose.ttl>
-
-The main purpose of the original excavation that gave temperature sensors access to the rock.
-
-### Temperature
-
-#### Temperature methods
-
-- **Name:** `temperature-method`
-- **URI:** <https://portal.heatflow.world/vocabularies/temperature-method>
-- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/temperature-method.ttl>
-
-Methods used to measure or estimate the temperatures from which heat flow is derived.
-
-#### Temperature correction methods
-
-- **Name:** `temperature-corrections`
-- **URI:** <https://portal.heatflow.world/vocabularies/temperature-corrections>
-- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/temperature-corrections.ttl>
-
-Methods used to correct measured temperatures for disturbances, such as those caused by drilling, before heat flow is derived.
-
-### Thermal conductivity
-
-#### Thermal conductivity sources
-
-- **Name:** `conductivity-sources`
-- **URI:** <https://portal.heatflow.world/vocabularies/conductivity-sources>
-- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/conductivity-sources.ttl>
-
-The material or data the thermal conductivity values were obtained from, such as core samples, well logs or the literature.
-
-#### Thermal conductivity location
-
-- **Name:** `conductivity-location`
-- **URI:** <https://portal.heatflow.world/vocabularies/conductivity-location>
-- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/conductivity-location.ttl>
-
-Where the thermal conductivity used for a heat-flow value was measured, relative to the heat-flow site.
-
-#### Thermal conductivity methods
-
-- **Name:** `conductivity-methods`
-- **URI:** <https://portal.heatflow.world/vocabularies/conductivity-methods>
-- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/conductivity-methods.ttl>
-
-Methods used to determine thermal conductivity, by laboratory measurement, in-situ probe, well-log interpretation or estimation.
-
-#### Thermal conductivity saturation states
-
-- **Name:** `conductivity-saturation`
-- **URI:** <https://portal.heatflow.world/vocabularies/conductivity-saturation>
-- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/conductivity-saturation.ttl>
-
-The saturation state of the rock when its thermal conductivity was measured.
-
-#### Thermal conductivity measurement conditions
+### Thermal conductivity measurement conditions
 
 - **Name:** `conductivity-conditions`
 - **URI:** <https://portal.heatflow.world/vocabularies/conductivity-conditions>
@@ -144,7 +44,23 @@ The saturation state of the rock when its thermal conductivity was measured.
 
 The pressure and temperature conditions under which thermal conductivity was measured, and whether they were recorded, replicated or corrected to in-situ conditions.
 
-#### Thermal conductivity pressure and temperature functions
+### Thermal conductivity location
+
+- **Name:** `conductivity-location`
+- **URI:** <https://portal.heatflow.world/vocabularies/conductivity-location>
+- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/conductivity-location.ttl>
+
+Where the thermal conductivity used for a heat-flow value was measured, relative to the heat-flow site.
+
+### Thermal conductivity methods
+
+- **Name:** `conductivity-methods`
+- **URI:** <https://portal.heatflow.world/vocabularies/conductivity-methods>
+- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/conductivity-methods.ttl>
+
+Methods used to determine thermal conductivity, by laboratory measurement, in-situ probe, well-log interpretation or estimation.
+
+### Thermal conductivity pressure and temperature functions
 
 - **Name:** `conductivity-pt-function`
 - **URI:** <https://portal.heatflow.world/vocabularies/conductivity-pt-function>
@@ -152,13 +68,93 @@ The pressure and temperature conditions under which thermal conductivity was mea
 
 Functions used to correct measured thermal conductivity for the effects of pressure (p), temperature (T) or both (pT).
 
-#### Thermal conductivity strategies
+### Thermal conductivity saturation states
+
+- **Name:** `conductivity-saturation`
+- **URI:** <https://portal.heatflow.world/vocabularies/conductivity-saturation>
+- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/conductivity-saturation.ttl>
+
+The saturation state of the rock when its thermal conductivity was measured.
+
+### Thermal conductivity sources
+
+- **Name:** `conductivity-sources`
+- **URI:** <https://portal.heatflow.world/vocabularies/conductivity-sources>
+- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/conductivity-sources.ttl>
+
+The material or data the thermal conductivity values were obtained from, such as core samples, well logs or the literature.
+
+### Thermal conductivity strategies
 
 - **Name:** `conductivity-strategy`
 - **URI:** <https://portal.heatflow.world/vocabularies/conductivity-strategy>
 - **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/conductivity-strategy.ttl>
 
 The strategy used to obtain thermal conductivity values for the depth interval of a heat-flow determination.
+
+### Exploration methods
+
+- **Name:** `exploration-methods`
+- **URI:** <https://portal.heatflow.world/vocabularies/exploration-methods>
+- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/exploration-methods.ttl>
+
+The general means by which temperature sensors gained access to the rock, such as drilling, probing, mining or tunnelling.
+
+### Exploration purposes
+
+- **Name:** `exploration-purpose`
+- **URI:** <https://portal.heatflow.world/vocabularies/exploration-purpose>
+- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/exploration-purpose.ttl>
+
+The main purpose of the original excavation that gave temperature sensors access to the rock.
+
+### Geographic environments
+
+- **Name:** `geographic-environments`
+- **URI:** <https://portal.heatflow.world/vocabularies/geographic-environments>
+- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/geographic-environments.ttl>
+
+The basic geographic environment in which a heat-flow measurement was made, onshore or offshore.
+
+### Correction flags
+
+- **Name:** `heat-flow-corrections`
+- **URI:** <https://portal.heatflow.world/vocabularies/heat-flow-corrections>
+- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/heat-flow-corrections.ttl>
+
+Flags recording whether an effect that can bias heat-flow data was present, and whether it was considered or corrected.
+
+### Heat-flow methods
+
+- **Name:** `heat-flow-method`
+- **URI:** <https://portal.heatflow.world/vocabularies/heat-flow-method>
+- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/heat-flow-method.ttl>
+
+Methods used to determine a heat-flow value from temperature and thermal conductivity data.
+
+### Heat-flow probe types
+
+- **Name:** `heat-flow-probes`
+- **URI:** <https://portal.heatflow.world/vocabularies/heat-flow-probes>
+- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/heat-flow-probes.ttl>
+
+Types of probe used to measure heat flow, mainly in marine settings.
+
+### Temperature correction methods
+
+- **Name:** `temperature-corrections`
+- **URI:** <https://portal.heatflow.world/vocabularies/temperature-corrections>
+- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/temperature-corrections.ttl>
+
+Methods used to correct measured temperatures for disturbances, such as those caused by drilling, before heat flow is derived.
+
+### Temperature methods
+
+- **Name:** `temperature-method`
+- **URI:** <https://portal.heatflow.world/vocabularies/temperature-method>
+- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/temperature-method.ttl>
+
+Methods used to measure or estimate the temperatures from which heat flow is derived.
 
 ## Using the vocabularies
 
@@ -253,6 +249,10 @@ the checks, works out the next version from the current year and the last releas
 `v2026.2`, then `v2027.1` in a new year), and creates the release with the `[Unreleased]` notes
 from `CHANGELOG.md`. It then exports every vocabulary into every format and attaches the files and
 the release archive.
+
+What changed in each release is recorded in
+[`CHANGELOG.md`](https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/CHANGELOG.md).
+Changes waiting for the next release are listed under `[Unreleased]`.
 
 ## Contributing
 
