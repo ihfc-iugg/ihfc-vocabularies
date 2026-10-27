@@ -1,59 +1,61 @@
-PREFIX ghfdb: <https://heatflow.world/vocabularies/conductivity-strategy/>
+PREFIX : <https://portal.heatflow.world/vocabularies/conductivity-strategy/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX ihfc: <https://portal.heatflow.world/vocabularies/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-ghfdb:characterize
+:characterize
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/conductivity-strategy> ;
+    skos:inScheme ihfc:conductivity-strategy ;
     skos:prefLabel "Characterize formation conductivities"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-strategy> ;
+    skos:topConceptOf ihfc:conductivity-strategy ;
 .
 
-ghfdb:computation
+:computation
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/conductivity-strategy> ;
+    skos:inScheme ihfc:conductivity-strategy ;
     skos:prefLabel "Computation from probe sensing"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-strategy> ;
+    skos:topConceptOf ihfc:conductivity-strategy ;
 .
 
-ghfdb:other
+:other
     a skos:Concept ;
     skos:definition "Other"@en ;
-    skos:inScheme <https://heatflow.world/vocabularies/conductivity-strategy> ;
+    skos:inScheme ihfc:conductivity-strategy ;
     skos:prefLabel "Other"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-strategy> ;
+    skos:topConceptOf ihfc:conductivity-strategy ;
 .
 
-ghfdb:random
+:random
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/conductivity-strategy> ;
+    skos:inScheme ihfc:conductivity-strategy ;
     skos:prefLabel "Random or periodic depth sampling"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-strategy> ;
+    skos:topConceptOf ihfc:conductivity-strategy ;
 .
 
-ghfdb:unspecified
+:unspecified
     a skos:Concept ;
     skos:definition "Unspecified"@en ;
-    skos:inScheme <https://heatflow.world/vocabularies/conductivity-strategy> ;
+    skos:inScheme ihfc:conductivity-strategy ;
     skos:prefLabel "Unspecified"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-strategy> ;
+    skos:topConceptOf ihfc:conductivity-strategy ;
 .
 
-ghfdb:well_log
+:well_log
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/conductivity-strategy> ;
+    skos:inScheme ihfc:conductivity-strategy ;
     skos:prefLabel "Well log interpretation"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-strategy> ;
+    skos:topConceptOf ihfc:conductivity-strategy ;
 .
 
-<https://heatflow.world/vocabularies/conductivity-strategy>
+ihfc:conductivity-strategy
     a skos:ConceptScheme ;
-    skos:definition "Strategy by which thermal conductivity for a particular heat flow interval was calculated."@en ;
+    dcterms:description "The strategy used to obtain thermal conductivity values for the depth interval of a heat-flow determination."@en ;
     skos:hasTopConcept
-        ghfdb:characterize ,
-        ghfdb:computation ,
-        ghfdb:other ,
-        ghfdb:random ,
-        ghfdb:unspecified ,
-        ghfdb:well_log ;
-    skos:prefLabel "Thermal conductivity strategy"@en ;
+        :characterize ,
+        :computation ,
+        :other ,
+        :random ,
+        :unspecified ,
+        :well_log ;
+    skos:prefLabel "Thermal conductivity strategies"@en ;
 .

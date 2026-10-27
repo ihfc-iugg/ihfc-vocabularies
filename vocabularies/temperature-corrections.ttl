@@ -1,73 +1,75 @@
-PREFIX ghfdb: <https://heatflow.world/vocabularies/temperature-corrections/>
+PREFIX : <https://portal.heatflow.world/vocabularies/temperature-corrections/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX ihfc: <https://portal.heatflow.world/vocabularies/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-ghfdb:aapg
+:aapg
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:inScheme ihfc:temperature-corrections ;
     skos:prefLabel "AAPG correction"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:topConceptOf ihfc:temperature-corrections ;
 .
 
-ghfdb:cylinderSource
+:cylinderSource
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:inScheme ihfc:temperature-corrections ;
     skos:prefLabel "Cylinder source method"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:topConceptOf ihfc:temperature-corrections ;
 .
 
-ghfdb:hornerPlot
+:hornerPlot
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:inScheme ihfc:temperature-corrections ;
     skos:prefLabel "Horner plot"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:topConceptOf ihfc:temperature-corrections ;
 .
 
-ghfdb:inverseNM
+:inverseNM
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:inScheme ihfc:temperature-corrections ;
     skos:prefLabel "Inverse numerical modelling"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:topConceptOf ihfc:temperature-corrections ;
 .
 
-ghfdb:lineSourceExplosion
+:lineSourceExplosion
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:inScheme ihfc:temperature-corrections ;
     skos:prefLabel "Line source explosion method"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:topConceptOf ihfc:temperature-corrections ;
 .
 
-ghfdb:not_corrected
+:not_corrected
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:inScheme ihfc:temperature-corrections ;
     skos:prefLabel "not corrected"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:topConceptOf ihfc:temperature-corrections ;
 .
 
-ghfdb:other
+:other
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:inScheme ihfc:temperature-corrections ;
     skos:prefLabel "Other published correction"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:topConceptOf ihfc:temperature-corrections ;
 .
 
-ghfdb:unspecified
+:unspecified
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:inScheme ihfc:temperature-corrections ;
     skos:prefLabel "Unspecified"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:topConceptOf ihfc:temperature-corrections ;
 .
 
-<https://heatflow.world/vocabularies/temperature-corrections>
+ihfc:temperature-corrections
     a skos:ConceptScheme ;
-    skos:definition "Methods used to correct temperature data for the purpose of heat flow measurements."@en ;
+    dcterms:description "Methods used to correct measured temperatures for disturbances, such as those caused by drilling, before heat flow is derived."@en ;
     skos:hasTopConcept
-        ghfdb:aapg ,
-        ghfdb:cylinderSource ,
-        ghfdb:hornerPlot ,
-        ghfdb:inverseNM ,
-        ghfdb:lineSourceExplosion ,
-        ghfdb:not_corrected ,
-        ghfdb:other ,
-        ghfdb:unspecified ;
+        :aapg ,
+        :cylinderSource ,
+        :hornerPlot ,
+        :inverseNM ,
+        :lineSourceExplosion ,
+        :not_corrected ,
+        :other ,
+        :unspecified ;
     skos:prefLabel "Temperature correction methods"@en ;
 .

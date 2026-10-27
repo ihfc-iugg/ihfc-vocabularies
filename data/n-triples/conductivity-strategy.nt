@@ -1,35 +1,35 @@
-<https://heatflow.world/vocabularies/conductivity-strategy/characterize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://heatflow.world/vocabularies/conductivity-strategy/characterize> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-strategy> .
-<https://heatflow.world/vocabularies/conductivity-strategy/characterize> <http://www.w3.org/2004/02/skos/core#prefLabel> "Characterize formation conductivities"@en .
-<https://heatflow.world/vocabularies/conductivity-strategy/characterize> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-strategy> .
-<https://heatflow.world/vocabularies/conductivity-strategy/computation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://heatflow.world/vocabularies/conductivity-strategy/computation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-strategy> .
-<https://heatflow.world/vocabularies/conductivity-strategy/computation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Computation from probe sensing"@en .
-<https://heatflow.world/vocabularies/conductivity-strategy/computation> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-strategy> .
-<https://heatflow.world/vocabularies/conductivity-strategy/other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://heatflow.world/vocabularies/conductivity-strategy/other> <http://www.w3.org/2004/02/skos/core#definition> "Other"@en .
-<https://heatflow.world/vocabularies/conductivity-strategy/other> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-strategy> .
-<https://heatflow.world/vocabularies/conductivity-strategy/other> <http://www.w3.org/2004/02/skos/core#prefLabel> "Other"@en .
-<https://heatflow.world/vocabularies/conductivity-strategy/other> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-strategy> .
-<https://heatflow.world/vocabularies/conductivity-strategy/random> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://heatflow.world/vocabularies/conductivity-strategy/random> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-strategy> .
-<https://heatflow.world/vocabularies/conductivity-strategy/random> <http://www.w3.org/2004/02/skos/core#prefLabel> "Random or periodic depth sampling"@en .
-<https://heatflow.world/vocabularies/conductivity-strategy/random> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-strategy> .
-<https://heatflow.world/vocabularies/conductivity-strategy/unspecified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://heatflow.world/vocabularies/conductivity-strategy/unspecified> <http://www.w3.org/2004/02/skos/core#definition> "Unspecified"@en .
-<https://heatflow.world/vocabularies/conductivity-strategy/unspecified> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-strategy> .
-<https://heatflow.world/vocabularies/conductivity-strategy/unspecified> <http://www.w3.org/2004/02/skos/core#prefLabel> "Unspecified"@en .
-<https://heatflow.world/vocabularies/conductivity-strategy/unspecified> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-strategy> .
-<https://heatflow.world/vocabularies/conductivity-strategy/well_log> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://heatflow.world/vocabularies/conductivity-strategy/well_log> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-strategy> .
-<https://heatflow.world/vocabularies/conductivity-strategy/well_log> <http://www.w3.org/2004/02/skos/core#prefLabel> "Well log interpretation"@en .
-<https://heatflow.world/vocabularies/conductivity-strategy/well_log> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-strategy> .
-<https://heatflow.world/vocabularies/conductivity-strategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-<https://heatflow.world/vocabularies/conductivity-strategy> <http://www.w3.org/2004/02/skos/core#definition> "Strategy by which thermal conductivity for a particular heat flow interval was calculated."@en .
-<https://heatflow.world/vocabularies/conductivity-strategy> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-strategy/characterize> .
-<https://heatflow.world/vocabularies/conductivity-strategy> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-strategy/computation> .
-<https://heatflow.world/vocabularies/conductivity-strategy> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-strategy/other> .
-<https://heatflow.world/vocabularies/conductivity-strategy> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-strategy/random> .
-<https://heatflow.world/vocabularies/conductivity-strategy> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-strategy/unspecified> .
-<https://heatflow.world/vocabularies/conductivity-strategy> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-strategy/well_log> .
-<https://heatflow.world/vocabularies/conductivity-strategy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Thermal conductivity strategy"@en .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy/characterize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy/characterize> <http://www.w3.org/2004/02/skos/core#inScheme> <https://portal.heatflow.world/vocabularies/conductivity-strategy> .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy/characterize> <http://www.w3.org/2004/02/skos/core#prefLabel> "Characterize formation conductivities"@en .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy/characterize> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://portal.heatflow.world/vocabularies/conductivity-strategy> .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy/computation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy/computation> <http://www.w3.org/2004/02/skos/core#inScheme> <https://portal.heatflow.world/vocabularies/conductivity-strategy> .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy/computation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Computation from probe sensing"@en .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy/computation> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://portal.heatflow.world/vocabularies/conductivity-strategy> .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy/other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy/other> <http://www.w3.org/2004/02/skos/core#definition> "Other"@en .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy/other> <http://www.w3.org/2004/02/skos/core#inScheme> <https://portal.heatflow.world/vocabularies/conductivity-strategy> .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy/other> <http://www.w3.org/2004/02/skos/core#prefLabel> "Other"@en .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy/other> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://portal.heatflow.world/vocabularies/conductivity-strategy> .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy/random> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy/random> <http://www.w3.org/2004/02/skos/core#inScheme> <https://portal.heatflow.world/vocabularies/conductivity-strategy> .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy/random> <http://www.w3.org/2004/02/skos/core#prefLabel> "Random or periodic depth sampling"@en .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy/random> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://portal.heatflow.world/vocabularies/conductivity-strategy> .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy/unspecified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy/unspecified> <http://www.w3.org/2004/02/skos/core#definition> "Unspecified"@en .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy/unspecified> <http://www.w3.org/2004/02/skos/core#inScheme> <https://portal.heatflow.world/vocabularies/conductivity-strategy> .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy/unspecified> <http://www.w3.org/2004/02/skos/core#prefLabel> "Unspecified"@en .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy/unspecified> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://portal.heatflow.world/vocabularies/conductivity-strategy> .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy/well_log> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy/well_log> <http://www.w3.org/2004/02/skos/core#inScheme> <https://portal.heatflow.world/vocabularies/conductivity-strategy> .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy/well_log> <http://www.w3.org/2004/02/skos/core#prefLabel> "Well log interpretation"@en .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy/well_log> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://portal.heatflow.world/vocabularies/conductivity-strategy> .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy> <http://purl.org/dc/terms/description> "The strategy used to obtain thermal conductivity values for the depth interval of a heat-flow determination."@en .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://portal.heatflow.world/vocabularies/conductivity-strategy/characterize> .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://portal.heatflow.world/vocabularies/conductivity-strategy/computation> .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://portal.heatflow.world/vocabularies/conductivity-strategy/other> .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://portal.heatflow.world/vocabularies/conductivity-strategy/random> .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://portal.heatflow.world/vocabularies/conductivity-strategy/unspecified> .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://portal.heatflow.world/vocabularies/conductivity-strategy/well_log> .
+<https://portal.heatflow.world/vocabularies/conductivity-strategy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Thermal conductivity strategies"@en .

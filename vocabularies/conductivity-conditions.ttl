@@ -1,123 +1,125 @@
-PREFIX ghfdb: <https://heatflow.world/vocabularies/conductivity-conditions/>
+PREFIX : <https://portal.heatflow.world/vocabularies/conductivity-conditions/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX ihfc: <https://portal.heatflow.world/vocabularies/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-ghfdb:actual
+:actual
     a skos:Collection ;
     skos:definition "The condition at the respective depth of the heat-flow interval."@en ;
-    skos:member ghfdb:actualInSitu ;
+    skos:member :actualInSitu ;
     skos:prefLabel "Actual"@en ;
 .
 
-ghfdb:corrected
+:corrected
     a skos:Collection ;
     skos:definition "Determinations under laboratory pT conditions that were corrected to conditions at target depths"@en ;
     skos:member
-        ghfdb:correctedP ,
-        ghfdb:correctedPT ,
-        ghfdb:correctedT ;
+        :correctedP ,
+        :correctedPT ,
+        :correctedT ;
     skos:prefLabel "Corrected conditions"@en ;
 .
 
-ghfdb:recorded
+:recorded
     a skos:Collection ;
     skos:definition "Determinations under true conditions at target depths (e.g. sensing in boreholes)"@en ;
-    skos:member ghfdb:recordedAmbient ;
+    skos:member :recordedAmbient ;
     skos:prefLabel "Recorded"@en ;
 .
 
-ghfdb:replicated
+:replicated
     a skos:Collection ;
     skos:definition "Determinations where the conditions at target depths are replicated under laboratory conditions"@en ;
     skos:member
-        ghfdb:replicatedP ,
-        ghfdb:replicatedPT ,
-        ghfdb:replicatedT ;
+        :replicatedP ,
+        :replicatedPT ,
+        :replicatedT ;
     skos:prefLabel "Replicated conditions"@en ;
 .
 
-ghfdb:unrecordedAmbient
+:unrecordedAmbient
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/conductivity-conditions> ;
+    skos:inScheme ihfc:conductivity-conditions ;
     skos:prefLabel "Unrecorded ambient pT conditions"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-conditions> ;
+    skos:topConceptOf ihfc:conductivity-conditions ;
 .
 
-ghfdb:unspecified
+:unspecified
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/conductivity-conditions> ;
+    skos:inScheme ihfc:conductivity-conditions ;
     skos:prefLabel "Unspecified"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-conditions> ;
+    skos:topConceptOf ihfc:conductivity-conditions ;
 .
 
-ghfdb:actualInSitu
+:actualInSitu
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/conductivity-conditions> ;
+    skos:inScheme ihfc:conductivity-conditions ;
     skos:prefLabel "Actual in-situ (pT) conditions"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-conditions> ;
+    skos:topConceptOf ihfc:conductivity-conditions ;
 .
 
-ghfdb:correctedP
+:correctedP
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/conductivity-conditions> ;
+    skos:inScheme ihfc:conductivity-conditions ;
     skos:prefLabel "Corrected in-situ (p)"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-conditions> ;
+    skos:topConceptOf ihfc:conductivity-conditions ;
 .
 
-ghfdb:correctedPT
+:correctedPT
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/conductivity-conditions> ;
+    skos:inScheme ihfc:conductivity-conditions ;
     skos:prefLabel "Corrected in-situ (pT)"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-conditions> ;
+    skos:topConceptOf ihfc:conductivity-conditions ;
 .
 
-ghfdb:correctedT
+:correctedT
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/conductivity-conditions> ;
+    skos:inScheme ihfc:conductivity-conditions ;
     skos:prefLabel "Corrected in-situ (T)"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-conditions> ;
+    skos:topConceptOf ihfc:conductivity-conditions ;
 .
 
-ghfdb:recordedAmbient
+:recordedAmbient
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/conductivity-conditions> ;
+    skos:inScheme ihfc:conductivity-conditions ;
     skos:prefLabel "Recorded ambient pT conditions"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-conditions> ;
+    skos:topConceptOf ihfc:conductivity-conditions ;
 .
 
-ghfdb:replicatedP
+:replicatedP
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/conductivity-conditions> ;
+    skos:inScheme ihfc:conductivity-conditions ;
     skos:prefLabel "Replicated in-situ (p)"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-conditions> ;
+    skos:topConceptOf ihfc:conductivity-conditions ;
 .
 
-ghfdb:replicatedPT
+:replicatedPT
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/conductivity-conditions> ;
+    skos:inScheme ihfc:conductivity-conditions ;
     skos:prefLabel "Replicated in-situ (pT)"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-conditions> ;
+    skos:topConceptOf ihfc:conductivity-conditions ;
 .
 
-ghfdb:replicatedT
+:replicatedT
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/conductivity-conditions> ;
+    skos:inScheme ihfc:conductivity-conditions ;
     skos:prefLabel "Replicated in-situ (T)"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-conditions> ;
+    skos:topConceptOf ihfc:conductivity-conditions ;
 .
 
-<https://heatflow.world/vocabularies/conductivity-conditions>
+ihfc:conductivity-conditions
     a skos:ConceptScheme ;
-    skos:definition "Conditions under which the thermal conductivity was measured."@en ;
+    dcterms:description "The pressure and temperature conditions under which thermal conductivity was measured, and whether they were recorded, replicated or corrected to in-situ conditions."@en ;
     skos:hasTopConcept
-        ghfdb:actualInSitu ,
-        ghfdb:correctedP ,
-        ghfdb:correctedPT ,
-        ghfdb:correctedT ,
-        ghfdb:recordedAmbient ,
-        ghfdb:replicatedP ,
-        ghfdb:replicatedPT ,
-        ghfdb:replicatedT ,
-        ghfdb:unrecordedAmbient ,
-        ghfdb:unspecified ;
-    skos:prefLabel "Conductivity measurement conditions"@en ;
+        :actualInSitu ,
+        :correctedP ,
+        :correctedPT ,
+        :correctedT ,
+        :recordedAmbient ,
+        :replicatedP ,
+        :replicatedPT ,
+        :replicatedT ,
+        :unrecordedAmbient ,
+        :unspecified ;
+    skos:prefLabel "Thermal conductivity measurement conditions"@en ;
 .

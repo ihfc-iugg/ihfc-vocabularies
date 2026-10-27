@@ -1,434 +1,6 @@
 [
   {
-    "@id": "https://heatflow.world/vocabularies/temperature-method/BHT",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Bottom Hole Temperature, uncorrected."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "BHT"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/temperature-method/HT_FT",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "High-temperature fluid-temperature measurement in equilibrium conditions."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "HT-FTeq"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/temperature-method/unspecified",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Unspecified temperature determination method."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Unspecified"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/temperature-method/CPD",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Curie Point/Depth temperature estimates."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "CPD"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/temperature-method/XEN",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Temperature estimates from xenoliths."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "XEN"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/temperature-method/ODTT_TP",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Ocean Drilling Temperature Tool - thermistor probe."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "ODTT-TP"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/temperature-method",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Methods used to determine temperature for the purpose of deriving heat flow."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method/BHT"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method/BLK"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method/BSR"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method/CPD"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method/DTSeq"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method/DTSpert"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method/EGRT"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method/GRT"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method/GTM"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method/HT_FT"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method/HT_FTpert"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method/LOGeq"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method/LOGpert"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method/ODTT_PC"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method/ODTT_TP"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method/RTDeq"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method/RTDpert"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method/SUR"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method/XEN"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method/cBHT"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method/cDTS"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method/cHT_FT"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method/cLOG"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method/cRTD"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method/other"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method/unspecified"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Temperature determination method"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/temperature-method/EGRT",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "EGRT"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/temperature-method/SUR",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Surface temperature or bottom water temperature measurement."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "SUR"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/temperature-method/GTM",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Temperature estimates from geothermometry."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "GTM"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/temperature-method/DTSpert",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Distributed Temperature Sensing (DTS) in perturbed conditions."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "DTSpert"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/temperature-method/ODTT_PC",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Ocean Drilling Temperature Tool - piston corer."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "ODTT-PC"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/temperature-method/LOGpert",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Continuous temperature logging in a perturbed borehole using semiconductor transducer or thermistor probe."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "LOGpert"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/temperature-method/other",
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-method/other",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -440,7 +12,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -451,152 +23,12 @@
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
       }
     ]
   },
   {
-    "@id": "https://heatflow.world/vocabularies/temperature-method/cBHT",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Bottom Hole Temperature, corrected for perturbations."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "cBHT"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/temperature-method/LOGeq",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Continuous temperature logging in borehole equilibrium using semiconductor transducer or thermistor probe."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "LOGeq"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/temperature-method/cDTS",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Distributed Temperature Sensing (DTS) in perturbed conditions, corrected for perturbations."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "cDTS"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/temperature-method/BSR",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Temperature estimates from bottom-simulating seismic reflector."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "BSR"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/temperature-method/cLOG",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Continuous temperature logging in a perturbed borehole, corrected for perturbations."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "cLOG"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/temperature-method/RTDpert",
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-method/RTDpert",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -608,7 +40,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -619,118 +51,18 @@
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
       }
     ]
   },
   {
-    "@id": "https://heatflow.world/vocabularies/temperature-method/BLK",
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-method/GRT",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "BLK"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/temperature-method/DTSeq",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Distributed Temperature Sensing (DTS) in equilibrium conditions."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "DTSeq"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/temperature-method/HT_FTpert",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "High-temperature fluid-temperature measurement in perturbed conditions."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "HT-FTpert"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/temperature-method/cHT_FT",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "cHT-FT"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/temperature-method/GRT",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -741,12 +73,166 @@
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
       }
     ]
   },
   {
-    "@id": "https://heatflow.world/vocabularies/temperature-method/cRTD",
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-method/ODTT_PC",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Ocean Drilling Temperature Tool - piston corer."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "ODTT-PC"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-method",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Methods used to measure or estimate the temperatures from which heat flow is derived."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method/SUR"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method/cDTS"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method/BLK"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method/cRTD"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method/HT_FTpert"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method/unspecified"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method/GRT"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method/LOGeq"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method/RTDpert"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method/BSR"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method/other"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method/ODTT_TP"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method/CPD"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method/cLOG"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method/cBHT"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method/EGRT"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method/DTSpert"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method/XEN"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method/HT_FT"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method/LOGpert"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method/cHT_FT"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method/ODTT_PC"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method/BHT"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method/DTSeq"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method/RTDeq"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method/GTM"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Temperature methods"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-method/XEN",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Temperature estimates from xenoliths."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "XEN"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-method/cRTD",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -758,7 +244,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -769,12 +255,112 @@
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
       }
     ]
   },
   {
-    "@id": "https://heatflow.world/vocabularies/temperature-method/RTDeq",
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-method/cHT_FT",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "cHT-FT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-method/unspecified",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Unspecified temperature determination method."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Unspecified"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-method/BHT",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Bottom Hole Temperature, uncorrected."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "BHT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-method/BLK",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "BLK"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-method/RTDeq",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -786,7 +372,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -797,7 +383,421 @@
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "https://heatflow.world/vocabularies/temperature-method"
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-method/cDTS",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Distributed Temperature Sensing (DTS) in perturbed conditions, corrected for perturbations."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "cDTS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-method/EGRT",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "EGRT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-method/cLOG",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Continuous temperature logging in a perturbed borehole, corrected for perturbations."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "cLOG"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-method/GTM",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Temperature estimates from geothermometry."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "GTM"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-method/BSR",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Temperature estimates from bottom-simulating seismic reflector."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "BSR"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-method/HT_FTpert",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "High-temperature fluid-temperature measurement in perturbed conditions."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "HT-FTpert"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-method/SUR",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Surface temperature or bottom water temperature measurement."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "SUR"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-method/DTSeq",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Distributed Temperature Sensing (DTS) in equilibrium conditions."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "DTSeq"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-method/HT_FT",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "High-temperature fluid-temperature measurement in equilibrium conditions."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "HT-FTeq"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-method/LOGeq",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Continuous temperature logging in borehole equilibrium using semiconductor transducer or thermistor probe."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "LOGeq"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-method/DTSpert",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Distributed Temperature Sensing (DTS) in perturbed conditions."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "DTSpert"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-method/LOGpert",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Continuous temperature logging in a perturbed borehole using semiconductor transducer or thermistor probe."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "LOGpert"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-method/ODTT_TP",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Ocean Drilling Temperature Tool - thermistor probe."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "ODTT-TP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-method/CPD",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Curie Point/Depth temperature estimates."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "CPD"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/temperature-method/cBHT",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Bottom Hole Temperature, corrected for perturbations."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "cBHT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/temperature-method"
       }
     ]
   }

@@ -1,122 +1,307 @@
 [
   {
-    "@id": "https://heatflow.world/vocabularies/heat-flow-corrections",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Generic flag choices for heat flow data."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/consideredP"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/consideredPT"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/consideredT"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/corrected"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/driftCorrected"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/notConsidered"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/notCorrected"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/not_recognized"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/present_corrected"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/present_not_corrected"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/present_not_significant"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/tiltCorrected"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/unspecified"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Generic flag choices"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/insitu",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Collection"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "In-situ measurements"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#member": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/consideredP"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/consideredPT"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/consideredT"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/notConsidered"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/unspecified"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "In-situ"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/present_not_significant",
+    "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/unspecified",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections"
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Present not significant"
+        "@value": "unspecified"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections"
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections"
       }
     ]
   },
   {
-    "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/temperature",
+    "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/not_recognized",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "not recognized"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/consideredPT",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Considered - pT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/present_corrected",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Present and corrected"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/present_not_corrected",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Present and not corrected"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/notCorrected",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "not corrected"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/consideredT",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Considered - t"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/tiltCorrected",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Tilt corrected"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/corrected",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Corrected"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/notConsidered",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "not considered"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Flags recording whether an effect that can bias heat-flow data was present, and whether it was considered or corrected."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/notCorrected"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/present_corrected"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/tiltCorrected"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/present_not_significant"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/consideredP"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/not_recognized"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/consideredPT"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/corrected"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/present_not_corrected"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/driftCorrected"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/notConsidered"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/consideredT"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/unspecified"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Correction flags"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/consideredP",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Considered - p"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/temperature",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Collection"
     ],
@@ -128,19 +313,19 @@
     ],
     "http://www.w3.org/2004/02/skos/core#member": [
       {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/corrected"
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/driftCorrected"
       },
       {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/driftCorrected"
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/unspecified"
       },
       {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/notCorrected"
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/notCorrected"
       },
       {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/tiltCorrected"
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/corrected"
       },
       {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/unspecified"
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/tiltCorrected"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -151,7 +336,51 @@
     ]
   },
   {
-    "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/generic",
+    "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/present_not_significant",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Present not significant"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/driftCorrected",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Drift corrected"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/generic",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Collection"
     ],
@@ -163,19 +392,19 @@
     ],
     "http://www.w3.org/2004/02/skos/core#member": [
       {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/not_recognized"
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/present_corrected"
       },
       {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/present_corrected"
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/present_not_significant"
       },
       {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/present_not_corrected"
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/present_not_corrected"
       },
       {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/present_not_significant"
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/not_recognized"
       },
       {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/unspecified"
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/unspecified"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -186,266 +415,37 @@
     ]
   },
   {
-    "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/present_not_corrected",
+    "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/insitu",
     "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
+      "http://www.w3.org/2004/02/skos/core#Collection"
     ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
+    "http://www.w3.org/2004/02/skos/core#definition": [
       {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections"
+        "@language": "en",
+        "@value": "In-situ measurements"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/unspecified"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/consideredPT"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/consideredP"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/notConsidered"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-corrections/consideredT"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Present and not corrected"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/consideredP",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Considered - p"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/tiltCorrected",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Tilt corrected"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/notConsidered",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "not considered"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/unspecified",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "unspecified"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/corrected",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Corrected"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/consideredT",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Considered - t"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/present_corrected",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Present and corrected"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/consideredPT",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Considered - pT"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/driftCorrected",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Drift corrected"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/not_recognized",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "not recognized"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/heat-flow-corrections/notCorrected",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "not corrected"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-corrections"
+        "@value": "In-situ"
       }
     ]
   }

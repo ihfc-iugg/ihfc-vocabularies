@@ -1,71 +1,73 @@
-PREFIX ghfdb: <https://heatflow.world/vocabularies/conductivity-saturation/>
+PREFIX : <https://portal.heatflow.world/vocabularies/conductivity-saturation/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX ihfc: <https://portal.heatflow.world/vocabularies/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-ghfdb:dryMeasured
+:dryMeasured
     a skos:Concept ;
     skos:definition "Rocks have been technically dried before measurement"@en ;
-    skos:inScheme <https://heatflow.world/vocabularies/conductivity-saturation> ;
+    skos:inScheme ihfc:conductivity-saturation ;
     skos:prefLabel "Dry measured"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-saturation> ;
+    skos:topConceptOf ihfc:conductivity-saturation ;
 .
 
-ghfdb:other
+:other
     a skos:Concept ;
     skos:definition "Other saturation state (must be specified in comments)"@en ;
-    skos:inScheme <https://heatflow.world/vocabularies/conductivity-saturation> ;
+    skos:inScheme ihfc:conductivity-saturation ;
     skos:prefLabel "Other"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-saturation> ;
+    skos:topConceptOf ihfc:conductivity-saturation ;
 .
 
-ghfdb:recovered
+:recovered
     a skos:Concept ;
     skos:definition "As recovered (rocks have been preserved and measured in close to their natural saturation state)."@en ;
-    skos:inScheme <https://heatflow.world/vocabularies/conductivity-saturation> ;
+    skos:inScheme ihfc:conductivity-saturation ;
     skos:prefLabel "Recovered"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-saturation> ;
+    skos:topConceptOf ihfc:conductivity-saturation ;
 .
 
-ghfdb:saturatedCalculated
+:saturatedCalculated
     a skos:Concept ;
     skos:definition "Thermal conductivity has been calculated from dry measured rocks, porosity and pore-filling fluid"@en ;
-    skos:inScheme <https://heatflow.world/vocabularies/conductivity-saturation> ;
+    skos:inScheme ihfc:conductivity-saturation ;
     skos:prefLabel "Saturated calculated"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-saturation> ;
+    skos:topConceptOf ihfc:conductivity-saturation ;
 .
 
-ghfdb:saturatedInSitu
+:saturatedInSitu
     a skos:Concept ;
     skos:definition "Insitu saturated measured (measurements with probe sensing / marine measurements)"@en ;
-    skos:inScheme <https://heatflow.world/vocabularies/conductivity-saturation> ;
+    skos:inScheme ihfc:conductivity-saturation ;
     skos:prefLabel "Saturated measured in-situ"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-saturation> ;
+    skos:topConceptOf ihfc:conductivity-saturation ;
 .
 
-ghfdb:saturatedMeasured
+:saturatedMeasured
     a skos:Concept ;
     skos:definition "Saturated measured (rocks have been technically saturated completely before measurement)."@en ;
-    skos:inScheme <https://heatflow.world/vocabularies/conductivity-saturation> ;
+    skos:inScheme ihfc:conductivity-saturation ;
     skos:prefLabel "Saturated measured"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-saturation> ;
+    skos:topConceptOf ihfc:conductivity-saturation ;
 .
 
-ghfdb:unspecified
+:unspecified
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/conductivity-saturation> ;
+    skos:inScheme ihfc:conductivity-saturation ;
     skos:prefLabel "Unspecified"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-saturation> ;
+    skos:topConceptOf ihfc:conductivity-saturation ;
 .
 
-<https://heatflow.world/vocabularies/conductivity-saturation>
+ihfc:conductivity-saturation
     a skos:ConceptScheme ;
-    skos:definition "Specification of the saturation state of the rocks during the thermal conductivity measurement."@en ;
+    dcterms:description "The saturation state of the rock when its thermal conductivity was measured."@en ;
     skos:hasTopConcept
-        ghfdb:dryMeasured ,
-        ghfdb:other ,
-        ghfdb:recovered ,
-        ghfdb:saturatedCalculated ,
-        ghfdb:saturatedInSitu ,
-        ghfdb:saturatedMeasured ,
-        ghfdb:unspecified ;
-    skos:prefLabel "Heat-flow specific conductivity saturation states"@en ;
+        :dryMeasured ,
+        :other ,
+        :recovered ,
+        :saturatedCalculated ,
+        :saturatedInSitu ,
+        :saturatedMeasured ,
+        :unspecified ;
+    skos:prefLabel "Thermal conductivity saturation states"@en ;
 .

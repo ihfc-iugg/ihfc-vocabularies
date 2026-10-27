@@ -46,8 +46,9 @@ them by `scripts/build_vocabularies.py` and are never edited by hand.
 
 ### Article IX — One vocabulary per file
 Each source file holds exactly one concept scheme, whose address is
-`https://heatflow.world/vocabularies/` followed by the file name. Every concept and collection
-in the file has an address under it, and every concept is `skos:inScheme` it.
+`https://portal.heatflow.world/vocabularies/` followed by the file name. The concept scheme has an
+English `skos:prefLabel` and an English `dcterms:description`. Every concept and collection in
+the file has an address under it, and every concept is `skos:inScheme` it.
 
 ### Article X — Every text has a language
 Every label and definition carries a language tag. English is required for every label. A
@@ -84,4 +85,4 @@ Read at review; applies to every change.
 
 ---
 
-**Version**: 1.0.0 | **Ratified**: 2026-10-27 | **Last Amended**: 2026-10-27
+**Version**: 2.0.0 | **Ratified**: 2026-10-27 | **Last Amended**: 2026-10-27

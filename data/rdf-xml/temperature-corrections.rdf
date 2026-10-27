@@ -1,67 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/temperature-corrections/aapg">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/temperature-corrections"/>
-    <skos:prefLabel xml:lang="en">AAPG correction</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/temperature-corrections"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/temperature-corrections/other">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/temperature-corrections"/>
-    <skos:prefLabel xml:lang="en">Other published correction</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/temperature-corrections"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/temperature-corrections/lineSourceExplosion">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/temperature-corrections"/>
-    <skos:prefLabel xml:lang="en">Line source explosion method</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/temperature-corrections"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/temperature-corrections/unspecified">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/temperature-corrections"/>
-    <skos:prefLabel xml:lang="en">Unspecified</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/temperature-corrections"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/temperature-corrections/inverseNM">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/temperature-corrections"/>
-    <skos:prefLabel xml:lang="en">Inverse numerical modelling</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/temperature-corrections"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/temperature-corrections">
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/temperature-corrections">
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/temperature-corrections/lineSourceExplosion"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/temperature-corrections/cylinderSource"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/temperature-corrections/aapg"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/temperature-corrections/hornerPlot"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/temperature-corrections/other"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/temperature-corrections/unspecified"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/temperature-corrections/inverseNM"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/temperature-corrections/not_corrected"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <skos:definition xml:lang="en">Methods used to correct temperature data for the purpose of heat flow measurements.</skos:definition>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/temperature-corrections/aapg"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/temperature-corrections/cylinderSource"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/temperature-corrections/hornerPlot"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/temperature-corrections/inverseNM"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/temperature-corrections/lineSourceExplosion"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/temperature-corrections/not_corrected"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/temperature-corrections/other"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/temperature-corrections/unspecified"/>
+    <dcterms:description xml:lang="en">Methods used to correct measured temperatures for disturbances, such as those caused by drilling, before heat flow is derived.</dcterms:description>
     <skos:prefLabel xml:lang="en">Temperature correction methods</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/temperature-corrections/not_corrected">
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/temperature-corrections/aapg">
+    <skos:prefLabel xml:lang="en">AAPG correction</skos:prefLabel>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/temperature-corrections"/>
-    <skos:prefLabel xml:lang="en">not corrected</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/temperature-corrections"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/temperature-corrections"/>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/temperature-corrections"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/temperature-corrections/cylinderSource">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/temperature-corrections"/>
-    <skos:prefLabel xml:lang="en">Cylinder source method</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/temperature-corrections"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/temperature-corrections/hornerPlot">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/temperature-corrections"/>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/temperature-corrections/hornerPlot">
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/temperature-corrections"/>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/temperature-corrections"/>
     <skos:prefLabel xml:lang="en">Horner plot</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/temperature-corrections"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/temperature-corrections/not_corrected">
+    <skos:prefLabel xml:lang="en">not corrected</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/temperature-corrections"/>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/temperature-corrections"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/temperature-corrections/unspecified">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/temperature-corrections"/>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/temperature-corrections"/>
+    <skos:prefLabel xml:lang="en">Unspecified</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/temperature-corrections/cylinderSource">
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/temperature-corrections"/>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/temperature-corrections"/>
+    <skos:prefLabel xml:lang="en">Cylinder source method</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/temperature-corrections/inverseNM">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Inverse numerical modelling</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/temperature-corrections"/>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/temperature-corrections"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/temperature-corrections/lineSourceExplosion">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Line source explosion method</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/temperature-corrections"/>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/temperature-corrections"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/temperature-corrections/other">
+    <skos:prefLabel xml:lang="en">Other published correction</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/temperature-corrections"/>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/temperature-corrections"/>
   </rdf:Description>
 </rdf:RDF>
