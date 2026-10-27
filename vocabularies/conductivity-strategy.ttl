@@ -23,6 +23,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :characterize
     a skos:Concept ;
+    skos:definition "The conductivity of each formation in the heat-flow interval was characterized from samples, and the interval value was derived from the formation values."@en ;
     skos:inScheme ihfc:conductivity-strategy ;
     skos:prefLabel "Characterize formation conductivities"@en ;
     skos:topConceptOf ihfc:conductivity-strategy ;
@@ -30,6 +31,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :computation
     a skos:Concept ;
+    skos:definition "The conductivity over the heat-flow interval was computed from probe sensing measurements."@en ;
     skos:inScheme ihfc:conductivity-strategy ;
     skos:prefLabel "Computation from probe sensing"@en ;
     skos:topConceptOf ihfc:conductivity-strategy ;
@@ -37,7 +39,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :other
     a skos:Concept ;
-    skos:definition "Other"@en ;
+    skos:definition "The conductivity over the heat-flow interval was estimated by a strategy not listed here. Describe it in the comment field."@en ;
     skos:inScheme ihfc:conductivity-strategy ;
     skos:prefLabel "Other"@en ;
     skos:topConceptOf ihfc:conductivity-strategy ;
@@ -45,6 +47,8 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :random
     a skos:Concept ;
+    skos:altLabel "Random or periodic depth sampling (number)"@en ;
+    skos:definition "The conductivity was obtained from samples or measurements taken at random or regular depths along the heat-flow interval. Give the number in the comment field."@en ;
     skos:inScheme ihfc:conductivity-strategy ;
     skos:prefLabel "Random or periodic depth sampling"@en ;
     skos:topConceptOf ihfc:conductivity-strategy ;
@@ -52,7 +56,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :unspecified
     a skos:Concept ;
-    skos:definition "Unspecified"@en ;
+    skos:definition "The strategy used to estimate the conductivity is not specified."@en ;
     skos:inScheme ihfc:conductivity-strategy ;
     skos:prefLabel "Unspecified"@en ;
     skos:topConceptOf ihfc:conductivity-strategy ;
@@ -60,6 +64,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :well_log
     a skos:Concept ;
+    skos:definition "The conductivity over the heat-flow interval was derived by interpreting well logs."@en ;
     skos:inScheme ihfc:conductivity-strategy ;
     skos:prefLabel "Well log interpretation"@en ;
     skos:topConceptOf ihfc:conductivity-strategy ;

@@ -7,7 +7,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :computation
     a skos:Collection ;
-    skos:definition "Computed values"@en ;
+    skos:definition "Sources where the conductivity was computed or taken from published values, not measured."@en ;
     skos:member
         :assumed_from_literature ,
         :mineral_computation ;
@@ -16,7 +16,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :in_situ
     a skos:Collection ;
-    skos:definition "In-situ measurements"@en ;
+    skos:definition "Sources where the conductivity was obtained in the ground, by a probe or from well logs."@en ;
     skos:member
         :insitu_probe ,
         :well_log ;
@@ -25,7 +25,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :laboratory
     a skos:Collection ;
-    skos:definition "Laboratory measurements"@en ;
+    skos:definition "Sources where the conductivity was measured on rock material in a laboratory, including core measurements combined with logs."@en ;
     skos:member
         :core_log ,
         :core_samples ,
@@ -52,6 +52,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :other
     a skos:Concept ;
+    skos:definition "The conductivity comes from a source not listed here. Describe it in the comment field."@en ;
     skos:inScheme ihfc:conductivity-sources ;
     skos:prefLabel "Other"@en ;
     skos:topConceptOf ihfc:conductivity-sources ;
@@ -59,6 +60,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :unspecified
     a skos:Concept ;
+    skos:definition "The source of the conductivity is not specified."@en ;
     skos:inScheme ihfc:conductivity-sources ;
     skos:prefLabel "Unspecified"@en ;
     skos:topConceptOf ihfc:conductivity-sources ;
@@ -78,6 +80,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :assumed_from_literature
     a skos:Concept ;
+    skos:definition "The conductivity was not measured for this heat-flow determination. It was taken from published values."@en ;
     skos:inScheme ihfc:conductivity-sources ;
     skos:prefLabel "Assumed from literature"@en ;
     skos:topConceptOf ihfc:conductivity-sources ;
@@ -85,6 +88,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :core_log
     a skos:Concept ;
+    skos:definition "The conductivity combines measurements on core samples with well-log data."@en ;
     skos:inScheme ihfc:conductivity-sources ;
     skos:prefLabel "Core-log integration"@en ;
     skos:topConceptOf ihfc:conductivity-sources ;
@@ -92,6 +96,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :core_samples
     a skos:Concept ;
+    skos:definition "The conductivity was measured on rock core samples recovered from a borehole."@en ;
     skos:inScheme ihfc:conductivity-sources ;
     skos:prefLabel "Core samples"@en ;
     skos:topConceptOf ihfc:conductivity-sources ;
@@ -99,6 +104,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :cutting_samples
     a skos:Concept ;
+    skos:definition "The conductivity was measured on rock cuttings brought up during drilling."@en ;
     skos:inScheme ihfc:conductivity-sources ;
     skos:prefLabel "Cutting samples"@en ;
     skos:topConceptOf ihfc:conductivity-sources ;
@@ -106,6 +112,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :insitu_probe
     a skos:Concept ;
+    skos:definition "The conductivity was measured in the ground with a probe, for example a probe pushed into soft sediment."@en ;
     skos:inScheme ihfc:conductivity-sources ;
     skos:prefLabel "In-situ probe"@en ;
     skos:topConceptOf ihfc:conductivity-sources ;
@@ -113,6 +120,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :mineral_computation
     a skos:Concept ;
+    skos:definition "The conductivity was calculated from the mineral composition of the rock, using the conductivities of the minerals."@en ;
     skos:inScheme ihfc:conductivity-sources ;
     skos:prefLabel "Mineral computation"@en ;
     skos:topConceptOf ihfc:conductivity-sources ;
@@ -120,6 +128,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :outcrop_samples
     a skos:Concept ;
+    skos:definition "The conductivity was measured on rock samples collected at the surface from outcrops."@en ;
     skos:inScheme ihfc:conductivity-sources ;
     skos:prefLabel "Outcrop samples"@en ;
     skos:topConceptOf ihfc:conductivity-sources ;
@@ -127,6 +136,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :well_log
     a skos:Concept ;
+    skos:definition "The conductivity was derived by interpreting well logs."@en ;
     skos:inScheme ihfc:conductivity-sources ;
     skos:prefLabel "Well-log interpretation"@en ;
     skos:topConceptOf ihfc:conductivity-sources ;

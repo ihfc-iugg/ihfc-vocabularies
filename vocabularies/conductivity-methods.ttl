@@ -7,7 +7,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :estimation
     a skos:Collection ;
-    skos:definition "Estimation from other sources"@en ;
+    skos:definition "Methods that estimate the conductivity from other properties or data instead of measuring it."@en ;
     skos:member
         :chlorineContent ,
         :lithology ,
@@ -18,7 +18,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :laboratory
     a skos:Collection ;
-    skos:definition "Laboratory measurements"@en ;
+    skos:definition "Methods that measure the conductivity of rock samples in a laboratory."@en ;
     skos:member
         :laboratoryOther ,
         :lineSourceFull ,
@@ -31,14 +31,14 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :other
     a skos:Collection ;
-    skos:definition "Other methods"@en ;
+    skos:definition "Values that name no specific method."@en ;
     skos:member :unspecified ;
-    skos:prefLabel "Other"@en ;
+    skos:prefLabel "Not specified"@en ;
 .
 
 :probe
     a skos:Collection ;
-    skos:definition "Probe measurements"@en ;
+    skos:definition "Methods that measure the conductivity in the ground with a probe."@en ;
     skos:member
         :probeContinuousHeating ,
         :probePulse ;
@@ -47,16 +47,11 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :well_log
     a skos:Collection ;
-    skos:definition "Well-log interpretation"@en ;
+    skos:definition "Methods that derive the conductivity from well-log data."@en ;
     skos:member
         :wellLogDeterministic ,
         :wellLogEmpirical ;
     skos:prefLabel "Well-log"@en ;
-.
-
-<https://doi.org/10.1016/j.tecto.2023.229976>
-    a dcterms:BibliographicResource ;
-    dcterms:bibliographicCitation "Fuchs, S., Norden, B., Neumann, F., Kaul, N., Tanaka, A., Kukkonen, I. T., et al. (2023). Quality-assurance of heat-flow data: The new structure and evaluation scheme of the IHFC Global Heat Flow Database. Tectonophysics, 863, 229976."@en ;
 .
 
 <https://doi.org/10.31214/ijthfa.v4i1.62>
@@ -84,6 +79,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :chlorineContent
     a skos:Concept ;
+    skos:definition "The conductivity was estimated from the chlorine content."@en ;
     skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Estimation - from chlorine content"@en ;
     skos:topConceptOf ihfc:conductivity-methods ;
@@ -91,6 +87,8 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :laboratoryOther
     a skos:Concept ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "A laboratory measurement method not listed here. Describe it in the comment field."@en ;
     skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Lab - other"@en ;
     skos:topConceptOf ihfc:conductivity-methods ;
@@ -98,6 +96,9 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :lineSourceFull
     a skos:Concept ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:altLabel "Lab - line source / full space"@en ;
+    skos:definition "Laboratory measurement with a line heat source in a full space, for example a needle probe."@en ;
     skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Lab - line source - full space"@en ;
     skos:topConceptOf ihfc:conductivity-methods ;
@@ -105,6 +106,9 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :lineSourceHalf
     a skos:Concept ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:altLabel "Lab - line source / half space"@en ;
+    skos:definition "Laboratory measurement with a line heat source in a half space, for example the TK04 device."@en ;
     skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Lab - line source - half space"@en ;
     skos:topConceptOf ihfc:conductivity-methods ;
@@ -112,6 +116,8 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :lithology
     a skos:Concept ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "The conductivity was estimated by assigning published values to the lithology."@en ;
     skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Estimation - from lithology and literature"@en ;
     skos:topConceptOf ihfc:conductivity-methods ;
@@ -119,6 +125,8 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :mineralComposition
     a skos:Concept ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "The conductivity was estimated from the mineral composition with a mixing model."@en ;
     skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Estimation - from mineral composition"@en ;
     skos:topConceptOf ihfc:conductivity-methods ;
@@ -126,6 +134,9 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :planeSourceFull
     a skos:Concept ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:altLabel "Lab - plane source / full space"@en ;
+    skos:definition "Laboratory measurement with a plane heat source in a full space, for example a Hot Disk transient plane source, a comparator apparatus or a divided bar."@en ;
     skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Lab - plane source - full space"@en ;
     skos:topConceptOf ihfc:conductivity-methods ;
@@ -133,6 +144,9 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :planeSourceHalf
     a skos:Concept ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:altLabel "Lab - plane source / half space"@en ;
+    skos:definition "Laboratory measurement with a plane heat source in a half space, for example a modified transient plane source device."@en ;
     skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Lab - plane source - half space"@en ;
     skos:topConceptOf ihfc:conductivity-methods ;
@@ -140,6 +154,8 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :pointSource
     a skos:Concept ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "Laboratory measurement with a point heat source, for example optical scanning with a thermal conductivity scanner."@en ;
     skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Lab - point source"@en ;
     skos:topConceptOf ihfc:conductivity-methods ;
@@ -147,6 +163,8 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :probeContinuousHeating
     a skos:Concept ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "In-situ measurement in soft sediment by continuously heating a line source in the probe and recording the temperature rise."@en ;
     skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Probe - continuous heating technique"@en ;
     skos:topConceptOf ihfc:conductivity-methods ;
@@ -154,6 +172,8 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :probePulse
     a skos:Concept ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "In-situ measurement in soft sediment by recording the temperature rise and decay after a calibrated heat pulse from a heater in the probe, as in the violin-bow probe."@en ;
     skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Probe - pulse technique"@en ;
     skos:topConceptOf ihfc:conductivity-methods ;
@@ -161,6 +181,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :unspecified
     a skos:Concept ;
+    skos:definition "The method used to determine the conductivity is not specified."@en ;
     skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Unspecified"@en ;
     skos:topConceptOf ihfc:conductivity-methods ;
@@ -168,6 +189,8 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :waterContent
     a skos:Concept ;
+    skos:altLabel "Estimation - from water content/porosity"@en ;
+    skos:definition "The conductivity was estimated from the water content or the porosity."@en ;
     skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Estimation - from water content-porosity"@en ;
     skos:topConceptOf ihfc:conductivity-methods ;
@@ -175,6 +198,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :wellLogDeterministic
     a skos:Concept ;
+    skos:definition "The conductivity was calculated from well logs by deriving the rock composition and combining the conductivities of its components."@en ;
     skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Well-log - deterministic approach"@en ;
     skos:topConceptOf ihfc:conductivity-methods ;
@@ -182,9 +206,15 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :wellLogEmpirical
     a skos:Concept ;
+    skos:definition "The conductivity was calculated from well logs with an empirical equation that relates log readings to conductivity."@en ;
     skos:inScheme ihfc:conductivity-methods ;
     skos:prefLabel "Well-log - empirical equation"@en ;
     skos:topConceptOf ihfc:conductivity-methods ;
+.
+
+<https://doi.org/10.1016/j.tecto.2023.229976>
+    a dcterms:BibliographicResource ;
+    dcterms:bibliographicCitation "Fuchs, S., Norden, B., Neumann, F., Kaul, N., Tanaka, A., Kukkonen, I. T., et al. (2023). Quality-assurance of heat-flow data: The new structure and evaluation scheme of the IHFC Global Heat Flow Database. Tectonophysics, 863, 229976."@en ;
 .
 
 ihfc:conductivity-methods

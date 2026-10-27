@@ -5,11 +5,6 @@ PREFIX ihfc: <https://portal.heatflow.world/vocabularies/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-<https://doi.org/10.1016/j.tecto.2023.229976>
-    a dcterms:BibliographicResource ;
-    dcterms:bibliographicCitation "Fuchs, S., Norden, B., Neumann, F., Kaul, N., Tanaka, A., Kukkonen, I. T., et al. (2023). Quality-assurance of heat-flow data: The new structure and evaluation scheme of the IHFC Global Heat Flow Database. Tectonophysics, 863, 229976."@en ;
-.
-
 <https://doi.org/10.5880/fidgeo.2026.065>
     a dcterms:BibliographicResource ;
     dcterms:bibliographicCitation "Jennings, Samuel; Neumann, Florian; Norden, Ben; Balkan-Pazvantoğlu, Elif; Elbarbary, Samah; Petrunin, Alexey G.; Elger, Kirsten; Fuchs, Sven (2026): IHFC Controlled Vocabularies for the Global Heat Flow Database. GFZ Data Services. https://doi.org/10.5880/fidgeo.2026.065"@en ;
@@ -18,6 +13,8 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :actual
     a skos:Concept ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "The conductivity data come from the same location as the heat-flow determination."@en ;
     skos:inScheme ihfc:conductivity-location ;
     skos:prefLabel "Actual heat-flow location"@en ;
     skos:topConceptOf ihfc:conductivity-location ;
@@ -25,13 +22,19 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 :literature
     a skos:Concept ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:altLabel "Literature/unspecified"@en ;
+    skos:definition "The conductivity comes from published values, or its location is not known. Use it only when the conductivity source is assumed from literature."@en ;
+    skos:hiddenLabel "Literature-unspecified"@en ;
     skos:inScheme ihfc:conductivity-location ;
-    skos:prefLabel "Literature-unspecified"@en ;
+    skos:prefLabel "Literature or unspecified"@en ;
     skos:topConceptOf ihfc:conductivity-location ;
 .
 
 :other
     a skos:Concept ;
+    dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
+    skos:definition "The conductivity data come from a nearby or other location than the heat-flow determination."@en ;
     skos:inScheme ihfc:conductivity-location ;
     skos:prefLabel "Other location"@en ;
     skos:topConceptOf ihfc:conductivity-location ;
@@ -47,6 +50,11 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a foaf:Organization ;
     foaf:homepage <https://ihfc-iugg.org/> ;
     foaf:name "International Heat Flow Commission"@en ;
+.
+
+<https://doi.org/10.1016/j.tecto.2023.229976>
+    a dcterms:BibliographicResource ;
+    dcterms:bibliographicCitation "Fuchs, S., Norden, B., Neumann, F., Kaul, N., Tanaka, A., Kukkonen, I. T., et al. (2023). Quality-assurance of heat-flow data: The new structure and evaluation scheme of the IHFC Global Heat Flow Database. Tectonophysics, 863, 229976."@en ;
 .
 
 ihfc:conductivity-location
