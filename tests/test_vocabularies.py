@@ -198,6 +198,21 @@ class TestConcepts:
         assert not clashes
 
 
+class TestReadme:
+    README = (SOURCES[0].parent.parent / "README.md").read_text(encoding="utf-8")
+
+    def test_lists_the_vocabulary(self, source, graph, scheme):
+        description = graph.value(scheme, DCTERMS.description)
+        for expected in (
+            f"### {graph.value(scheme, SKOS.prefLabel)}\n",
+            f"`{source.stem}`",
+            f"<{scheme}>",
+            f"/blob/main/vocabularies/{source.stem}.ttl>",
+            f"\n{description}\n",
+        ):
+            assert expected in self.README, f"README does not show {expected!r}"
+
+
 @pytest.fixture(scope="module")
 def exported(tmp_path_factory):
     directory = tmp_path_factory.mktemp("export")
