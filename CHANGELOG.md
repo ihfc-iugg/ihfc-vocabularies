@@ -9,7 +9,7 @@ All notable changes to the vocabularies are recorded here. Versions are calendar
 
 - `CONTRIBUTORS.md`, listing everyone who has contributed to the vocabularies with their
   affiliation and ORCID iD.
-- A release archive, `ihfc-vocabularies-<version>.zip`, with every vocabulary in every format,
+- A release archive, `vocabularies-full.zip`, with every vocabulary in every format,
   the README, contributors, changelog and licence.
 
 ## [2026.1] - 2026-10-27

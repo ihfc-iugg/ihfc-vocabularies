@@ -180,9 +180,12 @@ A link with `latest` always returns the file from the newest release:
 https://github.com/ihfc-iugg/ihfc-vocabularies/releases/latest/download/heat-flow-method.jsonld
 ```
 
-Each release also carries `ihfc-vocabularies-<version>.zip`: every vocabulary in every format,
-with this README, the list of contributors, the changelog and the licence. With the
-[GitHub CLI](https://cli.github.com), `gh release download v2026.1 --repo ihfc-iugg/ihfc-vocabularies`
+Each release also carries `vocabularies-full.zip`: every vocabulary in every format, with this
+README, the list of contributors, the changelog and the licence, in a folder named after the
+version. The newest one is always at
+<https://github.com/ihfc-iugg/ihfc-vocabularies/releases/latest/download/vocabularies-full.zip>.
+
+With the [GitHub CLI](https://cli.github.com), `gh release download v2026.1 --repo ihfc-iugg/ihfc-vocabularies`
 downloads every file of a release.
 
 Any RDF library can read the files. For example, with [rdflib](https://rdflib.readthedocs.io):
