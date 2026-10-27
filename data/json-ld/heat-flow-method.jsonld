@@ -1,12 +1,12 @@
 [
   {
-    "@id": "https://heatflow.world/vocabularies/heat-flow-method/unspecified",
+    "@id": "https://portal.heatflow.world/vocabularies/heat-flow-method/unspecified",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-method"
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-method"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -17,12 +17,12 @@
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-method"
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-method"
       }
     ]
   },
   {
-    "@id": "https://heatflow.world/vocabularies/heat-flow-method/bullard",
+    "@id": "https://portal.heatflow.world/vocabularies/heat-flow-method/bullard",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -34,7 +34,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-method"
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-method"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -45,68 +45,12 @@
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-method"
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-method"
       }
     ]
   },
   {
-    "@id": "https://heatflow.world/vocabularies/heat-flow-method/interval",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Product of the mean thermal gradient to the mean thermal conductivity with reference to a specified depth interval"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-method"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Interval method"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-method"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/heat-flow-method/other",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Specify the method in comments"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-method"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Other"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-method"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/heat-flow-method/bootstrap",
+    "@id": "https://portal.heatflow.world/vocabularies/heat-flow-method/bootstrap",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -118,7 +62,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-method"
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-method"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -129,56 +73,112 @@
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-method"
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-method"
       }
     ]
   },
   {
-    "@id": "https://heatflow.world/vocabularies/heat-flow-method",
+    "@id": "https://portal.heatflow.world/vocabularies/heat-flow-method/other",
     "@type": [
-      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+      "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "Methods used to determine heat flow."
+        "@value": "Specify the method in comments"
       }
     ],
-    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-method/bootstrap"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-method/bullard"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-method/interval"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-method/numerical"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-method/other"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-method/unspecified"
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-method"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Heat flow methods"
+        "@value": "Other"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-method"
       }
     ]
   },
   {
-    "@id": "https://heatflow.world/vocabularies/heat-flow-method/numerical",
+    "@id": "https://portal.heatflow.world/vocabularies/heat-flow-method/interval",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Product of the mean thermal gradient to the mean thermal conductivity with reference to a specified depth interval"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-method"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Interval method"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-method"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/heat-flow-method",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Methods used to determine a heat-flow value from temperature and thermal conductivity data."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-method/bootstrap"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-method/bullard"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-method/interval"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-method/numerical"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-method/other"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-method/unspecified"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Heat-flow methods"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/heat-flow-method/numerical",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-method"
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-method"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -189,7 +189,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "https://heatflow.world/vocabularies/heat-flow-method"
+        "@id": "https://portal.heatflow.world/vocabularies/heat-flow-method"
       }
     ]
   }

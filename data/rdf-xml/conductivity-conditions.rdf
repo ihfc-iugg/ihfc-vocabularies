@@ -1,109 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-conditions/actual">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
-    <skos:definition xml:lang="en">The condition at the respective depth of the heat-flow interval.</skos:definition>
-    <skos:member rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions/actualInSitu"/>
-    <skos:prefLabel xml:lang="en">Actual</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-conditions/replicated">
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-conditions/replicated">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
     <skos:definition xml:lang="en">Determinations where the conditions at target depths are replicated under laboratory conditions</skos:definition>
-    <skos:member rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions/replicatedP"/>
-    <skos:member rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions/replicatedPT"/>
-    <skos:member rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions/replicatedT"/>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions/replicatedP"/>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions/replicatedPT"/>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions/replicatedT"/>
     <skos:prefLabel xml:lang="en">Replicated conditions</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-conditions/replicatedT">
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-conditions/recordedAmbient">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions"/>
-    <skos:prefLabel xml:lang="en">Replicated in-situ (T)</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions"/>
+    <skos:prefLabel xml:lang="en">Recorded ambient pT conditions</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-conditions/replicatedPT">
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-conditions/correctedP">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions"/>
-    <skos:prefLabel xml:lang="en">Replicated in-situ (pT)</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions"/>
+    <skos:prefLabel xml:lang="en">Corrected in-situ (p)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-conditions">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <skos:definition xml:lang="en">Conditions under which the thermal conductivity was measured.</skos:definition>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions/actualInSitu"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions/correctedP"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions/correctedPT"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions/correctedT"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions/recordedAmbient"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions/replicatedP"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions/replicatedPT"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions/replicatedT"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions/unrecordedAmbient"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions/unspecified"/>
-    <skos:prefLabel xml:lang="en">Conductivity measurement conditions</skos:prefLabel>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-conditions/correctedT">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions"/>
+    <skos:prefLabel xml:lang="en">Corrected in-situ (T)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-conditions/corrected">
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-conditions/actualInSitu">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions"/>
+    <skos:prefLabel xml:lang="en">Actual in-situ (pT) conditions</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-conditions/corrected">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
     <skos:definition xml:lang="en">Determinations under laboratory pT conditions that were corrected to conditions at target depths</skos:definition>
-    <skos:member rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions/correctedP"/>
-    <skos:member rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions/correctedPT"/>
-    <skos:member rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions/correctedT"/>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions/correctedP"/>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions/correctedPT"/>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions/correctedT"/>
     <skos:prefLabel xml:lang="en">Corrected conditions</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-conditions/replicatedP">
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-conditions/correctedPT">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions"/>
+    <skos:prefLabel xml:lang="en">Corrected in-situ (pT)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-conditions/replicatedT">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions"/>
+    <skos:prefLabel xml:lang="en">Replicated in-situ (T)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-conditions">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dcterms:description xml:lang="en">The pressure and temperature conditions under which thermal conductivity was measured, and whether they were recorded, replicated or corrected to in-situ conditions.</dcterms:description>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions/actualInSitu"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions/correctedP"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions/correctedPT"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions/correctedT"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions/recordedAmbient"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions/replicatedP"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions/replicatedPT"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions/replicatedT"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions/unrecordedAmbient"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions/unspecified"/>
+    <skos:prefLabel xml:lang="en">Thermal conductivity measurement conditions</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-conditions/unspecified">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions"/>
+    <skos:prefLabel xml:lang="en">Unspecified</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-conditions/actual">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <skos:definition xml:lang="en">The condition at the respective depth of the heat-flow interval.</skos:definition>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions/actualInSitu"/>
+    <skos:prefLabel xml:lang="en">Actual</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-conditions/replicatedP">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions"/>
     <skos:prefLabel xml:lang="en">Replicated in-situ (p)</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions"/>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-conditions/actualInSitu">
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-conditions/unrecordedAmbient">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions"/>
-    <skos:prefLabel xml:lang="en">Actual in-situ (pT) conditions</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-conditions/unrecordedAmbient">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions"/>
     <skos:prefLabel xml:lang="en">Unrecorded ambient pT conditions</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions"/>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-conditions/correctedP">
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-conditions/replicatedPT">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions"/>
-    <skos:prefLabel xml:lang="en">Corrected in-situ (p)</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions"/>
+    <skos:prefLabel xml:lang="en">Replicated in-situ (pT)</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-conditions/recordedAmbient">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions"/>
-    <skos:prefLabel xml:lang="en">Recorded ambient pT conditions</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-conditions/recorded">
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-conditions/recorded">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
     <skos:definition xml:lang="en">Determinations under true conditions at target depths (e.g. sensing in boreholes)</skos:definition>
-    <skos:member rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions/recordedAmbient"/>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-conditions/recordedAmbient"/>
     <skos:prefLabel xml:lang="en">Recorded</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-conditions/correctedPT">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions"/>
-    <skos:prefLabel xml:lang="en">Corrected in-situ (pT)</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-conditions/correctedT">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions"/>
-    <skos:prefLabel xml:lang="en">Corrected in-situ (T)</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-conditions/unspecified">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions"/>
-    <skos:prefLabel xml:lang="en">Unspecified</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-conditions"/>
   </rdf:Description>
 </rdf:RDF>

@@ -1,4 +1,5 @@
-PREFIX ghfdb: <https://heatflow.world/vocabularies/geographic-environments/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX ghfdb: <https://portal.heatflow.world/vocabularies/geographic-environments/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 ghfdb:offshore
@@ -21,48 +22,48 @@ ghfdb:onshore
 
 ghfdb:unspecified
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/geographic-environments> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/geographic-environments> ;
     skos:prefLabel "Unspecified"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/geographic-environments> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/geographic-environments> ;
 .
 
 ghfdb:offshore_continental
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/geographic-environments> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/geographic-environments> ;
     skos:prefLabel "Offshore (continental)"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/geographic-environments> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/geographic-environments> ;
 .
 
 ghfdb:offshore_marine
     a skos:Concept ;
     skos:definition "An offshore marine environment refers to the part of the ocean that is beyond the coastal zone, typically starting from the edge of the continental shelf and extending into the open ocean. It includes deep-sea regions, open waters, and underwater ecosystems such as seamounts, mid-ocean ridges, and abyssal plains."@en ;
-    skos:inScheme <https://heatflow.world/vocabularies/geographic-environments> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/geographic-environments> ;
     skos:prefLabel "Offshore (marine)"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/geographic-environments> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/geographic-environments> ;
 .
 
 ghfdb:onshore_continental
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/geographic-environments> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/geographic-environments> ;
     skos:prefLabel "Onshore (continental)"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/geographic-environments> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/geographic-environments> ;
 .
 
 ghfdb:onshore_marine
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/geographic-environments> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/geographic-environments> ;
     skos:prefLabel "Onshore (lake-river-etc.)"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/geographic-environments> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/geographic-environments> ;
 .
 
-<https://heatflow.world/vocabularies/geographic-environments>
+<https://portal.heatflow.world/vocabularies/geographic-environments>
     a skos:ConceptScheme ;
-    skos:definition "Basic geographic environments where heat-flow measurements are performed."@en ;
+    dcterms:description "The basic geographic environment in which a heat-flow measurement was made, onshore or offshore."@en ;
     skos:hasTopConcept
         ghfdb:offshore_continental ,
         ghfdb:offshore_marine ,
         ghfdb:onshore_continental ,
         ghfdb:onshore_marine ,
         ghfdb:unspecified ;
-    skos:prefLabel "geographic environments"@en ;
+    skos:prefLabel "Geographic environments"@en ;
 .

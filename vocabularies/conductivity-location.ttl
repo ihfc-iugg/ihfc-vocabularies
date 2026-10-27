@@ -1,33 +1,34 @@
-PREFIX ghfdb: <https://heatflow.world/vocabularies/conductivity-location/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX ghfdb: <https://portal.heatflow.world/vocabularies/conductivity-location/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 ghfdb:actual
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/conductivity-location> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-location> ;
     skos:prefLabel "Actual heat-flow location"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-location> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-location> ;
 .
 
 ghfdb:literature
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/conductivity-location> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-location> ;
     skos:prefLabel "Literature-unspecified"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-location> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-location> ;
 .
 
 ghfdb:other
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/conductivity-location> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/conductivity-location> ;
     skos:prefLabel "Other location"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-location> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/conductivity-location> ;
 .
 
-<https://heatflow.world/vocabularies/conductivity-location>
+<https://portal.heatflow.world/vocabularies/conductivity-location>
     a skos:ConceptScheme ;
-    skos:definition "Specification of the location where the thermal conductivity was measured."@en ;
+    dcterms:description "Where the thermal conductivity used for a heat-flow value was measured, relative to the heat-flow site."@en ;
     skos:hasTopConcept
         ghfdb:actual ,
         ghfdb:literature ,
         ghfdb:other ;
-    skos:prefLabel "Conductivity location"@en ;
+    skos:prefLabel "Thermal conductivity location"@en ;
 .

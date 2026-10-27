@@ -1,65 +1,66 @@
-PREFIX ghfdb: <https://heatflow.world/vocabularies/temperature-corrections/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX ghfdb: <https://portal.heatflow.world/vocabularies/temperature-corrections/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 ghfdb:aapg
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/temperature-corrections> ;
     skos:prefLabel "AAPG correction"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/temperature-corrections> ;
 .
 
 ghfdb:cylinderSource
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/temperature-corrections> ;
     skos:prefLabel "Cylinder source method"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/temperature-corrections> ;
 .
 
 ghfdb:hornerPlot
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/temperature-corrections> ;
     skos:prefLabel "Horner plot"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/temperature-corrections> ;
 .
 
 ghfdb:inverseNM
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/temperature-corrections> ;
     skos:prefLabel "Inverse numerical modelling"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/temperature-corrections> ;
 .
 
 ghfdb:lineSourceExplosion
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/temperature-corrections> ;
     skos:prefLabel "Line source explosion method"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/temperature-corrections> ;
 .
 
 ghfdb:not_corrected
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/temperature-corrections> ;
     skos:prefLabel "not corrected"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/temperature-corrections> ;
 .
 
 ghfdb:other
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/temperature-corrections> ;
     skos:prefLabel "Other published correction"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/temperature-corrections> ;
 .
 
 ghfdb:unspecified
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/temperature-corrections> ;
     skos:prefLabel "Unspecified"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/temperature-corrections> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/temperature-corrections> ;
 .
 
-<https://heatflow.world/vocabularies/temperature-corrections>
+<https://portal.heatflow.world/vocabularies/temperature-corrections>
     a skos:ConceptScheme ;
-    skos:definition "Methods used to correct temperature data for the purpose of heat flow measurements."@en ;
+    dcterms:description "Methods used to correct measured temperatures for disturbances, such as those caused by drilling, before heat flow is derived."@en ;
     skos:hasTopConcept
         ghfdb:aapg ,
         ghfdb:cylinderSource ,

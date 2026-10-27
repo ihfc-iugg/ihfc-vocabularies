@@ -1,4 +1,5 @@
-PREFIX ghfdb: <https://heatflow.world/vocabularies/heat-flow-corrections/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX ghfdb: <https://portal.heatflow.world/vocabularies/heat-flow-corrections/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 ghfdb:generic
@@ -39,98 +40,98 @@ ghfdb:temperature
 
 ghfdb:consideredP
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/heat-flow-corrections> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-corrections> ;
     skos:prefLabel "Considered - p"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/heat-flow-corrections> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-corrections> ;
 .
 
 ghfdb:consideredPT
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/heat-flow-corrections> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-corrections> ;
     skos:prefLabel "Considered - pT"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/heat-flow-corrections> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-corrections> ;
 .
 
 ghfdb:consideredT
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/heat-flow-corrections> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-corrections> ;
     skos:prefLabel "Considered - t"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/heat-flow-corrections> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-corrections> ;
 .
 
 ghfdb:corrected
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/heat-flow-corrections> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-corrections> ;
     skos:prefLabel "Corrected"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/heat-flow-corrections> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-corrections> ;
 .
 
 ghfdb:driftCorrected
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/heat-flow-corrections> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-corrections> ;
     skos:prefLabel "Drift corrected"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/heat-flow-corrections> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-corrections> ;
 .
 
 ghfdb:notConsidered
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/heat-flow-corrections> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-corrections> ;
     skos:prefLabel "not considered"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/heat-flow-corrections> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-corrections> ;
 .
 
 ghfdb:notCorrected
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/heat-flow-corrections> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-corrections> ;
     skos:prefLabel "not corrected"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/heat-flow-corrections> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-corrections> ;
 .
 
 ghfdb:not_recognized
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/heat-flow-corrections> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-corrections> ;
     skos:prefLabel "not recognized"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/heat-flow-corrections> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-corrections> ;
 .
 
 ghfdb:present_corrected
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/heat-flow-corrections> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-corrections> ;
     skos:prefLabel "Present and corrected"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/heat-flow-corrections> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-corrections> ;
 .
 
 ghfdb:present_not_corrected
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/heat-flow-corrections> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-corrections> ;
     skos:prefLabel "Present and not corrected"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/heat-flow-corrections> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-corrections> ;
 .
 
 ghfdb:present_not_significant
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/heat-flow-corrections> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-corrections> ;
     skos:prefLabel "Present not significant"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/heat-flow-corrections> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-corrections> ;
 .
 
 ghfdb:tiltCorrected
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/heat-flow-corrections> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-corrections> ;
     skos:prefLabel "Tilt corrected"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/heat-flow-corrections> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-corrections> ;
 .
 
 ghfdb:unspecified
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/heat-flow-corrections> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/heat-flow-corrections> ;
     skos:prefLabel "unspecified"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/heat-flow-corrections> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/heat-flow-corrections> ;
 .
 
-<https://heatflow.world/vocabularies/heat-flow-corrections>
+<https://portal.heatflow.world/vocabularies/heat-flow-corrections>
     a skos:ConceptScheme ;
-    skos:definition "Generic flag choices for heat flow data."@en ;
+    dcterms:description "Flags recording whether an effect that can bias heat-flow data was present, and whether it was considered or corrected."@en ;
     skos:hasTopConcept
         ghfdb:consideredP ,
         ghfdb:consideredPT ,
@@ -145,5 +146,5 @@ ghfdb:unspecified
         ghfdb:present_not_significant ,
         ghfdb:tiltCorrected ,
         ghfdb:unspecified ;
-    skos:prefLabel "Generic flag choices"@en ;
+    skos:prefLabel "Correction flags"@en ;
 .

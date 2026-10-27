@@ -1,79 +1,80 @@
-PREFIX ghfdb: <https://heatflow.world/vocabularies/exploration-purpose/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX ghfdb: <https://portal.heatflow.world/vocabularies/exploration-purpose/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 ghfdb:geothermal
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/exploration-purpose> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/exploration-purpose> ;
     skos:prefLabel "Geothermal"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/exploration-purpose> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/exploration-purpose> ;
 .
 
 ghfdb:groundwater
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/exploration-purpose> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/exploration-purpose> ;
     skos:prefLabel "Groundwater"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/exploration-purpose> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/exploration-purpose> ;
 .
 
 ghfdb:hydrocarbon
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/exploration-purpose> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/exploration-purpose> ;
     skos:prefLabel "Hydrocarbon"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/exploration-purpose> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/exploration-purpose> ;
 .
 
 ghfdb:mapping
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/exploration-purpose> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/exploration-purpose> ;
     skos:prefLabel "Mapping"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/exploration-purpose> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/exploration-purpose> ;
 .
 
 ghfdb:mining
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/exploration-purpose> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/exploration-purpose> ;
     skos:prefLabel "Mining"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/exploration-purpose> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/exploration-purpose> ;
 .
 
 ghfdb:other
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/exploration-purpose> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/exploration-purpose> ;
     skos:prefLabel "Other"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/exploration-purpose> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/exploration-purpose> ;
 .
 
 ghfdb:research
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/exploration-purpose> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/exploration-purpose> ;
     skos:prefLabel "Research"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/exploration-purpose> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/exploration-purpose> ;
 .
 
 ghfdb:tunneling
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/exploration-purpose> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/exploration-purpose> ;
     skos:prefLabel "Tunneling"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/exploration-purpose> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/exploration-purpose> ;
 .
 
 ghfdb:underground_storage
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/exploration-purpose> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/exploration-purpose> ;
     skos:prefLabel "Underground storage"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/exploration-purpose> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/exploration-purpose> ;
 .
 
 ghfdb:unspecified
     a skos:Concept ;
-    skos:inScheme <https://heatflow.world/vocabularies/exploration-purpose> ;
+    skos:inScheme <https://portal.heatflow.world/vocabularies/exploration-purpose> ;
     skos:prefLabel "Unspecified"@en ;
-    skos:topConceptOf <https://heatflow.world/vocabularies/exploration-purpose> ;
+    skos:topConceptOf <https://portal.heatflow.world/vocabularies/exploration-purpose> ;
 .
 
-<https://heatflow.world/vocabularies/exploration-purpose>
+<https://portal.heatflow.world/vocabularies/exploration-purpose>
     a skos:ConceptScheme ;
-    skos:definition "Main purpose of the original excavation providing access for the temperature sensors."@en ;
+    dcterms:description "The main purpose of the original excavation that gave temperature sensors access to the rock."@en ;
     skos:hasTopConcept
         ghfdb:geothermal ,
         ghfdb:groundwater ,

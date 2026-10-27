@@ -1,156 +1,157 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-methods/estimation">
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-methods/estimation">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
     <skos:definition xml:lang="en">Estimation from other sources</skos:definition>
-    <skos:member rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/chlorineContent"/>
-    <skos:member rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/lithology"/>
-    <skos:member rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/mineralComposition"/>
-    <skos:member rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/waterContent"/>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/chlorineContent"/>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/lithology"/>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/mineralComposition"/>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/waterContent"/>
     <skos:prefLabel xml:lang="en">Estimation</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-methods/planeSourceFull">
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-methods/waterContent">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
-    <skos:prefLabel xml:lang="en">Lab - plane source - full space</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
+    <skos:prefLabel xml:lang="en">Estimation - from water content-porosity</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-methods/laboratory">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
-    <skos:definition xml:lang="en">Laboratory measurements</skos:definition>
-    <skos:member rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/laboratoryOther"/>
-    <skos:member rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/lineSourceFull"/>
-    <skos:member rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/lineSourceHalf"/>
-    <skos:member rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/planeSourceFull"/>
-    <skos:member rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/planeSourceHalf"/>
-    <skos:member rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/pointSource"/>
-    <skos:prefLabel xml:lang="en">Laboratory</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-methods/laboratoryOther">
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-methods/laboratoryOther">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
     <skos:prefLabel xml:lang="en">Lab - other</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-methods/lineSourceFull">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
-    <skos:prefLabel xml:lang="en">Lab - line source - full space</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-methods/unspecified">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
-    <skos:prefLabel xml:lang="en">Unspecified</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-methods/wellLogDeterministic">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
-    <skos:prefLabel xml:lang="en">Well-log - deterministic approach</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-methods/lithology">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
-    <skos:prefLabel xml:lang="en">Estimation - from lithology and literature</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-methods/planeSourceHalf">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
-    <skos:prefLabel xml:lang="en">Lab - plane source - half space</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-methods/probe">
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-methods/probe">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
     <skos:definition xml:lang="en">Probe measurements</skos:definition>
-    <skos:member rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/probeContinuousHeating"/>
-    <skos:member rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/probePulse"/>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/probeContinuousHeating"/>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/probePulse"/>
     <skos:prefLabel xml:lang="en">Probe</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-methods">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <skos:definition xml:lang="en">Methods used to calculate thermal conductivity in rock specimens or sections for the purpose of heat flow measurements.</skos:definition>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/chlorineContent"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/laboratoryOther"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/lineSourceFull"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/lineSourceHalf"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/lithology"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/mineralComposition"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/planeSourceFull"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/planeSourceHalf"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/pointSource"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/probeContinuousHeating"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/probePulse"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/unspecified"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/waterContent"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/wellLogDeterministic"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/wellLogEmpirical"/>
-    <skos:prefLabel xml:lang="en">Conductivity methods</skos:prefLabel>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-methods/laboratory">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <skos:definition xml:lang="en">Laboratory measurements</skos:definition>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/laboratoryOther"/>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/lineSourceFull"/>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/lineSourceHalf"/>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/planeSourceFull"/>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/planeSourceHalf"/>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/pointSource"/>
+    <skos:prefLabel xml:lang="en">Laboratory</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-methods/probeContinuousHeating">
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-methods/unspecified">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
-    <skos:prefLabel xml:lang="en">Probe - continuous heating technique</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
+    <skos:prefLabel xml:lang="en">Unspecified</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-methods/lineSourceHalf">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
-    <skos:prefLabel xml:lang="en">Lab - line source - half space</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-methods/mineralComposition">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
-    <skos:prefLabel xml:lang="en">Estimation - from mineral composition</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-methods/other">
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-methods/other">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
     <skos:definition xml:lang="en">Other methods</skos:definition>
-    <skos:member rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/unspecified"/>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/unspecified"/>
     <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-methods/well_log">
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-methods/pointSource">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
+    <skos:prefLabel xml:lang="en">Lab - point source</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-methods/probeContinuousHeating">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
+    <skos:prefLabel xml:lang="en">Probe - continuous heating technique</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-methods/well_log">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
     <skos:definition xml:lang="en">Well-log interpretation</skos:definition>
-    <skos:member rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/wellLogDeterministic"/>
-    <skos:member rdf:resource="https://heatflow.world/vocabularies/conductivity-methods/wellLogEmpirical"/>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/wellLogDeterministic"/>
+    <skos:member rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/wellLogEmpirical"/>
     <skos:prefLabel xml:lang="en">Well-log</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-methods/pointSource">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
-    <skos:prefLabel xml:lang="en">Lab - point source</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-methods">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dcterms:description xml:lang="en">Methods used to determine thermal conductivity, by laboratory measurement, in-situ probe, well-log interpretation or estimation.</dcterms:description>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/chlorineContent"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/laboratoryOther"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/lineSourceFull"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/lineSourceHalf"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/lithology"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/mineralComposition"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/planeSourceFull"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/planeSourceHalf"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/pointSource"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/probeContinuousHeating"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/probePulse"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/unspecified"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/waterContent"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/wellLogDeterministic"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods/wellLogEmpirical"/>
+    <skos:prefLabel xml:lang="en">Thermal conductivity methods</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-methods/probePulse">
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-methods/wellLogDeterministic">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
+    <skos:prefLabel xml:lang="en">Well-log - deterministic approach</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-methods/probePulse">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
     <skos:prefLabel xml:lang="en">Probe - pulse technique</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-methods/waterContent">
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-methods/lineSourceHalf">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
-    <skos:prefLabel xml:lang="en">Estimation - from water content-porosity</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
+    <skos:prefLabel xml:lang="en">Lab - line source - half space</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-methods/wellLogEmpirical">
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-methods/mineralComposition">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
-    <skos:prefLabel xml:lang="en">Well-log - empirical equation</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
+    <skos:prefLabel xml:lang="en">Estimation - from mineral composition</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-methods/chlorineContent">
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-methods/planeSourceHalf">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
+    <skos:prefLabel xml:lang="en">Lab - plane source - half space</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-methods/planeSourceFull">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
+    <skos:prefLabel xml:lang="en">Lab - plane source - full space</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-methods/chlorineContent">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
     <skos:prefLabel xml:lang="en">Estimation - from chlorine content</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-methods"/>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-methods/lineSourceFull">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
+    <skos:prefLabel xml:lang="en">Lab - line source - full space</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-methods/lithology">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
+    <skos:prefLabel xml:lang="en">Estimation - from lithology and literature</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-methods/wellLogEmpirical">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
+    <skos:prefLabel xml:lang="en">Well-log - empirical equation</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-methods"/>
   </rdf:Description>
 </rdf:RDF>

@@ -16,25 +16,25 @@ data and metadata.
 ## Vocabularies
 
 Each vocabulary is one file in `vocabularies/`, and its address is
-`https://heatflow.world/vocabularies/<name>`.
+`https://portal.heatflow.world/vocabularies/<name>`.
 
 | Name | Label |
 | --- | --- |
-| `conductivity-conditions` | Conductivity measurement conditions |
-| `conductivity-location` | Conductivity location |
-| `conductivity-methods` | Conductivity methods |
-| `conductivity-pt-function` | Thermal conductivity PT function |
-| `conductivity-saturation` | Heat-flow specific conductivity saturation states |
-| `conductivity-sources` | conductivity sources |
-| `conductivity-strategy` | Thermal conductivity strategy |
-| `exploration-methods` | exploration methods |
+| `conductivity-conditions` | Thermal conductivity measurement conditions |
+| `conductivity-location` | Thermal conductivity location |
+| `conductivity-methods` | Thermal conductivity methods |
+| `conductivity-pt-function` | Thermal conductivity pressure and temperature functions |
+| `conductivity-saturation` | Thermal conductivity saturation states |
+| `conductivity-sources` | Thermal conductivity sources |
+| `conductivity-strategy` | Thermal conductivity strategies |
+| `exploration-methods` | Exploration methods |
 | `exploration-purpose` | Exploration purposes |
-| `geographic-environments` | geographic environments |
-| `heat-flow-corrections` | Generic flag choices |
-| `heat-flow-method` | Heat flow methods |
-| `heat-flow-probes` | Heat flow probe types |
+| `geographic-environments` | Geographic environments |
+| `heat-flow-corrections` | Correction flags |
+| `heat-flow-method` | Heat-flow methods |
+| `heat-flow-probes` | Heat-flow probe types |
 | `temperature-corrections` | Temperature correction methods |
-| `temperature-method` | Temperature determination method |
+| `temperature-method` | Temperature methods |
 
 ## Using the vocabularies
 
@@ -66,9 +66,9 @@ need them, such as the Global Heat Flow Database portal, import these files rath
 their own copies.
 
 **What this is not.** It is not software. There is no package to install and no code that builds
-the vocabularies. The only code is a script that checks and exports the files. It does not host
-the vocabularies at their addresses either: that is the job of whatever serves
-`heatflow.world`.
+the vocabularies. The only code is a script that checks and exports the files. It does not serve
+the vocabularies at their addresses either: the Global Heat Flow Database portal does that, at
+`portal.heatflow.world`.
 
 **When in doubt:**
 
@@ -93,7 +93,7 @@ uv run pytest
 
 The checks confirm that every file parses and that:
 
-- each file holds one vocabulary, named after the file
+- each file holds one vocabulary, named after the file, with an English label and description
 - every concept belongs to its vocabulary, has one English label, and has an address under the vocabulary's address
 - no two concepts in a vocabulary share a label
 - every label and definition has a language tag and is not empty

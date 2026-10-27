@@ -1,67 +1,6 @@
 [
   {
-    "@id": "https://heatflow.world/vocabularies/geographic-environments/offshore",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Collection"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Geographic environments found offshore."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#member": [
-      {
-        "@id": "https://heatflow.world/vocabularies/geographic-environments/offshore_continental"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/geographic-environments/offshore_marine"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Offshore environments"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/geographic-environments",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Basic geographic environments where heat-flow measurements are performed."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
-      {
-        "@id": "https://heatflow.world/vocabularies/geographic-environments/offshore_continental"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/geographic-environments/offshore_marine"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/geographic-environments/onshore_continental"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/geographic-environments/onshore_marine"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/geographic-environments/unspecified"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "geographic environments"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/geographic-environments/offshore_marine",
+    "@id": "https://portal.heatflow.world/vocabularies/geographic-environments/offshore_marine",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -73,7 +12,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "https://heatflow.world/vocabularies/geographic-environments"
+        "@id": "https://portal.heatflow.world/vocabularies/geographic-environments"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -84,78 +23,34 @@
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "https://heatflow.world/vocabularies/geographic-environments"
+        "@id": "https://portal.heatflow.world/vocabularies/geographic-environments"
       }
     ]
   },
   {
-    "@id": "https://heatflow.world/vocabularies/geographic-environments/onshore_marine",
+    "@id": "https://portal.heatflow.world/vocabularies/geographic-environments/offshore_continental",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "https://heatflow.world/vocabularies/geographic-environments"
+        "@id": "https://portal.heatflow.world/vocabularies/geographic-environments"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Onshore (lake-river-etc.)"
+        "@value": "Offshore (continental)"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "https://heatflow.world/vocabularies/geographic-environments"
+        "@id": "https://portal.heatflow.world/vocabularies/geographic-environments"
       }
     ]
   },
   {
-    "@id": "https://heatflow.world/vocabularies/geographic-environments/onshore_continental",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/geographic-environments"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Onshore (continental)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/geographic-environments"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/geographic-environments/unspecified",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/geographic-environments"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Unspecified"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/geographic-environments"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/geographic-environments/onshore",
+    "@id": "https://portal.heatflow.world/vocabularies/geographic-environments/onshore",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Collection"
     ],
@@ -167,10 +62,10 @@
     ],
     "http://www.w3.org/2004/02/skos/core#member": [
       {
-        "@id": "https://heatflow.world/vocabularies/geographic-environments/onshore_continental"
+        "@id": "https://portal.heatflow.world/vocabularies/geographic-environments/onshore_continental"
       },
       {
-        "@id": "https://heatflow.world/vocabularies/geographic-environments/onshore_marine"
+        "@id": "https://portal.heatflow.world/vocabularies/geographic-environments/onshore_marine"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -181,24 +76,129 @@
     ]
   },
   {
-    "@id": "https://heatflow.world/vocabularies/geographic-environments/offshore_continental",
+    "@id": "https://portal.heatflow.world/vocabularies/geographic-environments/onshore_marine",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "https://heatflow.world/vocabularies/geographic-environments"
+        "@id": "https://portal.heatflow.world/vocabularies/geographic-environments"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Offshore (continental)"
+        "@value": "Onshore (lake-river-etc.)"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "https://heatflow.world/vocabularies/geographic-environments"
+        "@id": "https://portal.heatflow.world/vocabularies/geographic-environments"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/geographic-environments/unspecified",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/geographic-environments"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Unspecified"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/geographic-environments"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/geographic-environments/offshore",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Geographic environments found offshore."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/geographic-environments/offshore_continental"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/geographic-environments/offshore_marine"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Offshore environments"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/geographic-environments",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "The basic geographic environment in which a heat-flow measurement was made, onshore or offshore."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/geographic-environments/offshore_continental"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/geographic-environments/offshore_marine"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/geographic-environments/onshore_continental"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/geographic-environments/onshore_marine"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/geographic-environments/unspecified"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Geographic environments"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/geographic-environments/onshore_continental",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/geographic-environments"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Onshore (continental)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/geographic-environments"
       }
     ]
   }

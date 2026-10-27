@@ -1,34 +1,12 @@
 [
   {
-    "@id": "https://heatflow.world/vocabularies/conductivity-location/other",
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-location/literature",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "https://heatflow.world/vocabularies/conductivity-location"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Other location"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/conductivity-location"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/conductivity-location/literature",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/conductivity-location"
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-location"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -39,47 +17,40 @@
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "https://heatflow.world/vocabularies/conductivity-location"
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-location"
       }
     ]
   },
   {
-    "@id": "https://heatflow.world/vocabularies/conductivity-location",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Specification of the location where the thermal conductivity was measured."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
-      {
-        "@id": "https://heatflow.world/vocabularies/conductivity-location/actual"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/conductivity-location/literature"
-      },
-      {
-        "@id": "https://heatflow.world/vocabularies/conductivity-location/other"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Conductivity location"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/conductivity-location/actual",
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-location/other",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "https://heatflow.world/vocabularies/conductivity-location"
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-location"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Other location"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-location"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-location/actual",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-location"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -90,7 +61,36 @@
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "https://heatflow.world/vocabularies/conductivity-location"
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-location"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/conductivity-location",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Where the thermal conductivity used for a heat-flow value was measured, relative to the heat-flow site."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-location/actual"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-location/literature"
+      },
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/conductivity-location/other"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Thermal conductivity location"
       }
     ]
   }

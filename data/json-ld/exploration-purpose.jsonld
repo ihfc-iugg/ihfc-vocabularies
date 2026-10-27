@@ -1,89 +1,45 @@
 [
   {
-    "@id": "https://heatflow.world/vocabularies/exploration-purpose/other",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Other"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/exploration-purpose/groundwater",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Groundwater"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/exploration-purpose",
+    "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#ConceptScheme"
     ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
+    "http://purl.org/dc/terms/description": [
       {
         "@language": "en",
-        "@value": "Main purpose of the original excavation providing access for the temperature sensors."
+        "@value": "The main purpose of the original excavation that gave temperature sensors access to the rock."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
       {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose/geothermal"
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose/geothermal"
       },
       {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose/groundwater"
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose/groundwater"
       },
       {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose/hydrocarbon"
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose/hydrocarbon"
       },
       {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose/mapping"
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose/mapping"
       },
       {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose/mining"
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose/mining"
       },
       {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose/other"
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose/other"
       },
       {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose/research"
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose/research"
       },
       {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose/tunneling"
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose/tunneling"
       },
       {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose/underground_storage"
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose/underground_storage"
       },
       {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose/unspecified"
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose/unspecified"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -94,123 +50,13 @@
     ]
   },
   {
-    "@id": "https://heatflow.world/vocabularies/exploration-purpose/unspecified",
+    "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose/hydrocarbon",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Unspecified"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/exploration-purpose/mining",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Mining"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/exploration-purpose/mapping",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Mapping"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/exploration-purpose/geothermal",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Geothermal"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/exploration-purpose/tunneling",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Tunneling"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose"
-      }
-    ]
-  },
-  {
-    "@id": "https://heatflow.world/vocabularies/exploration-purpose/hydrocarbon",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose"
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -221,18 +67,18 @@
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose"
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose"
       }
     ]
   },
   {
-    "@id": "https://heatflow.world/vocabularies/exploration-purpose/underground_storage",
+    "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose/underground_storage",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose"
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -243,18 +89,62 @@
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose"
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose"
       }
     ]
   },
   {
-    "@id": "https://heatflow.world/vocabularies/exploration-purpose/research",
+    "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose/geothermal",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose"
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Geothermal"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose/mining",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Mining"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose/research",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -265,7 +155,117 @@
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "https://heatflow.world/vocabularies/exploration-purpose"
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose/mapping",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Mapping"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose/other",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Other"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose/groundwater",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Groundwater"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose/tunneling",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Tunneling"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose"
+      }
+    ]
+  },
+  {
+    "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose/unspecified",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Unspecified"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://portal.heatflow.world/vocabularies/exploration-purpose"
       }
     ]
   }

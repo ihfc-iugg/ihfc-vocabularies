@@ -16,10 +16,10 @@ from build_vocabularies import (
 )
 from rdflib import RDF, Literal, URIRef
 from rdflib.compare import isomorphic
-from rdflib.namespace import SKOS
+from rdflib.namespace import DCTERMS, SKOS
 
 SOURCES = source_files()
-BASE_URL = "https://heatflow.world/vocabularies/"
+BASE_URL = "https://portal.heatflow.world/vocabularies/"
 LABELLED_TYPES = (SKOS.ConceptScheme, SKOS.Concept, SKOS.Collection)
 
 
@@ -55,10 +55,10 @@ class TestScheme:
     def test_address_matches_the_file_name(self, source, scheme):
         assert scheme == URIRef(BASE_URL + source.stem)
 
-    def test_has_an_english_label_and_definition(self, graph, scheme):
-        for predicate in (SKOS.prefLabel, SKOS.definition):
+    def test_has_an_english_label_and_description(self, graph, scheme):
+        for predicate in (SKOS.prefLabel, DCTERMS.description):
             values = [value.language for value in graph.objects(scheme, predicate)]
-            assert "en" in values, f"scheme has no English {predicate.fragment}"
+            assert "en" in values, f"scheme has no English {predicate}"
 
 
 class TestConcepts:

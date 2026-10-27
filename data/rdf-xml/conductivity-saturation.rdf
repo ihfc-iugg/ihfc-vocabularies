@@ -1,66 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-saturation/saturatedInSitu">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:definition xml:lang="en">Insitu saturated measured (measurements with probe sensing / marine measurements)</skos:definition>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-saturation"/>
-    <skos:prefLabel xml:lang="en">Saturated measured in-situ</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-saturation"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-saturation">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <skos:definition xml:lang="en">Specification of the saturation state of the rocks during the thermal conductivity measurement.</skos:definition>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-saturation/dryMeasured"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-saturation/other"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-saturation/recovered"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-saturation/saturatedCalculated"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-saturation/saturatedInSitu"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-saturation/saturatedMeasured"/>
-    <skos:hasTopConcept rdf:resource="https://heatflow.world/vocabularies/conductivity-saturation/unspecified"/>
-    <skos:prefLabel xml:lang="en">Heat-flow specific conductivity saturation states</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-saturation/unspecified">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-saturation"/>
-    <skos:prefLabel xml:lang="en">Unspecified</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-saturation"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-saturation/other">
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-saturation/other">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">Other saturation state (must be specified in comments)</skos:definition>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-saturation"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-saturation"/>
     <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-saturation"/>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-saturation"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-saturation/saturatedMeasured">
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-saturation/saturatedInSitu">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:definition xml:lang="en">Saturated measured (rocks have been technically saturated completely before measurement).</skos:definition>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-saturation"/>
-    <skos:prefLabel xml:lang="en">Saturated measured</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-saturation"/>
+    <skos:definition xml:lang="en">Insitu saturated measured (measurements with probe sensing / marine measurements)</skos:definition>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-saturation"/>
+    <skos:prefLabel xml:lang="en">Saturated measured in-situ</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-saturation"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-saturation/recovered">
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-saturation/recovered">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">As recovered (rocks have been preserved and measured in close to their natural saturation state).</skos:definition>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-saturation"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-saturation"/>
     <skos:prefLabel xml:lang="en">Recovered</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-saturation"/>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-saturation"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-saturation/saturatedCalculated">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:definition xml:lang="en">Thermal conductivity has been calculated from dry measured rocks, porosity and pore-filling fluid</skos:definition>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-saturation"/>
-    <skos:prefLabel xml:lang="en">Saturated calculated</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-saturation"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://heatflow.world/vocabularies/conductivity-saturation/dryMeasured">
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-saturation/dryMeasured">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:definition xml:lang="en">Rocks have been technically dried before measurement</skos:definition>
-    <skos:inScheme rdf:resource="https://heatflow.world/vocabularies/conductivity-saturation"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-saturation"/>
     <skos:prefLabel xml:lang="en">Dry measured</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://heatflow.world/vocabularies/conductivity-saturation"/>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-saturation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-saturation/saturatedMeasured">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition xml:lang="en">Saturated measured (rocks have been technically saturated completely before measurement).</skos:definition>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-saturation"/>
+    <skos:prefLabel xml:lang="en">Saturated measured</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-saturation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-saturation/saturatedCalculated">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition xml:lang="en">Thermal conductivity has been calculated from dry measured rocks, porosity and pore-filling fluid</skos:definition>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-saturation"/>
+    <skos:prefLabel xml:lang="en">Saturated calculated</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-saturation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-saturation">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dcterms:description xml:lang="en">The saturation state of the rock when its thermal conductivity was measured.</dcterms:description>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-saturation/dryMeasured"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-saturation/other"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-saturation/recovered"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-saturation/saturatedCalculated"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-saturation/saturatedInSitu"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-saturation/saturatedMeasured"/>
+    <skos:hasTopConcept rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-saturation/unspecified"/>
+    <skos:prefLabel xml:lang="en">Thermal conductivity saturation states</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://portal.heatflow.world/vocabularies/conductivity-saturation/unspecified">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-saturation"/>
+    <skos:prefLabel xml:lang="en">Unspecified</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://portal.heatflow.world/vocabularies/conductivity-saturation"/>
   </rdf:Description>
 </rdf:RDF>
