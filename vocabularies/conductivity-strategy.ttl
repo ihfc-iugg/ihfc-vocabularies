@@ -21,6 +21,41 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     dcterms:title "IHFC Controlled Vocabularies for the Global Heat Flow Database"@en ;
 .
 
+<https://ihfc-iugg.org/>
+    a foaf:Organization ;
+    foaf:homepage <https://ihfc-iugg.org/> ;
+    foaf:name "International Heat Flow Commission"@en ;
+.
+
+<https://ror.org/04z8jg394>
+    a foaf:Organization ;
+    foaf:homepage <https://www.gfz.de/en/> ;
+    foaf:name "GFZ Helmholtz Centre for Geosciences"@en ;
+.
+
+ihfc:conductivity-strategy
+    a skos:ConceptScheme ;
+    dcterms:creator <https://ihfc-iugg.org/> ;
+    dcterms:description "The strategy used to obtain thermal conductivity values for the depth interval of a heat-flow determination."@en ;
+    dcterms:isPartOf <https://doi.org/10.5880/fidgeo.2026.065> ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:publisher <https://ror.org/04z8jg394> ;
+    dcterms:source
+        <https://doi.org/10.1016/j.tecto.2023.229976> ,
+        <https://doi.org/10.31214/ijthfa.v4i1.62> ;
+    rdfs:seeAlso <https://github.com/ihfc-iugg/ihfc-vocabularies> ;
+    skos:hasTopConcept
+        :characterize ,
+        :computation ,
+        :other ,
+        :random ,
+        :unspecified ,
+        :well_log ;
+    skos:prefLabel "Thermal conductivity strategies"@en ;
+    skos:scopeNote "Lists the values allowed in the field tc_strategy of the Global Heat Flow Database."@en ;
+.
+
 :characterize
     a skos:Concept ;
     skos:definition "The conductivity of each formation in the heat-flow interval was characterized from samples, and the interval value was derived from the formation values."@en ;
@@ -68,39 +103,4 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     skos:inScheme ihfc:conductivity-strategy ;
     skos:prefLabel "Well log interpretation"@en ;
     skos:topConceptOf ihfc:conductivity-strategy ;
-.
-
-<https://ror.org/04z8jg394>
-    a foaf:Organization ;
-    foaf:homepage <https://www.gfz.de/en/> ;
-    foaf:name "GFZ Helmholtz Centre for Geosciences"@en ;
-.
-
-<https://ihfc-iugg.org/>
-    a foaf:Organization ;
-    foaf:homepage <https://ihfc-iugg.org/> ;
-    foaf:name "International Heat Flow Commission"@en ;
-.
-
-ihfc:conductivity-strategy
-    a skos:ConceptScheme ;
-    dcterms:creator <https://ihfc-iugg.org/> ;
-    dcterms:description "The strategy used to obtain thermal conductivity values for the depth interval of a heat-flow determination."@en ;
-    dcterms:isPartOf <https://doi.org/10.5880/fidgeo.2026.065> ;
-    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:publisher <https://ror.org/04z8jg394> ;
-    dcterms:source
-        <https://doi.org/10.1016/j.tecto.2023.229976> ,
-        <https://doi.org/10.31214/ijthfa.v4i1.62> ;
-    rdfs:seeAlso <https://github.com/ihfc-iugg/ihfc-vocabularies> ;
-    skos:hasTopConcept
-        :characterize ,
-        :computation ,
-        :other ,
-        :random ,
-        :unspecified ,
-        :well_log ;
-    skos:prefLabel "Thermal conductivity strategies"@en ;
-    skos:scopeNote "Lists the values allowed in the field tc_strategy of the Global Heat Flow Database."@en ;
 .
