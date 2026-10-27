@@ -1,0 +1,255 @@
+<https://heatflow.world/vocabularies/conductivity-pt-function/Abdulagatov2006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Abdulagatov2006> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Abdulagatov2006> <http://www.w3.org/2004/02/skos/core#prefLabel> "pT - Abdulagatov et al. (2006)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Abdulagatov2006> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Abdulagatova2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Abdulagatova2009> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Abdulagatova2009> <http://www.w3.org/2004/02/skos/core#prefLabel> "pT - Abdulagatova et al. (2009)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Abdulagatova2009> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Anand1973> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Anand1973> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Anand1973> <http://www.w3.org/2004/02/skos/core#prefLabel> "T - Anand et al. (1973)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Anand1973> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/BirchClark1940> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/BirchClark1940> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/BirchClark1940> <http://www.w3.org/2004/02/skos/core#prefLabel> "T - Birch & Clark (1940)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/BirchClark1940> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Blesch1983> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Blesch1983> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Blesch1983> <http://www.w3.org/2004/02/skos/core#prefLabel> "T - Blesch et al. (1983)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Blesch1983> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Bridgman1924> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Bridgman1924> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Bridgman1924> <http://www.w3.org/2004/02/skos/core#prefLabel> "p - Bridgman (1924)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Bridgman1924> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Buntebarth1991> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Buntebarth1991> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Buntebarth1991> <http://www.w3.org/2004/02/skos/core#prefLabel> "pT - Buntebarth (1991)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Buntebarth1991> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Chapman1984> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Chapman1984> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Chapman1984> <http://www.w3.org/2004/02/skos/core#prefLabel> "T - Chapman et al. (1984)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Chapman1984> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/ChapmanFurlong1992> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/ChapmanFurlong1992> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/ChapmanFurlong1992> <http://www.w3.org/2004/02/skos/core#prefLabel> "pT - Chapman & Furlong (1992)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/ChapmanFurlong1992> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Demirci2004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Demirci2004> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Demirci2004> <http://www.w3.org/2004/02/skos/core#prefLabel> "p - Demirci et al. (2004)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Demirci2004> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Duruturk2002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Duruturk2002> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Duruturk2002> <http://www.w3.org/2004/02/skos/core#prefLabel> "p - Durutürk et al. (2002)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Duruturk2002> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Emirov1997> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Emirov1997> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Emirov1997> <http://www.w3.org/2004/02/skos/core#prefLabel> "pT - Emirov et al. (1997)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Emirov1997> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Emirov2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Emirov2017> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Emirov2017> <http://www.w3.org/2004/02/skos/core#prefLabel> "pT - Emirov et al. (2017)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Emirov2017> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/EmirovRamazanova2007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/EmirovRamazanova2007> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/EmirovRamazanova2007> <http://www.w3.org/2004/02/skos/core#prefLabel> "pT - Emirov & Ramazanova (2007)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/EmirovRamazanova2007> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/FuchsFoerster2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/FuchsFoerster2014> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/FuchsFoerster2014> <http://www.w3.org/2004/02/skos/core#prefLabel> "p - Fuchs & Förster (2014)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/FuchsFoerster2014> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Funnell1996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Funnell1996> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Funnell1996> <http://www.w3.org/2004/02/skos/core#prefLabel> "T - Funnell et al. (1996)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Funnell1996> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Gorgulu2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Gorgulu2008> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Gorgulu2008> <http://www.w3.org/2004/02/skos/core#prefLabel> "p - Görgülü et al. (2008)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Gorgulu2008> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/HaenelZoth1973> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/HaenelZoth1973> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/HaenelZoth1973> <http://www.w3.org/2004/02/skos/core#prefLabel> "T - Haenel & Zoth (1973)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/HaenelZoth1973> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Hyndman1974> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Hyndman1974> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Hyndman1974> <http://www.w3.org/2004/02/skos/core#prefLabel> "pT - Hyndman et al. (1974)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Hyndman1974> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Kukkonen1999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Kukkonen1999> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Kukkonen1999> <http://www.w3.org/2004/02/skos/core#prefLabel> "p - Kukkonen et al. (1999)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Kukkonen1999> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/KukkonenT1999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/KukkonenT1999> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/KukkonenT1999> <http://www.w3.org/2004/02/skos/core#prefLabel> "T - Kukkonen et al. (1999)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/KukkonenT1999> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/KutasGordienko1971> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/KutasGordienko1971> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/KutasGordienko1971> <http://www.w3.org/2004/02/skos/core#prefLabel> "T - Kutas & Gordienko (1971)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/KutasGordienko1971> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Langseth1965> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Langseth1965> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Langseth1965> <http://www.w3.org/2004/02/skos/core#prefLabel> "pT - Langseth (1965)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Langseth1965> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Miranda2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Miranda2018> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Miranda2018> <http://www.w3.org/2004/02/skos/core#prefLabel> "T - Miranda et al. (2018)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Miranda2018> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Radcliff1960> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Radcliff1960> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Radcliff1960> <http://www.w3.org/2004/02/skos/core#prefLabel> "pT - Ratcliffe (1960)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Radcliff1960> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/RamazanovaEmirov2010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/RamazanovaEmirov2010> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/RamazanovaEmirov2010> <http://www.w3.org/2004/02/skos/core#prefLabel> "pT - Ramazanova & Emirov (2010)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/RamazanovaEmirov2010> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/RamazanovaEmirov2012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/RamazanovaEmirov2012> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/RamazanovaEmirov2012> <http://www.w3.org/2004/02/skos/core#prefLabel> "pT - Ramazanova & Emirov (2012)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/RamazanovaEmirov2012> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Ratcliff1960> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Ratcliff1960> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Ratcliff1960> <http://www.w3.org/2004/02/skos/core#prefLabel> "T - Ratcliffe (1960)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Ratcliff1960> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/RatcliffeP1960> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/RatcliffeP1960> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/RatcliffeP1960> <http://www.w3.org/2004/02/skos/core#prefLabel> "p - Ratcliffe (1960)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/RatcliffeP1960> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Sass1992> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Sass1992> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Sass1992> <http://www.w3.org/2004/02/skos/core#prefLabel> "T - Sass et al. (1992)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Sass1992> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Seipold2001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Seipold2001> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Seipold2001> <http://www.w3.org/2004/02/skos/core#prefLabel> "p - Seipold (2001)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Seipold2001> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/SeipoldT2001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/SeipoldT2001> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/SeipoldT2001> <http://www.w3.org/2004/02/skos/core#prefLabel> "T - Seipold (2001)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/SeipoldT2001> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Sekiguchi1984> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Sekiguchi1984> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Sekiguchi1984> <http://www.w3.org/2004/02/skos/core#prefLabel> "T - Sekiguchi (1984)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Sekiguchi1984> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Sibbitt1975> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Sibbitt1975> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Sibbitt1975> <http://www.w3.org/2004/02/skos/core#prefLabel> "p - Sibbitt (1975)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Sibbitt1975> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Somerton1992> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Somerton1992> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Somerton1992> <http://www.w3.org/2004/02/skos/core#prefLabel> "T - Somerton (1992)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Somerton1992> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Sun2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Sun2017> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Sun2017> <http://www.w3.org/2004/02/skos/core#prefLabel> "T - Sun et al. (2017)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Sun2017> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Tikhomirov1968> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Tikhomirov1968> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Tikhomirov1968> <http://www.w3.org/2004/02/skos/core#prefLabel> "T - Tikhomirov (1968)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/Tikhomirov1968> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/VosteenSchellschmidt2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/VosteenSchellschmidt2003> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/VosteenSchellschmidt2003> <http://www.w3.org/2004/02/skos/core#prefLabel> "T - Vosteen & Schellschmidt (2003)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/VosteenSchellschmidt2003> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/ZothHaenal1988> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/ZothHaenal1988> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/ZothHaenal1988> <http://www.w3.org/2004/02/skos/core#prefLabel> "T - Zoth & Haenel (1988)"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/ZothHaenal1988> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/other> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/other> <http://www.w3.org/2004/02/skos/core#prefLabel> "Other"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/other> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/pressure> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/Bridgman1924> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/pressure> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/Demirci2004> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/pressure> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/Duruturk2002> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/pressure> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/FuchsFoerster2014> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/pressure> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/Gorgulu2008> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/pressure> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/Kukkonen1999> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/pressure> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/RatcliffeP1960> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/pressure> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/Seipold2001> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/pressure> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/Sibbitt1975> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/pressure> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pressure"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/pressure_temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/pressure_temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/Abdulagatov2006> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/pressure_temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/Abdulagatova2009> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/pressure_temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/Buntebarth1991> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/pressure_temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/ChapmanFurlong1992> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/pressure_temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/Emirov1997> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/pressure_temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/Emirov2017> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/pressure_temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/EmirovRamazanova2007> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/pressure_temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/Radcliff1960> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/pressure_temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/RamazanovaEmirov2010> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/pressure_temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/RamazanovaEmirov2012> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/pressure_temperature> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pressure and Temperature"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/site_specific> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/site_specific> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/site_specific> <http://www.w3.org/2004/02/skos/core#prefLabel> "Site-specific experimental relationships"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/site_specific> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/Anand1973> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/Blesch1983> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/Chapman1984> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/Funnell1996> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/HaenelZoth1973> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/KukkonenT1999> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/KutasGordienko1971> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/Miranda2018> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/Ratcliff1960> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/Sass1992> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/SeipoldT2001> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/Sekiguchi1984> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/Somerton1992> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/Sun2017> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/Tikhomirov1968> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/VosteenSchellschmidt2003> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/conductivity-pt-function/ZothHaenal1988> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/temperature> <http://www.w3.org/2004/02/skos/core#prefLabel> "Temperature"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/unspecified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/unspecified> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function/unspecified> <http://www.w3.org/2004/02/skos/core#prefLabel> "Unspecified"@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function/unspecified> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-pt-function> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#definition> "Specification of the function used to determine the thermal conductivity."@en .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/Abdulagatov2006> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/Abdulagatova2009> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/Anand1973> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/BirchClark1940> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/Blesch1983> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/Bridgman1924> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/Buntebarth1991> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/Chapman1984> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/ChapmanFurlong1992> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/Demirci2004> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/Duruturk2002> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/Emirov1997> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/Emirov2017> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/EmirovRamazanova2007> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/FuchsFoerster2014> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/Funnell1996> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/Gorgulu2008> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/HaenelZoth1973> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/Hyndman1974> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/Kukkonen1999> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/KukkonenT1999> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/KutasGordienko1971> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/Langseth1965> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/Miranda2018> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/Radcliff1960> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/RamazanovaEmirov2010> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/RamazanovaEmirov2012> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/Ratcliff1960> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/RatcliffeP1960> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/Sass1992> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/Seipold2001> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/SeipoldT2001> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/Sekiguchi1984> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/Sibbitt1975> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/Somerton1992> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/Sun2017> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/Tikhomirov1968> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/VosteenSchellschmidt2003> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/ZothHaenal1988> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/other> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/site_specific> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-pt-function/unspecified> .
+<https://heatflow.world/vocabularies/conductivity-pt-function> <http://www.w3.org/2004/02/skos/core#prefLabel> "Thermal conductivity PT function"@en .

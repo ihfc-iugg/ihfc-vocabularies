@@ -1,0 +1,347 @@
+[
+  {
+    "@id": "https://heatflow.world/vocabularies/heat-flow-probes",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Types of heat-flow probes used for collecting heat flow data, typically in marine settings."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes/other"
+      },
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes/outrigger_autonomous_no_corer"
+      },
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes/outrigger_autonomous_with_corer"
+      },
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes/outrigger_ewing"
+      },
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes/outrigger_haenel"
+      },
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes/outrigger_hybrid_lister_hylo"
+      },
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes/outrigger_lister"
+      },
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes/outrigger_von_herzen"
+      },
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes/single_steel"
+      },
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes/single_steel_insituTC"
+      },
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes/submersible"
+      },
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes/unspecified"
+      },
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes/violin_bow"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Heat flow probe types"
+      }
+    ]
+  },
+  {
+    "@id": "https://heatflow.world/vocabularies/heat-flow-probes/submersible",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Submersible probe"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes"
+      }
+    ]
+  },
+  {
+    "@id": "https://heatflow.world/vocabularies/heat-flow-probes/single_steel",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Single Steel probe (Bullard)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes"
+      }
+    ]
+  },
+  {
+    "@id": "https://heatflow.world/vocabularies/heat-flow-probes/outrigger_von_herzen",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Outrigger probe (Von Herzen) in-situ TC"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes"
+      }
+    ]
+  },
+  {
+    "@id": "https://heatflow.world/vocabularies/heat-flow-probes/outrigger_ewing",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Outrigger probe (Ewing) with corer"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes"
+      }
+    ]
+  },
+  {
+    "@id": "https://heatflow.world/vocabularies/heat-flow-probes/unspecified",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Unspecified"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes"
+      }
+    ]
+  },
+  {
+    "@id": "https://heatflow.world/vocabularies/heat-flow-probes/outrigger_autonomous_no_corer",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Outrigger probe (autonomous) without corer"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes"
+      }
+    ]
+  },
+  {
+    "@id": "https://heatflow.world/vocabularies/heat-flow-probes/other",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Other (specify in comments)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes"
+      }
+    ]
+  },
+  {
+    "@id": "https://heatflow.world/vocabularies/heat-flow-probes/outrigger_autonomous_with_corer",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Outrigger probe (autonomous) with corer"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes"
+      }
+    ]
+  },
+  {
+    "@id": "https://heatflow.world/vocabularies/heat-flow-probes/outrigger_hybrid_lister_hylo",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Outrigger probe (Hybrid Lister) HyLO"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes"
+      }
+    ]
+  },
+  {
+    "@id": "https://heatflow.world/vocabularies/heat-flow-probes/outrigger_lister",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Outrigger probe (Lister) with corer"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes"
+      }
+    ]
+  },
+  {
+    "@id": "https://heatflow.world/vocabularies/heat-flow-probes/single_steel_insituTC",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Single Steel probe (Bullard) in-situ TC"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes"
+      }
+    ]
+  },
+  {
+    "@id": "https://heatflow.world/vocabularies/heat-flow-probes/violin_bow",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Violin-Bow probe (Lister)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes"
+      }
+    ]
+  },
+  {
+    "@id": "https://heatflow.world/vocabularies/heat-flow-probes/outrigger_haenel",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Outrigger probe (Haenel) in-situ TC"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://heatflow.world/vocabularies/heat-flow-probes"
+      }
+    ]
+  }
+]

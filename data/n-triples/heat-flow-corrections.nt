@@ -1,0 +1,92 @@
+<https://heatflow.world/vocabularies/heat-flow-corrections/consideredP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/consideredP> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/heat-flow-corrections> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/consideredP> <http://www.w3.org/2004/02/skos/core#prefLabel> "Considered - p"@en .
+<https://heatflow.world/vocabularies/heat-flow-corrections/consideredP> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/heat-flow-corrections> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/consideredPT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/consideredPT> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/heat-flow-corrections> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/consideredPT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Considered - pT"@en .
+<https://heatflow.world/vocabularies/heat-flow-corrections/consideredPT> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/heat-flow-corrections> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/consideredT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/consideredT> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/heat-flow-corrections> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/consideredT> <http://www.w3.org/2004/02/skos/core#prefLabel> "Considered - t"@en .
+<https://heatflow.world/vocabularies/heat-flow-corrections/consideredT> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/heat-flow-corrections> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/corrected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/corrected> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/heat-flow-corrections> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/corrected> <http://www.w3.org/2004/02/skos/core#prefLabel> "Corrected"@en .
+<https://heatflow.world/vocabularies/heat-flow-corrections/corrected> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/heat-flow-corrections> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/driftCorrected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/driftCorrected> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/heat-flow-corrections> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/driftCorrected> <http://www.w3.org/2004/02/skos/core#prefLabel> "Drift corrected"@en .
+<https://heatflow.world/vocabularies/heat-flow-corrections/driftCorrected> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/heat-flow-corrections> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/generic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/generic> <http://www.w3.org/2004/02/skos/core#definition> "Generic flag choices for heat flow data"@en .
+<https://heatflow.world/vocabularies/heat-flow-corrections/generic> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/heat-flow-corrections/not_recognized> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/generic> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/heat-flow-corrections/present_corrected> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/generic> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/heat-flow-corrections/present_not_corrected> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/generic> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/heat-flow-corrections/present_not_significant> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/generic> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/heat-flow-corrections/unspecified> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/generic> <http://www.w3.org/2004/02/skos/core#prefLabel> "Generic"@en .
+<https://heatflow.world/vocabularies/heat-flow-corrections/insitu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/insitu> <http://www.w3.org/2004/02/skos/core#definition> "In-situ measurements"@en .
+<https://heatflow.world/vocabularies/heat-flow-corrections/insitu> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/heat-flow-corrections/consideredP> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/insitu> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/heat-flow-corrections/consideredPT> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/insitu> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/heat-flow-corrections/consideredT> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/insitu> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/heat-flow-corrections/notConsidered> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/insitu> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/heat-flow-corrections/unspecified> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/insitu> <http://www.w3.org/2004/02/skos/core#prefLabel> "In-situ"@en .
+<https://heatflow.world/vocabularies/heat-flow-corrections/notConsidered> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/notConsidered> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/heat-flow-corrections> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/notConsidered> <http://www.w3.org/2004/02/skos/core#prefLabel> "not considered"@en .
+<https://heatflow.world/vocabularies/heat-flow-corrections/notConsidered> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/heat-flow-corrections> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/notCorrected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/notCorrected> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/heat-flow-corrections> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/notCorrected> <http://www.w3.org/2004/02/skos/core#prefLabel> "not corrected"@en .
+<https://heatflow.world/vocabularies/heat-flow-corrections/notCorrected> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/heat-flow-corrections> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/not_recognized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/not_recognized> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/heat-flow-corrections> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/not_recognized> <http://www.w3.org/2004/02/skos/core#prefLabel> "not recognized"@en .
+<https://heatflow.world/vocabularies/heat-flow-corrections/not_recognized> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/heat-flow-corrections> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/present_corrected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/present_corrected> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/heat-flow-corrections> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/present_corrected> <http://www.w3.org/2004/02/skos/core#prefLabel> "Present and corrected"@en .
+<https://heatflow.world/vocabularies/heat-flow-corrections/present_corrected> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/heat-flow-corrections> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/present_not_corrected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/present_not_corrected> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/heat-flow-corrections> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/present_not_corrected> <http://www.w3.org/2004/02/skos/core#prefLabel> "Present and not corrected"@en .
+<https://heatflow.world/vocabularies/heat-flow-corrections/present_not_corrected> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/heat-flow-corrections> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/present_not_significant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/present_not_significant> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/heat-flow-corrections> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/present_not_significant> <http://www.w3.org/2004/02/skos/core#prefLabel> "Present not significant"@en .
+<https://heatflow.world/vocabularies/heat-flow-corrections/present_not_significant> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/heat-flow-corrections> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/temperature> <http://www.w3.org/2004/02/skos/core#definition> "Temperature measurements"@en .
+<https://heatflow.world/vocabularies/heat-flow-corrections/temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/heat-flow-corrections/corrected> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/heat-flow-corrections/driftCorrected> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/heat-flow-corrections/notCorrected> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/heat-flow-corrections/tiltCorrected> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/temperature> <http://www.w3.org/2004/02/skos/core#member> <https://heatflow.world/vocabularies/heat-flow-corrections/unspecified> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/temperature> <http://www.w3.org/2004/02/skos/core#prefLabel> "Temperature"@en .
+<https://heatflow.world/vocabularies/heat-flow-corrections/tiltCorrected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/tiltCorrected> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/heat-flow-corrections> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/tiltCorrected> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tilt corrected"@en .
+<https://heatflow.world/vocabularies/heat-flow-corrections/tiltCorrected> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/heat-flow-corrections> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/unspecified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/unspecified> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/heat-flow-corrections> .
+<https://heatflow.world/vocabularies/heat-flow-corrections/unspecified> <http://www.w3.org/2004/02/skos/core#prefLabel> "unspecified"@en .
+<https://heatflow.world/vocabularies/heat-flow-corrections/unspecified> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/heat-flow-corrections> .
+<https://heatflow.world/vocabularies/heat-flow-corrections> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://heatflow.world/vocabularies/heat-flow-corrections> <http://www.w3.org/2004/02/skos/core#definition> "Generic flag choices for heat flow data."@en .
+<https://heatflow.world/vocabularies/heat-flow-corrections> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/heat-flow-corrections/consideredP> .
+<https://heatflow.world/vocabularies/heat-flow-corrections> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/heat-flow-corrections/consideredPT> .
+<https://heatflow.world/vocabularies/heat-flow-corrections> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/heat-flow-corrections/consideredT> .
+<https://heatflow.world/vocabularies/heat-flow-corrections> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/heat-flow-corrections/corrected> .
+<https://heatflow.world/vocabularies/heat-flow-corrections> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/heat-flow-corrections/driftCorrected> .
+<https://heatflow.world/vocabularies/heat-flow-corrections> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/heat-flow-corrections/notConsidered> .
+<https://heatflow.world/vocabularies/heat-flow-corrections> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/heat-flow-corrections/notCorrected> .
+<https://heatflow.world/vocabularies/heat-flow-corrections> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/heat-flow-corrections/not_recognized> .
+<https://heatflow.world/vocabularies/heat-flow-corrections> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/heat-flow-corrections/present_corrected> .
+<https://heatflow.world/vocabularies/heat-flow-corrections> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/heat-flow-corrections/present_not_corrected> .
+<https://heatflow.world/vocabularies/heat-flow-corrections> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/heat-flow-corrections/present_not_significant> .
+<https://heatflow.world/vocabularies/heat-flow-corrections> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/heat-flow-corrections/tiltCorrected> .
+<https://heatflow.world/vocabularies/heat-flow-corrections> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/heat-flow-corrections/unspecified> .
+<https://heatflow.world/vocabularies/heat-flow-corrections> <http://www.w3.org/2004/02/skos/core#prefLabel> "Generic flag choices"@en .

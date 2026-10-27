@@ -1,0 +1,89 @@
+PREFIX ghfdb: <https://heatflow.world/vocabularies/exploration-methods/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+ghfdb:drilling
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/exploration-methods> ;
+    skos:prefLabel "Drilling"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/exploration-methods> ;
+.
+
+ghfdb:drilling_clustering
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/exploration-methods> ;
+    skos:prefLabel "Drilling-Clustering"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/exploration-methods> ;
+.
+
+ghfdb:indirect
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/exploration-methods> ;
+    skos:prefLabel "Indirect (GTM-BSR-CPD-etc.)"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/exploration-methods> ;
+.
+
+ghfdb:mining
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/exploration-methods> ;
+    skos:prefLabel "Mining"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/exploration-methods> ;
+.
+
+ghfdb:other
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/exploration-methods> ;
+    skos:prefLabel "Other"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/exploration-methods> ;
+.
+
+ghfdb:probing_clustering
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/exploration-methods> ;
+    skos:prefLabel "Probing-Clustering"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/exploration-methods> ;
+.
+
+ghfdb:probing_offshore
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/exploration-methods> ;
+    skos:prefLabel "Probing (offshore-ocean)"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/exploration-methods> ;
+.
+
+ghfdb:probing_onshore
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/exploration-methods> ;
+    skos:prefLabel "Probing (onshore-lake-river-etc.)"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/exploration-methods> ;
+.
+
+ghfdb:tunneling
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/exploration-methods> ;
+    skos:prefLabel "Tunneling"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/exploration-methods> ;
+.
+
+ghfdb:unspecified
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/exploration-methods> ;
+    skos:prefLabel "Unspecified"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/exploration-methods> ;
+.
+
+<https://heatflow.world/vocabularies/exploration-methods>
+    a skos:ConceptScheme ;
+    skos:definition "General means by which the rock was accessed by temperature sensors."@en ;
+    skos:hasTopConcept
+        ghfdb:drilling ,
+        ghfdb:drilling_clustering ,
+        ghfdb:indirect ,
+        ghfdb:mining ,
+        ghfdb:other ,
+        ghfdb:probing_clustering ,
+        ghfdb:probing_offshore ,
+        ghfdb:probing_onshore ,
+        ghfdb:tunneling ,
+        ghfdb:unspecified ;
+    skos:prefLabel "exploration methods"@en ;
+.

@@ -1,0 +1,18 @@
+<https://heatflow.world/vocabularies/conductivity-location/actual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-location/actual> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-location> .
+<https://heatflow.world/vocabularies/conductivity-location/actual> <http://www.w3.org/2004/02/skos/core#prefLabel> "Actual heat-flow location"@en .
+<https://heatflow.world/vocabularies/conductivity-location/actual> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-location> .
+<https://heatflow.world/vocabularies/conductivity-location/literature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-location/literature> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-location> .
+<https://heatflow.world/vocabularies/conductivity-location/literature> <http://www.w3.org/2004/02/skos/core#prefLabel> "Literature-unspecified"@en .
+<https://heatflow.world/vocabularies/conductivity-location/literature> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-location> .
+<https://heatflow.world/vocabularies/conductivity-location/other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://heatflow.world/vocabularies/conductivity-location/other> <http://www.w3.org/2004/02/skos/core#inScheme> <https://heatflow.world/vocabularies/conductivity-location> .
+<https://heatflow.world/vocabularies/conductivity-location/other> <http://www.w3.org/2004/02/skos/core#prefLabel> "Other location"@en .
+<https://heatflow.world/vocabularies/conductivity-location/other> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://heatflow.world/vocabularies/conductivity-location> .
+<https://heatflow.world/vocabularies/conductivity-location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://heatflow.world/vocabularies/conductivity-location> <http://www.w3.org/2004/02/skos/core#definition> "Specification of the location where the thermal conductivity was measured."@en .
+<https://heatflow.world/vocabularies/conductivity-location> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-location/actual> .
+<https://heatflow.world/vocabularies/conductivity-location> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-location/literature> .
+<https://heatflow.world/vocabularies/conductivity-location> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://heatflow.world/vocabularies/conductivity-location/other> .
+<https://heatflow.world/vocabularies/conductivity-location> <http://www.w3.org/2004/02/skos/core#prefLabel> "Conductivity location"@en .

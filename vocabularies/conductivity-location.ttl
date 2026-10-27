@@ -1,0 +1,33 @@
+PREFIX ghfdb: <https://heatflow.world/vocabularies/conductivity-location/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+ghfdb:actual
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/conductivity-location> ;
+    skos:prefLabel "Actual heat-flow location"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-location> ;
+.
+
+ghfdb:literature
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/conductivity-location> ;
+    skos:prefLabel "Literature-unspecified"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-location> ;
+.
+
+ghfdb:other
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/conductivity-location> ;
+    skos:prefLabel "Other location"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-location> ;
+.
+
+<https://heatflow.world/vocabularies/conductivity-location>
+    a skos:ConceptScheme ;
+    skos:definition "Specification of the location where the thermal conductivity was measured."@en ;
+    skos:hasTopConcept
+        ghfdb:actual ,
+        ghfdb:literature ,
+        ghfdb:other ;
+    skos:prefLabel "Conductivity location"@en ;
+.

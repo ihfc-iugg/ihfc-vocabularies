@@ -1,0 +1,59 @@
+PREFIX ghfdb: <https://heatflow.world/vocabularies/conductivity-strategy/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+ghfdb:characterize
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/conductivity-strategy> ;
+    skos:prefLabel "Characterize formation conductivities"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-strategy> ;
+.
+
+ghfdb:computation
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/conductivity-strategy> ;
+    skos:prefLabel "Computation from probe sensing"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-strategy> ;
+.
+
+ghfdb:other
+    a skos:Concept ;
+    skos:definition "Other"@en ;
+    skos:inScheme <https://heatflow.world/vocabularies/conductivity-strategy> ;
+    skos:prefLabel "Other"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-strategy> ;
+.
+
+ghfdb:random
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/conductivity-strategy> ;
+    skos:prefLabel "Random or periodic depth sampling"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-strategy> ;
+.
+
+ghfdb:unspecified
+    a skos:Concept ;
+    skos:definition "Unspecified"@en ;
+    skos:inScheme <https://heatflow.world/vocabularies/conductivity-strategy> ;
+    skos:prefLabel "Unspecified"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-strategy> ;
+.
+
+ghfdb:well_log
+    a skos:Concept ;
+    skos:inScheme <https://heatflow.world/vocabularies/conductivity-strategy> ;
+    skos:prefLabel "Well log interpretation"@en ;
+    skos:topConceptOf <https://heatflow.world/vocabularies/conductivity-strategy> ;
+.
+
+<https://heatflow.world/vocabularies/conductivity-strategy>
+    a skos:ConceptScheme ;
+    skos:definition "Strategy by which thermal conductivity for a particular heat flow interval was calculated."@en ;
+    skos:hasTopConcept
+        ghfdb:characterize ,
+        ghfdb:computation ,
+        ghfdb:other ,
+        ghfdb:random ,
+        ghfdb:unspecified ,
+        ghfdb:well_log ;
+    skos:prefLabel "Thermal conductivity strategy"@en ;
+.
