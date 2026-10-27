@@ -5,24 +5,6 @@ PREFIX ihfc: <https://portal.heatflow.world/vocabularies/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-:offshore
-    a skos:Collection ;
-    skos:definition "Environments where the site lies under the sea."@en ;
-    skos:member
-        :offshore_continental ,
-        :offshore_marine ;
-    skos:prefLabel "Offshore environments"@en ;
-.
-
-:onshore
-    a skos:Collection ;
-    skos:definition "Environments where the site lies on land, including under inland water."@en ;
-    skos:member
-        :onshore_continental ,
-        :onshore_marine ;
-    skos:prefLabel "Onshore environments"@en ;
-.
-
 <https://doi.org/10.1016/j.tecto.2023.229976>
     a dcterms:BibliographicResource ;
     dcterms:bibliographicCitation "Fuchs, S., Norden, B., Neumann, F., Kaul, N., Tanaka, A., Kukkonen, I. T., et al. (2023). Quality-assurance of heat-flow data: The new structure and evaluation scheme of the IHFC Global Heat Flow Database. Tectonophysics, 863, 229976."@en ;
@@ -39,12 +21,10 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     dcterms:title "IHFC Controlled Vocabularies for the Global Heat Flow Database"@en ;
 .
 
-:unspecified
-    a skos:Concept ;
-    skos:definition "The geographic environment is not stated or not known."@en ;
-    skos:inScheme ihfc:geographic-environments ;
-    skos:prefLabel "Unspecified"@en ;
-    skos:topConceptOf ihfc:geographic-environments ;
+<https://ihfc-iugg.org/>
+    a foaf:Organization ;
+    foaf:homepage <https://ihfc-iugg.org/> ;
+    foaf:name "International Heat Flow Commission"@en ;
 .
 
 <https://ror.org/04z8jg394>
@@ -53,10 +33,44 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     foaf:name "GFZ Helmholtz Centre for Geosciences"@en ;
 .
 
-<https://ihfc-iugg.org/>
-    a foaf:Organization ;
-    foaf:homepage <https://ihfc-iugg.org/> ;
-    foaf:name "International Heat Flow Commission"@en ;
+ihfc:geographic-environments
+    a skos:ConceptScheme ;
+    dcterms:creator <https://ihfc-iugg.org/> ;
+    dcterms:description "The basic geographic environment in which a heat-flow measurement was made, onshore or offshore."@en ;
+    dcterms:isPartOf <https://doi.org/10.5880/fidgeo.2026.065> ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:publisher <https://ror.org/04z8jg394> ;
+    dcterms:source
+        <https://doi.org/10.1016/j.tecto.2023.229976> ,
+        <https://doi.org/10.31214/ijthfa.v4i1.62> ;
+    rdfs:seeAlso <https://github.com/ihfc-iugg/ihfc-vocabularies> ;
+    skos:hasTopConcept
+        :offshore_continental ,
+        :offshore_marine ,
+        :onshore_continental ,
+        :onshore_marine ,
+        :unspecified ;
+    skos:prefLabel "Geographic environments"@en ;
+    skos:scopeNote "Lists the values allowed in the field environment of the Global Heat Flow Database."@en ;
+.
+
+:offshore
+    a skos:Collection ;
+    skos:definition "Environments where the site lies under the sea."@en ;
+    skos:member
+        :offshore_continental ,
+        :offshore_marine ;
+    skos:prefLabel "Offshore environments"@en ;
+.
+
+:onshore
+    a skos:Collection ;
+    skos:definition "Environments where the site lies on land, including under inland water."@en ;
+    skos:member
+        :onshore_continental ,
+        :onshore_marine ;
+    skos:prefLabel "Onshore environments"@en ;
 .
 
 :offshore_continental
@@ -92,24 +106,10 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     skos:topConceptOf ihfc:geographic-environments ;
 .
 
-ihfc:geographic-environments
-    a skos:ConceptScheme ;
-    dcterms:creator <https://ihfc-iugg.org/> ;
-    dcterms:description "The basic geographic environment in which a heat-flow measurement was made, onshore or offshore."@en ;
-    dcterms:isPartOf <https://doi.org/10.5880/fidgeo.2026.065> ;
-    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:publisher <https://ror.org/04z8jg394> ;
-    dcterms:source
-        <https://doi.org/10.1016/j.tecto.2023.229976> ,
-        <https://doi.org/10.31214/ijthfa.v4i1.62> ;
-    rdfs:seeAlso <https://github.com/ihfc-iugg/ihfc-vocabularies> ;
-    skos:hasTopConcept
-        :offshore_continental ,
-        :offshore_marine ,
-        :onshore_continental ,
-        :onshore_marine ,
-        :unspecified ;
-    skos:prefLabel "Geographic environments"@en ;
-    skos:scopeNote "Lists the values allowed in the field environment of the Global Heat Flow Database."@en ;
+:unspecified
+    a skos:Concept ;
+    skos:definition "The geographic environment is not stated or not known."@en ;
+    skos:inScheme ihfc:geographic-environments ;
+    skos:prefLabel "Unspecified"@en ;
+    skos:topConceptOf ihfc:geographic-environments ;
 .

@@ -63,14 +63,52 @@ def with_prefixes(graph, name):
     return prefixed
 
 
-def serialize(graph, name, extension):
-    """Return the vocabulary called ``name`` in the format for ``extension``."""
-    return with_prefixes(graph, name).serialize(format=EXPORT_FORMATS[extension])
+# The order records appear in a source file: what describes the vocabulary first,
+# then the vocabulary, then its collections and concepts. Within each group,
+# records are sorted by address, ignoring case.
+RECORD_ORDER = [
+    DCTERMS.BibliographicResource,
+    FOAF.Organization,
+    SKOS.ConceptScheme,
+    SKOS.Collection,
+    SKOS.Concept,
+]
+
+
+def record_rank(graph, subject):
+    """Return where the record for ``subject`` belongs in a source file."""
+    for rank, rdf_type in enumerate(RECORD_ORDER):
+        if (subject, RDF.type, rdf_type) in graph:
+            return rank, str(subject).casefold(), str(subject)
+    return len(RECORD_ORDER), str(subject).casefold(), str(subject)
 
 
 def canonical_turtle(graph, name):
-    """Return the vocabulary called ``name`` serialised in the fixed source layout."""
-    return serialize(graph, name, ".ttl")
+    """Return the vocabulary called ``name`` serialised in the fixed source layout.
+
+    rdflib writes each record, and this function puts the records in the order
+    ``RECORD_ORDER`` sets, after the prefixes.
+    """
+    prefixed = with_prefixes(graph, name)
+    text = prefixed.serialize(format=SOURCE_FORMAT)
+    header = [line for line in text.splitlines() if line.startswith("PREFIX ")]
+    records = []
+    subjects = sorted(set(prefixed.subjects()), key=lambda s: record_rank(graph, s))
+    for subject in subjects:
+        record = with_prefixes(Graph(), name)
+        for triple in prefixed.triples((subject, None, None)):
+            record.add(triple)
+        body = record.serialize(format=SOURCE_FORMAT)
+        lines = [line for line in body.splitlines() if not line.startswith("PREFIX ")]
+        records.append("\n".join(lines).strip())
+    return "\n".join(header) + "\n\n" + "\n\n".join(records) + "\n"
+
+
+def serialize(graph, name, extension):
+    """Return the vocabulary called ``name`` in the format for ``extension``."""
+    if extension == ".ttl":
+        return canonical_turtle(graph, name)
+    return with_prefixes(graph, name).serialize(format=EXPORT_FORMATS[extension])
 
 
 def rewrite_sources():
