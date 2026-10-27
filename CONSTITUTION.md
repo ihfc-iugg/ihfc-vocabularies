@@ -41,8 +41,8 @@ pre-commit for development, and nothing else today.
 
 ### Article VIII — The source files are the vocabularies
 The Turtle files in `vocabularies/` are the only place a vocabulary is defined and the only
-files anyone edits. Each is kept in the fixed layout. The files under `data/` are generated from
-them by `scripts/build_vocabularies.py` and are never edited by hand.
+files anyone edits. Each is kept in the fixed layout. Copies in other RDF formats are generated
+from them by `scripts/build_vocabularies.py` when a release is published, and are never committed.
 
 ### Article IX — One vocabulary per file
 Each source file holds exactly one concept scheme, whose address is
@@ -74,7 +74,7 @@ checks, and pre-commit runs the linters. CI is this repository's own workflow.
 Read at review; applies to every change.
 
 - Every check in `tests/` passes for every vocabulary.
-- The exports under `data/` match their source files.
+- Every vocabulary exports to every format without losing anything.
 - pre-commit passes.
 - `CHANGELOG.md` records every change to what a vocabulary contains.
 
@@ -85,4 +85,4 @@ Read at review; applies to every change.
 
 ---
 
-**Version**: 2.0.0 | **Ratified**: 2026-10-27 | **Last Amended**: 2026-10-27
+**Version**: 3.0.0 | **Ratified**: 2026-10-27 | **Last Amended**: 2026-10-27

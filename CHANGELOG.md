@@ -24,7 +24,8 @@ All notable changes to the vocabularies are recorded here. Versions are calendar
 
 ### Added
 
-- Exports in RDF/XML, JSON-LD and N-Triples under `data/`.
+- Each release carries every vocabulary in Turtle, RDF/XML, JSON-LD and N-Triples, as one
+  archive with all the files in a single directory.
 - Checks that run on every pull request.
 
 ### Removed

@@ -2,20 +2,21 @@
 
 The published source of the heat-flow SKOS vocabularies. Each vocabulary is a Turtle source file
 in `vocabularies/`, edited by hand. `scripts/build_vocabularies.py` rewrites the sources in their
-fixed layout and generates the exports under `data/`. The terms are defined in `CONTEXT.md`.
+fixed layout, and with `--export` writes every vocabulary in every RDF format for a release. The terms are defined in `CONTEXT.md`.
 
 ## Stack & commands
 
 - **Stack:** Python 3.12+, uv-managed; rdflib, pytest, pre-commit. No package is built.
 - **Install:** `uv sync`
-- **Rewrite sources and regenerate exports:** `uv run python scripts/build_vocabularies.py` — run
+- **Rewrite sources in the fixed layout:** `uv run python scripts/build_vocabularies.py` — run
   after every edit to `vocabularies/`
+- **Export every format into one directory:** `uv run python scripts/build_vocabularies.py --export <dir>`
 - **Test:** `uv run pytest`
 - **Lint:** `uv run pre-commit run --all-files`
 
 ## Editing a vocabulary
 
-1. Edit the Turtle file in `vocabularies/`. Never edit `data/`.
+1. Edit the Turtle file in `vocabularies/`.
 2. Run the build script, then the tests.
 3. Record the change in `CHANGELOG.md` under `[Unreleased]`.
 
@@ -40,6 +41,14 @@ Single-context layout: `CONTEXT.md` at the root, `docs/adr/` for decisions. See
 ### CI checks
 
 Required status checks (exact names): `["Check vocabularies"]`, from `.github/workflows/checks.yml`.
+
+## Releasing
+
+1. Set the new calendar version with `uv version <year>.<release>`, and move the `[Unreleased]`
+   notes in `CHANGELOG.md` under a heading for that version.
+2. Merge that change, then publish a GitHub Release tagged `v<year>.<release>`.
+3. `.github/workflows/publish.yml` checks the tag against the version, runs the checks, and
+   attaches `ihfc-vocabularies-<version>.zip` to the release.
 
 ## Automated contributions
 

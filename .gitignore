@@ -27,3 +27,6 @@ coverage.xml
 # Environments
 .env
 .venv
+
+# Release archives
+dist/
