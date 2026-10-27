@@ -73,8 +73,13 @@ class TestScheme:
             for agent in graph.objects(scheme, predicate):
                 assert (agent, FOAF.name, None) in graph, f"{agent} has no name"
 
-    def test_cites_its_sources(self, graph, scheme):
-        for source in graph.objects(scheme, DCTERMS.source):
+    def test_cites_its_sources_and_publication(self, graph, scheme):
+        assert (scheme, DCTERMS.isPartOf, None) in graph
+        cited = [
+            *graph.objects(scheme, DCTERMS.source),
+            *graph.objects(scheme, DCTERMS.isPartOf),
+        ]
+        for source in cited:
             assert (source, DCTERMS.bibliographicCitation, None) in graph, (
                 f"{source} has no citation"
             )

@@ -33,6 +33,12 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     dcterms:bibliographicCitation "Fuchs, S., Beardsmore, G., Chiozzi, P., Espinoza-Ojeda, O. M., Gola, G., Gosnold, W., Harris, R., Jennings, S., Liu, S., Negrete-Aranda, R., Neumann, F., Norden, B., Poort, J., Rajver, D., Ray, L., Richards, M., Smith, J., Tanaka, A., and Verdoya, M. (2021). A new database structure for the IHFC Global Heat Flow Database. International Journal of Terrestrial Heat Flow and Applied Geothermics, 4(1), 1–14."@en ;
 .
 
+<https://doi.org/10.5880/fidgeo.2026.065>
+    a dcterms:BibliographicResource ;
+    dcterms:bibliographicCitation "Jennings, Samuel; Neumann, Florian; Norden, Ben; Balkan-Pazvantoğlu, Elif; Elbarbary, Samah; Petrunin, Alexey G.; Elger, Kirsten; Fuchs, Sven (2026): IHFC Controlled Vocabularies for the Global Heat Flow Database. GFZ Data Services. https://doi.org/10.5880/fidgeo.2026.065"@en ;
+    dcterms:title "IHFC Controlled Vocabularies for the Global Heat Flow Database"@en ;
+.
+
 :unspecified
     a skos:Concept ;
     skos:inScheme ihfc:geographic-environments ;
@@ -85,6 +91,7 @@ ihfc:geographic-environments
     a skos:ConceptScheme ;
     dcterms:creator <https://ihfc-iugg.org/> ;
     dcterms:description "The basic geographic environment in which a heat-flow measurement was made, onshore or offshore."@en ;
+    dcterms:isPartOf <https://doi.org/10.5880/fidgeo.2026.065> ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:publisher <https://ror.org/04z8jg394> ;
