@@ -5,7 +5,17 @@ All notable changes to the vocabularies are recorded here. Versions are calendar
 
 ## [Unreleased]
 
+### Changed
+
+- Addresses start with `https://w3id.org/ihfc/vocabularies/`, a permanent address that does
+  not depend on where the vocabularies are hosted
+  (`https://w3id.org/ihfc/vocabularies/heat-flow-method/bullard`). The identifiers after it
+  are unchanged.
+
 ### Added
+
+- A documentation site, with a page for every vocabulary, concept and collection, and its
+  RDF in every format beside it.
 
 - `CONTRIBUTORS.md`, listing everyone who has contributed to the vocabularies with their
   affiliation and ORCID iD.

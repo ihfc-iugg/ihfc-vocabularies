@@ -12,9 +12,16 @@ dependencies = ["rdflib>=7.1"]
 
 [dependency-groups]
 dev = ["pytest>=8", "pre-commit>=4"]
+docs = [
+    "furo>=2025.12.19",
+    "sphinx>=9",
+    "sphinx-skos>=0.3.2",
+]
 
 [tool.uv]
 package = false
+# The checks build the documentation site, so it is installed with the dev tools.
+default-groups = ["dev", "docs"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
