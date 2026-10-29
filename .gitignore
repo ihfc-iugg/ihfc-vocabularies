@@ -32,35 +32,6 @@ coverage.xml
 dist/
 
 # The documentation site's build, and the pages it writes for every vocabulary,
-# concept and collection at each one's address
-docs/_build/
-docs/conductivity-conditions.rst
-docs/conductivity-conditions/
-docs/conductivity-location.rst
-docs/conductivity-location/
-docs/conductivity-methods.rst
-docs/conductivity-methods/
-docs/conductivity-pt-function.rst
-docs/conductivity-pt-function/
-docs/conductivity-saturation.rst
-docs/conductivity-saturation/
-docs/conductivity-sources.rst
-docs/conductivity-sources/
-docs/conductivity-strategy.rst
-docs/conductivity-strategy/
-docs/exploration-methods.rst
-docs/exploration-methods/
-docs/exploration-purpose.rst
-docs/exploration-purpose/
-docs/geographic-environments.rst
-docs/geographic-environments/
-docs/heat-flow-corrections.rst
-docs/heat-flow-corrections/
-docs/heat-flow-method.rst
-docs/heat-flow-method/
-docs/heat-flow-probes.rst
-docs/heat-flow-probes/
-docs/temperature-corrections.rst
-docs/temperature-corrections/
-docs/temperature-method.rst
-docs/temperature-method/
+# concept and collection
+_build/
+docs/vocabularies/

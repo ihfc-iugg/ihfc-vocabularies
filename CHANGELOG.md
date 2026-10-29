@@ -16,7 +16,6 @@ All notable changes to the vocabularies are recorded here. Versions are calendar
 
 - A documentation site, with a page for every vocabulary, concept and collection, and its
   RDF in every format beside it.
-
 - `CONTRIBUTORS.md`, listing everyone who has contributed to the vocabularies with their
   affiliation and ORCID iD.
 - A release archive, `vocabularies-full.zip`, with every vocabulary in every format,

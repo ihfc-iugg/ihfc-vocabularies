@@ -35,8 +35,8 @@ follows [`docs/contributing/standards/documentation.md`](docs/contributing/stand
 
 ### Article VII — Dependency discipline
 A new dependency needs a stated reason. The vocabularies depend on rdflib and nothing else.
-Development uses pytest and pre-commit, and the documentation site uses Sphinx, sphinx-skos
-and furo, in the `docs` dependency group.
+Development uses pytest and pre-commit, and the documentation site uses sphinx-skos, which
+brings Sphinx and the furo theme, in the `docs` dependency group.
 
 ## Project articles
 
@@ -71,8 +71,8 @@ what the concept means may not.
 
 ### Article XIII — Stack
 Python 3.12 or later, managed with uv. rdflib reads and writes every file. pytest runs the
-checks, and pre-commit runs the linters. Sphinx builds the documentation site, with
-sphinx-skos writing its vocabulary pages and the furo theme. CI is this repository's own
+checks, and pre-commit runs the linters. sphinx-skos builds the documentation site with
+Sphinx and the furo theme, from its settings in `pyproject.toml`. CI is this repository's own
 workflow.
 
 ## Quality bar

@@ -12,16 +12,18 @@ dependencies = ["rdflib>=7.1"]
 
 [dependency-groups]
 dev = ["pytest>=8", "pre-commit>=4"]
-docs = [
-    "furo>=2025.12.19",
-    "sphinx>=9",
-    "sphinx-skos>=0.3.2",
-]
+docs = ["sphinx-skos>=0.4.0"]
 
 [tool.uv]
 package = false
 # The checks build the documentation site, so it is installed with the dev tools.
 default-groups = ["dev", "docs"]
+
+[tool.sphinx-skos]
+title = "IHFC Controlled Vocabularies"
+base-uri = "https://w3id.org/ihfc/vocabularies/"
+vocabularies = ["vocabularies/*.ttl"]
+logo = "docs/_static/ihfc-logo.svg"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

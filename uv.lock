@@ -299,9 +299,6 @@ dev = [
     { name = "pytest" },
 ]
 docs = [
-    { name = "furo" },
-    { name = "sphinx", version = "9.1.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.13'" },
-    { name = "sphinx", version = "9.2.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.13'" },
     { name = "sphinx-skos" },
 ]
 
@@ -313,11 +310,7 @@ dev = [
     { name = "pre-commit", specifier = ">=4" },
     { name = "pytest", specifier = ">=8" },
 ]
-docs = [
-    { name = "furo", specifier = ">=2025.12.19" },
-    { name = "sphinx", specifier = ">=9" },
-    { name = "sphinx-skos", specifier = ">=0.3.2" },
-]
+docs = [{ name = "sphinx-skos", specifier = ">=0.4.0" }]
 
 [[package]]
 name = "imagesize"
@@ -737,18 +730,19 @@ wheels = [
 
 [[package]]
 name = "sphinx-skos"
-version = "0.3.2"
+version = "0.4.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "docutils", version = "0.22.4", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.13'" },
     { name = "docutils", version = "0.23", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.13'" },
+    { name = "furo" },
     { name = "rdflib" },
     { name = "sphinx", version = "9.1.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.13'" },
     { name = "sphinx", version = "9.2.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.13'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/0b/e3/44e6ed8b8db9b2d788867bbb855d088e560d843935f2b2920bdc1191fb32/sphinx_skos-0.3.2.tar.gz", hash = "sha256:e1fb8adf7f1ad4badc5eefcad2f2f029fba4e9501598038003a9d72921f55129", size = 18300, upload-time = "2026-10-28T15:05:09.984Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/fb/4b/a754d766ab0071a70fa352262fa3291b1e609f1487e80aac736a6fb5a15d/sphinx_skos-0.4.0.tar.gz", hash = "sha256:907ee79d5e9f8fd1a7e10de44b0f0e010d655a978edc3d62c65d2a3f86ae1adc", size = 25782, upload-time = "2026-10-29T13:09:02.579Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d5/ed/041bd6d3638428ec3aea0313f35dca08d352f27c16a20cd4aec877fa72b8/sphinx_skos-0.3.2-py3-none-any.whl", hash = "sha256:2dcc844a937e517a38f858d628ade9f1a4a4e9e8c42b141dc7bb13163a53bab6", size = 21018, upload-time = "2026-10-28T15:05:08.591Z" },
+    { url = "https://files.pythonhosted.org/packages/0a/2b/542b39ac81c4562fa30e7ab58ae14eb9a148552dfd2bd387bf662b51b036/sphinx_skos-0.4.0-py3-none-any.whl", hash = "sha256:4bbe30c007804bb4d9deaa21276a9adc4ef3b356482ba6806d4e8f992a0af0a6", size = 29822, upload-time = "2026-10-29T13:09:01.23Z" },
 ]
 
 [[package]]

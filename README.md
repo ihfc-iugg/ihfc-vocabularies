@@ -207,7 +207,7 @@ vocabularies/          the fifteen vocabularies, one Turtle file each: the only 
 scripts/
   build_vocabularies.py  rewrites the Turtle files in their fixed layout, and exports them
 tests/                 the checks every vocabulary must pass
-docs/                  the documentation site: its settings and its own pages
+docs/                  the documentation site's front page and logo
 .github/workflows/
   checks.yml           runs the checks on every pull request
   publish.yml          creates a release and attaches its files
@@ -240,7 +240,7 @@ meaning. The checks run on every pull request and confirm that every file parses
 - `skos:broader`, `skos:narrower` and `skos:related` are stated in both directions, and the top concepts are exactly those with no broader concept
 - codes in `skos:notation` are unique within a vocabulary
 - every vocabulary can be written in every release format without losing anything
-- the documentation site builds without warnings and its front page lists every vocabulary
+- the documentation site builds without warnings and lists every vocabulary
 
 The rules behind these checks are in
 [`CONSTITUTION.md`](https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/CONSTITUTION.md), and
@@ -249,17 +249,20 @@ the words used for the parts of a vocabulary are in
 
 ### How the documentation site is built
 
-The site in `docs/` is built with [Sphinx](https://www.sphinx-doc.org/) and
-[sphinx-skos](https://github.com/FAIR-DM/sphinx-skos), which writes a page for every
-vocabulary, concept and collection, at its URI with `https://w3id.org/ihfc/vocabularies/`
-removed, and its RDF beside it. Those pages are written on every build and are not committed.
-The front page and the how-to guides are the only pages kept in `docs/`. A new vocabulary is
-added to the list on the front page, `docs/index.rst`, and its two generated paths to
-`.gitignore`.
+The site is built with [sphinx-skos](https://github.com/FAIR-DM/sphinx-skos), from the
+`[tool.sphinx-skos]` settings in `pyproject.toml`: the site's title, the URI base, the
+vocabulary files and the logo. It writes a page for every vocabulary, concept and collection,
+with its RDF beside it, at the same path as its URI: the page for
+`https://w3id.org/ihfc/vocabularies/heat-flow-method/bullard` is
+`vocabularies/heat-flow-method/bullard/` on the site. Those pages are written on every build into
+`docs/vocabularies/`, which is not committed, so a new vocabulary appears on the site with no
+other change. The front page, `docs/index.rst`, is the only page kept in `docs/`.
 
 ```bash
-uv run sphinx-build -W -b dirhtml docs docs/_build/dirhtml
+uv run sphinx-skos build -W
 ```
+
+The site is written to `_build/site`.
 
 ### How releases are made
 
