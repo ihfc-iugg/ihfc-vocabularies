@@ -24,7 +24,7 @@ temperature correction, and averaging strategy.
 
 There are fifteen vocabularies, each a SKOS (Simple Knowledge Organization System) concept scheme
 written in RDF Turtle. Every vocabulary and concept has a persistent URI under
-`https://w3id.org/ihfc/vocabularies/` and an English label and definition. Translations
+`https://w3id.org/ihfc-iugg/vocabularies/` and an English label and definition. Translations
 are further language-tagged labels on the same concepts, so they never change a URI. The Turtle
 files are edited directly and checked automatically on every change. Each versioned release
 publishes them, with copies in RDF/XML, JSON-LD and N-Triples, as a citable snapshot.
@@ -39,7 +39,7 @@ Creative Commons Attribution 4.0 International licence (CC BY 4.0).
 ### Thermal conductivity measurement conditions
 
 - **Name:** `conductivity-conditions`
-- **URI:** <https://w3id.org/ihfc/vocabularies/conductivity-conditions>
+- **URI:** <https://w3id.org/ihfc-iugg/vocabularies/conductivity-conditions>
 - **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/conductivity-conditions.ttl>
 
 The pressure and temperature conditions under which thermal conductivity was measured, and whether they were recorded, replicated or corrected to in-situ conditions.
@@ -47,7 +47,7 @@ The pressure and temperature conditions under which thermal conductivity was mea
 ### Thermal conductivity location
 
 - **Name:** `conductivity-location`
-- **URI:** <https://w3id.org/ihfc/vocabularies/conductivity-location>
+- **URI:** <https://w3id.org/ihfc-iugg/vocabularies/conductivity-location>
 - **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/conductivity-location.ttl>
 
 Where the thermal conductivity used for a heat-flow value was measured, relative to the heat-flow site.
@@ -55,7 +55,7 @@ Where the thermal conductivity used for a heat-flow value was measured, relative
 ### Thermal conductivity methods
 
 - **Name:** `conductivity-methods`
-- **URI:** <https://w3id.org/ihfc/vocabularies/conductivity-methods>
+- **URI:** <https://w3id.org/ihfc-iugg/vocabularies/conductivity-methods>
 - **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/conductivity-methods.ttl>
 
 Methods used to determine thermal conductivity, by laboratory measurement, in-situ probe, well-log interpretation or estimation.
@@ -63,7 +63,7 @@ Methods used to determine thermal conductivity, by laboratory measurement, in-si
 ### Thermal conductivity pressure and temperature functions
 
 - **Name:** `conductivity-pt-function`
-- **URI:** <https://w3id.org/ihfc/vocabularies/conductivity-pt-function>
+- **URI:** <https://w3id.org/ihfc-iugg/vocabularies/conductivity-pt-function>
 - **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/conductivity-pt-function.ttl>
 
 Functions used to correct measured thermal conductivity for the effects of pressure (p), temperature (T) or both (pT).
@@ -71,7 +71,7 @@ Functions used to correct measured thermal conductivity for the effects of press
 ### Thermal conductivity saturation states
 
 - **Name:** `conductivity-saturation`
-- **URI:** <https://w3id.org/ihfc/vocabularies/conductivity-saturation>
+- **URI:** <https://w3id.org/ihfc-iugg/vocabularies/conductivity-saturation>
 - **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/conductivity-saturation.ttl>
 
 The saturation state of the rock when its thermal conductivity was measured.
@@ -79,7 +79,7 @@ The saturation state of the rock when its thermal conductivity was measured.
 ### Thermal conductivity sources
 
 - **Name:** `conductivity-sources`
-- **URI:** <https://w3id.org/ihfc/vocabularies/conductivity-sources>
+- **URI:** <https://w3id.org/ihfc-iugg/vocabularies/conductivity-sources>
 - **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/conductivity-sources.ttl>
 
 The material or data the thermal conductivity values were obtained from, such as core samples, well logs or the literature.
@@ -87,7 +87,7 @@ The material or data the thermal conductivity values were obtained from, such as
 ### Thermal conductivity strategies
 
 - **Name:** `conductivity-strategy`
-- **URI:** <https://w3id.org/ihfc/vocabularies/conductivity-strategy>
+- **URI:** <https://w3id.org/ihfc-iugg/vocabularies/conductivity-strategy>
 - **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/conductivity-strategy.ttl>
 
 The strategy used to obtain thermal conductivity values for the depth interval of a heat-flow determination.
@@ -95,7 +95,7 @@ The strategy used to obtain thermal conductivity values for the depth interval o
 ### Exploration methods
 
 - **Name:** `exploration-methods`
-- **URI:** <https://w3id.org/ihfc/vocabularies/exploration-methods>
+- **URI:** <https://w3id.org/ihfc-iugg/vocabularies/exploration-methods>
 - **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/exploration-methods.ttl>
 
 The general means by which temperature sensors gained access to the rock, such as drilling, probing, mining or tunnelling.
@@ -103,7 +103,7 @@ The general means by which temperature sensors gained access to the rock, such a
 ### Exploration purposes
 
 - **Name:** `exploration-purpose`
-- **URI:** <https://w3id.org/ihfc/vocabularies/exploration-purpose>
+- **URI:** <https://w3id.org/ihfc-iugg/vocabularies/exploration-purpose>
 - **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/exploration-purpose.ttl>
 
 The main purpose of the original excavation that gave temperature sensors access to the rock.
@@ -111,7 +111,7 @@ The main purpose of the original excavation that gave temperature sensors access
 ### Geographic environments
 
 - **Name:** `geographic-environments`
-- **URI:** <https://w3id.org/ihfc/vocabularies/geographic-environments>
+- **URI:** <https://w3id.org/ihfc-iugg/vocabularies/geographic-environments>
 - **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/geographic-environments.ttl>
 
 The basic geographic environment in which a heat-flow measurement was made, onshore or offshore.
@@ -119,7 +119,7 @@ The basic geographic environment in which a heat-flow measurement was made, onsh
 ### Correction flags
 
 - **Name:** `heat-flow-corrections`
-- **URI:** <https://w3id.org/ihfc/vocabularies/heat-flow-corrections>
+- **URI:** <https://w3id.org/ihfc-iugg/vocabularies/heat-flow-corrections>
 - **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/heat-flow-corrections.ttl>
 
 Flags recording whether an effect that can bias heat-flow data was present, and whether it was considered or corrected.
@@ -127,7 +127,7 @@ Flags recording whether an effect that can bias heat-flow data was present, and 
 ### Heat-flow methods
 
 - **Name:** `heat-flow-method`
-- **URI:** <https://w3id.org/ihfc/vocabularies/heat-flow-method>
+- **URI:** <https://w3id.org/ihfc-iugg/vocabularies/heat-flow-method>
 - **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/heat-flow-method.ttl>
 
 Methods used to determine a heat-flow value from temperature and thermal conductivity data.
@@ -135,7 +135,7 @@ Methods used to determine a heat-flow value from temperature and thermal conduct
 ### Heat-flow probe types
 
 - **Name:** `heat-flow-probes`
-- **URI:** <https://w3id.org/ihfc/vocabularies/heat-flow-probes>
+- **URI:** <https://w3id.org/ihfc-iugg/vocabularies/heat-flow-probes>
 - **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/heat-flow-probes.ttl>
 
 Types of probe used to measure heat flow, mainly in marine settings.
@@ -143,7 +143,7 @@ Types of probe used to measure heat flow, mainly in marine settings.
 ### Temperature correction methods
 
 - **Name:** `temperature-corrections`
-- **URI:** <https://w3id.org/ihfc/vocabularies/temperature-corrections>
+- **URI:** <https://w3id.org/ihfc-iugg/vocabularies/temperature-corrections>
 - **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/temperature-corrections.ttl>
 
 Methods used to correct measured temperatures for disturbances, such as those caused by drilling, before heat flow is derived.
@@ -151,7 +151,7 @@ Methods used to correct measured temperatures for disturbances, such as those ca
 ### Temperature methods
 
 - **Name:** `temperature-method`
-- **URI:** <https://w3id.org/ihfc/vocabularies/temperature-method>
+- **URI:** <https://w3id.org/ihfc-iugg/vocabularies/temperature-method>
 - **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/temperature-method.ttl>
 
 Methods used to measure or estimate the temperatures from which heat flow is derived.
@@ -253,7 +253,7 @@ The site is built with [sphinx-skos](https://github.com/FAIR-DM/sphinx-skos), fr
 `[tool.sphinx-skos]` settings in `pyproject.toml`: the site's title, the URI base, the
 vocabulary files and the logo. It writes a page for every vocabulary, concept and collection,
 with its RDF beside it, under `catalogue/` at the same path as its URI: the page for
-`https://w3id.org/ihfc/vocabularies/heat-flow-method/bullard` is
+`https://w3id.org/ihfc-iugg/vocabularies/heat-flow-method/bullard` is
 `catalogue/heat-flow-method/bullard/` on the site. Those pages are written on every build into
 `docs/catalogue/`, which is not committed, so a new vocabulary appears on the site with no
 other change. The front page, `docs/index.rst`, is the only page kept in `docs/`.

@@ -21,7 +21,7 @@ from rdflib.namespace import DCTERMS, FOAF, OWL, RDF, RDFS, SKOS
 ROOT = Path(__file__).resolve().parent.parent
 SOURCE_DIR = ROOT / "vocabularies"
 SOURCE_FORMAT = "longturtle"
-BASE_URL = "https://w3id.org/ihfc/vocabularies/"
+BASE_URL = "https://w3id.org/ihfc-iugg/vocabularies/"
 
 # File extension -> rdflib format.
 EXPORT_FORMATS = {
