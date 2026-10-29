@@ -47,7 +47,7 @@ from them by `scripts/build_vocabularies.py` when a release is published, and ar
 
 ### Article IX — One vocabulary per file
 Each source file holds exactly one concept scheme, whose address is
-`https://w3id.org/ihfc/vocabularies/` followed by the file name. The concept scheme has an
+`https://w3id.org/ihfc-iugg/vocabularies/` followed by the file name. The concept scheme has an
 English `skos:prefLabel` and an English `dcterms:description`, and names its creator and
 publisher (`dcterms:creator`, `dcterms:publisher`), its licence (`dcterms:license`) and the
 publications its values come from (`dcterms:source`) and the data publication it is part of

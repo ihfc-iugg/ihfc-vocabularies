@@ -9,7 +9,7 @@ heat-flow value, the probe and exploration context, the geographic setting, the 
 temperature measurement and its corrections, and the thermal conductivity parameters.
 
 Each vocabulary is a SKOS concept scheme. Every vocabulary, concept and collection has a URI
-under ``https://w3id.org/ihfc/vocabularies/`` and a page on this site, with its RDF in
+under ``https://w3id.org/ihfc-iugg/vocabularies/`` and a page on this site, with its RDF in
 Turtle, JSON-LD, RDF/XML and N-Triples beside it. The vocabularies are released under the
 `Creative Commons Attribution 4.0 International licence
 <https://creativecommons.org/licenses/by/4.0/>`_.
@@ -40,8 +40,8 @@ CC BY 4.0, asks for credit wherever the vocabularies are reused.
 
    .. code-block:: text
 
-      https://w3id.org/ihfc/vocabularies/heat-flow-method
-      https://w3id.org/ihfc/vocabularies/heat-flow-method/bullard
+      https://w3id.org/ihfc-iugg/vocabularies/heat-flow-method
+      https://w3id.org/ihfc-iugg/vocabularies/heat-flow-method/bullard
 
 .. toctree::
    :hidden:

@@ -24,7 +24,7 @@ default-groups = ["dev", "docs"]
 
 [tool.sphinx-skos]
 title = "IHFC Controlled Vocabularies"
-base-uri = "https://w3id.org/ihfc/vocabularies/"
+base-uri = "https://w3id.org/ihfc-iugg/vocabularies/"
 vocabularies = ["vocabularies/*.ttl"]
 logo = "docs/_static/ihfc-logo.svg"
 

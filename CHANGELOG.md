@@ -7,10 +7,10 @@ All notable changes to the vocabularies are recorded here. Versions are calendar
 
 ### Changed
 
-- Addresses start with `https://w3id.org/ihfc/vocabularies/`, a permanent address that does
-  not depend on where the vocabularies are hosted
-  (`https://w3id.org/ihfc/vocabularies/heat-flow-method/bullard`). The identifiers after it
-  are unchanged.
+- Addresses start with `https://w3id.org/ihfc-iugg/vocabularies/`, a permanent address
+  that does not depend on where the vocabularies are hosted
+  (`https://w3id.org/ihfc-iugg/vocabularies/heat-flow-method/bullard`). The identifiers
+  after it are unchanged.
 - Each vocabulary's `rdfs:seeAlso` points at the repository's new address,
   `https://github.com/ihfc-iugg/controlled-vocabularies`.
 
