@@ -37,7 +37,7 @@ ihfc:conductivity-location
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:publisher <https://ror.org/04z8jg394> ;
     dcterms:source <https://doi.org/10.1016/j.tecto.2023.229976> ;
-    rdfs:seeAlso <https://github.com/ihfc-iugg/ihfc-vocabularies> ;
+    rdfs:seeAlso <https://github.com/ihfc-iugg/controlled-vocabularies> ;
     skos:hasTopConcept
         :actual ,
         :literature ,
