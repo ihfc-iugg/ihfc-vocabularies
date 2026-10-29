@@ -11,6 +11,8 @@ All notable changes to the vocabularies are recorded here. Versions are calendar
   not depend on where the vocabularies are hosted
   (`https://w3id.org/ihfc/vocabularies/heat-flow-method/bullard`). The identifiers after it
   are unchanged.
+- Each vocabulary's `rdfs:seeAlso` points at the repository's new address,
+  `https://github.com/ihfc-iugg/controlled-vocabularies`.
 
 ### Added
 

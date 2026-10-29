@@ -1,9 +1,9 @@
 # IHFC Controlled Vocabularies
 
 [![DOI](https://img.shields.io/badge/DOI-10.5880%2Ffidgeo.2026.065-blue.svg)](https://doi.org/10.5880/fidgeo.2026.065)
-[![Latest release](https://img.shields.io/github/v/release/ihfc-iugg/ihfc-vocabularies)](https://github.com/ihfc-iugg/ihfc-vocabularies/releases/latest)
-[![Checks](https://github.com/ihfc-iugg/ihfc-vocabularies/actions/workflows/checks.yml/badge.svg)](https://github.com/ihfc-iugg/ihfc-vocabularies/actions/workflows/checks.yml)
-[![Vocabularies: CC BY 4.0](https://img.shields.io/badge/vocabularies-CC%20BY%204.0-lightgrey.svg)](https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/LICENSE-CC-BY-4.0)
+[![Latest release](https://img.shields.io/github/v/release/ihfc-iugg/controlled-vocabularies)](https://github.com/ihfc-iugg/controlled-vocabularies/releases/latest)
+[![Checks](https://github.com/ihfc-iugg/controlled-vocabularies/actions/workflows/checks.yml/badge.svg)](https://github.com/ihfc-iugg/controlled-vocabularies/actions/workflows/checks.yml)
+[![Vocabularies: CC BY 4.0](https://img.shields.io/badge/vocabularies-CC%20BY%204.0-lightgrey.svg)](https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/LICENSE-CC-BY-4.0)
 
 The IHFC Controlled Vocabularies are the controlled terms the International Heat Flow Commission
 (IHFC) maintains for the Global Heat Flow Database (GHFDB) and related heat-flow data products.
@@ -40,7 +40,7 @@ Creative Commons Attribution 4.0 International licence (CC BY 4.0).
 
 - **Name:** `conductivity-conditions`
 - **URI:** <https://w3id.org/ihfc/vocabularies/conductivity-conditions>
-- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/conductivity-conditions.ttl>
+- **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/conductivity-conditions.ttl>
 
 The pressure and temperature conditions under which thermal conductivity was measured, and whether they were recorded, replicated or corrected to in-situ conditions.
 
@@ -48,7 +48,7 @@ The pressure and temperature conditions under which thermal conductivity was mea
 
 - **Name:** `conductivity-location`
 - **URI:** <https://w3id.org/ihfc/vocabularies/conductivity-location>
-- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/conductivity-location.ttl>
+- **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/conductivity-location.ttl>
 
 Where the thermal conductivity used for a heat-flow value was measured, relative to the heat-flow site.
 
@@ -56,7 +56,7 @@ Where the thermal conductivity used for a heat-flow value was measured, relative
 
 - **Name:** `conductivity-methods`
 - **URI:** <https://w3id.org/ihfc/vocabularies/conductivity-methods>
-- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/conductivity-methods.ttl>
+- **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/conductivity-methods.ttl>
 
 Methods used to determine thermal conductivity, by laboratory measurement, in-situ probe, well-log interpretation or estimation.
 
@@ -64,7 +64,7 @@ Methods used to determine thermal conductivity, by laboratory measurement, in-si
 
 - **Name:** `conductivity-pt-function`
 - **URI:** <https://w3id.org/ihfc/vocabularies/conductivity-pt-function>
-- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/conductivity-pt-function.ttl>
+- **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/conductivity-pt-function.ttl>
 
 Functions used to correct measured thermal conductivity for the effects of pressure (p), temperature (T) or both (pT).
 
@@ -72,7 +72,7 @@ Functions used to correct measured thermal conductivity for the effects of press
 
 - **Name:** `conductivity-saturation`
 - **URI:** <https://w3id.org/ihfc/vocabularies/conductivity-saturation>
-- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/conductivity-saturation.ttl>
+- **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/conductivity-saturation.ttl>
 
 The saturation state of the rock when its thermal conductivity was measured.
 
@@ -80,7 +80,7 @@ The saturation state of the rock when its thermal conductivity was measured.
 
 - **Name:** `conductivity-sources`
 - **URI:** <https://w3id.org/ihfc/vocabularies/conductivity-sources>
-- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/conductivity-sources.ttl>
+- **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/conductivity-sources.ttl>
 
 The material or data the thermal conductivity values were obtained from, such as core samples, well logs or the literature.
 
@@ -88,7 +88,7 @@ The material or data the thermal conductivity values were obtained from, such as
 
 - **Name:** `conductivity-strategy`
 - **URI:** <https://w3id.org/ihfc/vocabularies/conductivity-strategy>
-- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/conductivity-strategy.ttl>
+- **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/conductivity-strategy.ttl>
 
 The strategy used to obtain thermal conductivity values for the depth interval of a heat-flow determination.
 
@@ -96,7 +96,7 @@ The strategy used to obtain thermal conductivity values for the depth interval o
 
 - **Name:** `exploration-methods`
 - **URI:** <https://w3id.org/ihfc/vocabularies/exploration-methods>
-- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/exploration-methods.ttl>
+- **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/exploration-methods.ttl>
 
 The general means by which temperature sensors gained access to the rock, such as drilling, probing, mining or tunnelling.
 
@@ -104,7 +104,7 @@ The general means by which temperature sensors gained access to the rock, such a
 
 - **Name:** `exploration-purpose`
 - **URI:** <https://w3id.org/ihfc/vocabularies/exploration-purpose>
-- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/exploration-purpose.ttl>
+- **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/exploration-purpose.ttl>
 
 The main purpose of the original excavation that gave temperature sensors access to the rock.
 
@@ -112,7 +112,7 @@ The main purpose of the original excavation that gave temperature sensors access
 
 - **Name:** `geographic-environments`
 - **URI:** <https://w3id.org/ihfc/vocabularies/geographic-environments>
-- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/geographic-environments.ttl>
+- **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/geographic-environments.ttl>
 
 The basic geographic environment in which a heat-flow measurement was made, onshore or offshore.
 
@@ -120,7 +120,7 @@ The basic geographic environment in which a heat-flow measurement was made, onsh
 
 - **Name:** `heat-flow-corrections`
 - **URI:** <https://w3id.org/ihfc/vocabularies/heat-flow-corrections>
-- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/heat-flow-corrections.ttl>
+- **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/heat-flow-corrections.ttl>
 
 Flags recording whether an effect that can bias heat-flow data was present, and whether it was considered or corrected.
 
@@ -128,7 +128,7 @@ Flags recording whether an effect that can bias heat-flow data was present, and 
 
 - **Name:** `heat-flow-method`
 - **URI:** <https://w3id.org/ihfc/vocabularies/heat-flow-method>
-- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/heat-flow-method.ttl>
+- **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/heat-flow-method.ttl>
 
 Methods used to determine a heat-flow value from temperature and thermal conductivity data.
 
@@ -136,7 +136,7 @@ Methods used to determine a heat-flow value from temperature and thermal conduct
 
 - **Name:** `heat-flow-probes`
 - **URI:** <https://w3id.org/ihfc/vocabularies/heat-flow-probes>
-- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/heat-flow-probes.ttl>
+- **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/heat-flow-probes.ttl>
 
 Types of probe used to measure heat flow, mainly in marine settings.
 
@@ -144,7 +144,7 @@ Types of probe used to measure heat flow, mainly in marine settings.
 
 - **Name:** `temperature-corrections`
 - **URI:** <https://w3id.org/ihfc/vocabularies/temperature-corrections>
-- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/temperature-corrections.ttl>
+- **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/temperature-corrections.ttl>
 
 Methods used to correct measured temperatures for disturbances, such as those caused by drilling, before heat flow is derived.
 
@@ -152,13 +152,13 @@ Methods used to correct measured temperatures for disturbances, such as those ca
 
 - **Name:** `temperature-method`
 - **URI:** <https://w3id.org/ihfc/vocabularies/temperature-method>
-- **Source:** <https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/vocabularies/temperature-method.ttl>
+- **Source:** <https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/vocabularies/temperature-method.ttl>
 
 Methods used to measure or estimate the temperatures from which heat flow is derived.
 
 ## Using the vocabularies
 
-Each [release](https://github.com/ihfc-iugg/ihfc-vocabularies/releases) carries every vocabulary
+Each [release](https://github.com/ihfc-iugg/controlled-vocabularies/releases) carries every vocabulary
 in four formats, as separate files that differ only by extension:
 
 | Format | Extension |
@@ -171,21 +171,21 @@ in four formats, as separate files that differ only by extension:
 A link with a version always returns that release's file:
 
 ```text
-https://github.com/ihfc-iugg/ihfc-vocabularies/releases/download/v2026.1/heat-flow-method.jsonld
+https://github.com/ihfc-iugg/controlled-vocabularies/releases/download/v2026.1/heat-flow-method.jsonld
 ```
 
 A link with `latest` always returns the file from the newest release:
 
 ```text
-https://github.com/ihfc-iugg/ihfc-vocabularies/releases/latest/download/heat-flow-method.jsonld
+https://github.com/ihfc-iugg/controlled-vocabularies/releases/latest/download/heat-flow-method.jsonld
 ```
 
 Each release also carries `vocabularies-full.zip`: every vocabulary in every format, with this
 README, the list of contributors, the changelog and the licence, in a folder named after the
 version. The newest one is always at
-<https://github.com/ihfc-iugg/ihfc-vocabularies/releases/latest/download/vocabularies-full.zip>.
+<https://github.com/ihfc-iugg/controlled-vocabularies/releases/latest/download/vocabularies-full.zip>.
 
-With the [GitHub CLI](https://cli.github.com), `gh release download v2026.1 --repo ihfc-iugg/ihfc-vocabularies`
+With the [GitHub CLI](https://cli.github.com), `gh release download v2026.1 --repo ihfc-iugg/controlled-vocabularies`
 downloads every file of a release.
 
 Any RDF library can read the files. For example, with [rdflib](https://rdflib.readthedocs.io):
@@ -193,7 +193,7 @@ Any RDF library can read the files. For example, with [rdflib](https://rdflib.re
 ```python
 from rdflib import Graph
 
-url = "https://github.com/ihfc-iugg/ihfc-vocabularies/releases/latest/download/heat-flow-method.ttl"
+url = "https://github.com/ihfc-iugg/controlled-vocabularies/releases/latest/download/heat-flow-method.ttl"
 graph = Graph().parse(url, format="turtle")
 ```
 
@@ -243,9 +243,9 @@ meaning. The checks run on every pull request and confirm that every file parses
 - the documentation site builds without warnings and lists every vocabulary
 
 The rules behind these checks are in
-[`CONSTITUTION.md`](https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/CONSTITUTION.md), and
+[`CONSTITUTION.md`](https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/CONSTITUTION.md), and
 the words used for the parts of a vocabulary are in
-[`CONTEXT.md`](https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/CONTEXT.md).
+[`CONTEXT.md`](https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/CONTEXT.md).
 
 ### How the documentation site is built
 
@@ -273,13 +273,13 @@ from `CHANGELOG.md`. It then exports every vocabulary into every format and atta
 the release archive.
 
 What changed in each release is recorded in
-[`CHANGELOG.md`](https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/CHANGELOG.md).
+[`CHANGELOG.md`](https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/CHANGELOG.md).
 Changes waiting for the next release are listed under `[Unreleased]`.
 
 ## Contributing
 
 Suggestions and corrections are welcome. Please open an
-[issue](https://github.com/ihfc-iugg/ihfc-vocabularies/issues) to discuss a change before opening
+[issue](https://github.com/ihfc-iugg/controlled-vocabularies/issues) to discuss a change before opening
 a pull request.
 
 ## Scope & philosophy
@@ -307,11 +307,11 @@ Petrunin, Alexey G.; Elger, Kirsten; Fuchs, Sven (2026): IHFC Controlled Vocabul
 Global Heat Flow Database. GFZ Data Services. https://doi.org/10.5880/fidgeo.2026.065
 
 Everyone who has contributed to the vocabularies is listed in
-[`CONTRIBUTORS.md`](https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/CONTRIBUTORS.md).
+[`CONTRIBUTORS.md`](https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/CONTRIBUTORS.md).
 
 ## License
 
 The vocabularies, in `vocabularies/` and in every release archive, are licensed under the
-[Creative Commons Attribution 4.0 International License](https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/LICENSE-CC-BY-4.0).
+[Creative Commons Attribution 4.0 International License](https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/LICENSE-CC-BY-4.0).
 The script and tests are licensed under the
-[MIT License](https://github.com/ihfc-iugg/ihfc-vocabularies/blob/main/LICENSE).
+[MIT License](https://github.com/ihfc-iugg/controlled-vocabularies/blob/main/LICENSE).

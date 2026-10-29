@@ -15,7 +15,7 @@ Turtle, JSON-LD, RDF/XML and N-Triples beside it. The vocabularies are released 
 <https://creativecommons.org/licenses/by/4.0/>`_.
 
 The source files, the release downloads and the changelog are in the `GitHub repository
-<https://github.com/ihfc-iugg/ihfc-vocabularies>`_.
+<https://github.com/ihfc-iugg/controlled-vocabularies>`_.
 
 How to cite
 -----------
@@ -23,7 +23,7 @@ Cite the vocabularies when your data, software or paper uses their terms. The li
 CC BY 4.0, asks for credit wherever the vocabularies are reused.
 
 1. Find the version you used. Versions are the `releases
-   <https://github.com/ihfc-iugg/ihfc-vocabularies/releases>`_ of the repository, numbered
+   <https://github.com/ihfc-iugg/controlled-vocabularies/releases>`_ of the repository, numbered
    ``<year>.<release>``, such as ``2026.1``.
 
 2. Cite the data publication, and give the version you used:
