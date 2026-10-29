@@ -252,10 +252,10 @@ the words used for the parts of a vocabulary are in
 The site is built with [sphinx-skos](https://github.com/FAIR-DM/sphinx-skos), from the
 `[tool.sphinx-skos]` settings in `pyproject.toml`: the site's title, the URI base, the
 vocabulary files and the logo. It writes a page for every vocabulary, concept and collection,
-with its RDF beside it, at the same path as its URI: the page for
+with its RDF beside it, under `catalogue/` at the same path as its URI: the page for
 `https://w3id.org/ihfc/vocabularies/heat-flow-method/bullard` is
-`vocabularies/heat-flow-method/bullard/` on the site. Those pages are written on every build into
-`docs/vocabularies/`, which is not committed, so a new vocabulary appears on the site with no
+`catalogue/heat-flow-method/bullard/` on the site. Those pages are written on every build into
+`docs/catalogue/`, which is not committed, so a new vocabulary appears on the site with no
 other change. The front page, `docs/index.rst`, is the only page kept in `docs/`.
 
 ```bash
