@@ -30,3 +30,8 @@ coverage.xml
 
 # Release archives
 dist/
+
+# The documentation site's build, and the pages it writes for every vocabulary,
+# concept and collection
+_build/
+docs/vocabularies/

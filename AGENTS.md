@@ -6,12 +6,14 @@ fixed layout, and with `--export` writes every vocabulary in every RDF format fo
 
 ## Stack & commands
 
-- **Stack:** Python 3.12+, uv-managed; rdflib, pytest, pre-commit. No package is built.
+- **Stack:** Python 3.12+, uv-managed; rdflib, pytest, pre-commit, and sphinx-skos for the
+  documentation site, set up in `[tool.sphinx-skos]` in `pyproject.toml`. No package is built.
 - **Install:** `uv sync`
 - **Rewrite sources in the fixed layout:** `uv run python scripts/build_vocabularies.py` — run
   after every edit to `vocabularies/`
 - **Export every format into one directory:** `uv run python scripts/build_vocabularies.py --export <dir>`
 - **Test:** `uv run pytest`
+- **Build the documentation site:** `uv run sphinx-skos build -W` (writes the site to `_build/site`)
 - **Lint:** `uv run pre-commit run --all-files`
 
 ## Editing a vocabulary

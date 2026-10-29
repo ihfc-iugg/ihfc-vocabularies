@@ -34,8 +34,9 @@ pull request. Docstrings and comments follow
 follows [`docs/contributing/standards/documentation.md`](docs/contributing/standards/documentation.md).
 
 ### Article VII — Dependency discipline
-A new dependency needs a stated reason. The repository depends on rdflib, and on pytest and
-pre-commit for development, and nothing else today.
+A new dependency needs a stated reason. The vocabularies depend on rdflib and nothing else.
+Development uses pytest and pre-commit, and the documentation site uses sphinx-skos, which
+brings Sphinx and the furo theme, in the `docs` dependency group.
 
 ## Project articles
 
@@ -46,7 +47,7 @@ from them by `scripts/build_vocabularies.py` when a release is published, and ar
 
 ### Article IX — One vocabulary per file
 Each source file holds exactly one concept scheme, whose address is
-`https://portal.heatflow.world/vocabularies/` followed by the file name. The concept scheme has an
+`https://w3id.org/ihfc/vocabularies/` followed by the file name. The concept scheme has an
 English `skos:prefLabel` and an English `dcterms:description`, and names its creator and
 publisher (`dcterms:creator`, `dcterms:publisher`), its licence (`dcterms:license`) and the
 publications its values come from (`dcterms:source`) and the data publication it is part of
@@ -70,7 +71,9 @@ what the concept means may not.
 
 ### Article XIII — Stack
 Python 3.12 or later, managed with uv. rdflib reads and writes every file. pytest runs the
-checks, and pre-commit runs the linters. CI is this repository's own workflow.
+checks, and pre-commit runs the linters. sphinx-skos builds the documentation site with
+Sphinx and the furo theme, from its settings in `pyproject.toml`. CI is this repository's own
+workflow.
 
 ## Quality bar
 
@@ -88,4 +91,4 @@ Read at review; applies to every change.
 
 ---
 
-**Version**: 3.1.0 | **Ratified**: 2026-10-27 | **Last Amended**: 2026-10-27
+**Version**: 4.0.0 | **Ratified**: 2026-10-27 | **Last Amended**: 2026-10-29
