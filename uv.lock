@@ -310,7 +310,7 @@ dev = [
     { name = "pre-commit", specifier = ">=4" },
     { name = "pytest", specifier = ">=8" },
 ]
-docs = [{ name = "sphinx-skos", specifier = ">=0.4.0" }]
+docs = [{ name = "sphinx-skos", specifier = ">=0.5.0" }]
 
 [[package]]
 name = "imagesize"
@@ -730,7 +730,7 @@ wheels = [
 
 [[package]]
 name = "sphinx-skos"
-version = "0.4.0"
+version = "0.5.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "docutils", version = "0.22.4", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.13'" },
@@ -740,9 +740,9 @@ dependencies = [
     { name = "sphinx", version = "9.1.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.13'" },
     { name = "sphinx", version = "9.2.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.13'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/fb/4b/a754d766ab0071a70fa352262fa3291b1e609f1487e80aac736a6fb5a15d/sphinx_skos-0.4.0.tar.gz", hash = "sha256:907ee79d5e9f8fd1a7e10de44b0f0e010d655a978edc3d62c65d2a3f86ae1adc", size = 25782, upload-time = "2026-10-29T13:09:02.579Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/1d/62/3c4ccb8ff5f294ce050daa3d74c92ff9511284e8166277a48d1635ad6e70/sphinx_skos-0.5.0.tar.gz", hash = "sha256:e0647de2c5c14ac9a18b3d2a82ab9a4efd1a08ae3546a4ebb81623bf2f6478dc", size = 25795, upload-time = "2026-10-29T13:55:17.471Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/0a/2b/542b39ac81c4562fa30e7ab58ae14eb9a148552dfd2bd387bf662b51b036/sphinx_skos-0.4.0-py3-none-any.whl", hash = "sha256:4bbe30c007804bb4d9deaa21276a9adc4ef3b356482ba6806d4e8f992a0af0a6", size = 29822, upload-time = "2026-10-29T13:09:01.23Z" },
+    { url = "https://files.pythonhosted.org/packages/e0/fb/55c6ca38a20df0a840c023e3922ff3e5dca436abfa816863fc5b09246b39/sphinx_skos-0.5.0-py3-none-any.whl", hash = "sha256:743eda098de97806759985feff4903eceb90f7d8168d8e649c612511c336d477", size = 29836, upload-time = "2026-10-29T13:55:16.288Z" },
 ]
 
 [[package]]
